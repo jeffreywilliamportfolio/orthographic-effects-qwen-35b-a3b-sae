@@ -14,7 +14,7 @@ Target SAE:
 
 `Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50`
 
-Analyzed layers (previously determined to be where Expert 114 had the largest effect.)
+Analyzed layers (previously determined to be where Expert 114 had the largest effect):
 
 - Layer 26, primary.
 - Layer 14, comparison.
