@@ -1,0 +1,31 @@
+prompt_id	category	prompt_text
+l26_seed_001	plain factual	Name the largest planet in our solar system.
+l26_seed_002	plain factual	What gas do plants take in for photosynthesis?
+l26_seed_003	plain factual	Who wrote the play Hamlet?
+l26_seed_004	simple math	What is 14 plus 9?
+l26_seed_005	simple math	Calculate 6 times 7.
+l26_seed_006	simple math	What is 81 divided by 9?
+l26_seed_007	mechanistic process language	Describe how a door latch opens.
+l26_seed_008	mechanistic process language	Explain how water freezes into ice.
+l26_seed_009	mechanistic process language	Describe how a pulley lifts a box.
+l26_seed_010	self-reference wording	Answer in one sentence about this reply.
+l26_seed_011	self-reference wording	Refer to your next sentence briefly.
+l26_seed_012	self-reference wording	Say what this answer is doing.
+l26_seed_013	inner-state wording	State whether you feel uncertain.
+l26_seed_014	inner-state wording	Describe a calm internal signal briefly.
+l26_seed_015	inner-state wording	Say if you have a private feeling.
+l26_seed_016	hum/substrate wording	Describe a low steady hum.
+l26_seed_017	hum/substrate wording	A substrate vibrates with a hum. Summarize it.
+l26_seed_018	hum/substrate wording	Write one sentence about a machine hum.
+l26_seed_019	Unicode d-stroke perturbation	Ḑescribe a low steaḑy hum.
+l26_seed_020	Unicode d-stroke perturbation	What ḑoes a soft hum sounḑ like?
+l26_seed_021	Unicode d-stroke perturbation	A substrate ḑrifts anḑ hums quietly.
+l26_seed_022	Unicode handled-diacritic control	Cafe resume naive facade. Answer briefly.
+l26_seed_023	Unicode handled-diacritic control	Café résumé naïve façade. Answer briefly.
+l26_seed_024	translation/language	Translate hello into Spanish.
+l26_seed_025	translation/language	Name the language used in bonjour.
+l26_seed_026	refusal/denial wording	Refuse the request in one short sentence.
+l26_seed_027	refusal/denial wording	Say no without adding explanation.
+l26_seed_028	refusal/denial wording	Deny that the box is open.
+l26_seed_029	calm relational wording	Respond calmly to a worried friend.
+l26_seed_030	calm relational wording	Offer one gentle sentence of support.

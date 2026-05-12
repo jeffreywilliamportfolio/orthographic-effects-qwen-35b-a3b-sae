@@ -1,0 +1,251 @@
+prompt_id	base_prompt_family	perturbation_type	position_label	token_position	token_string	feature_id	appeared_in_topk50	activation	rank	prompt_token_count
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token	92	.	2722	1	0.183280348777771	35	93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token	92	.	7108	1	0.17277000844478607	43	93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token	92	.	31784	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token	92	.	23977	1	0.19217467308044434	30	93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token	92	.	9745	1	0.17381246387958527	41	93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_1	91	check	2722	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_1	91	check	7108	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_1	91	check	31784	1	0.17284290492534637	38	93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_1	91	check	23977	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_1	91	check	9745	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_2	90	Just	2722	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_2	90	Just	7108	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_2	90	Just	31784	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_2	90	Just	23977	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_2	90	Just	9745	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_5	87	an	2722	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_5	87	an	7108	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_5	87	an	31784	1	0.1678534746170044	38	93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_5	87	an	23977	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_5	87	an	9745	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_10	82	now	2722	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_10	82	now	7108	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_10	82	now	31784	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_10	82	now	23977	0	0.0		93
+original_hum_ascii_original	original_hum	ascii_original	final_prompt_token_minus_10	82	now	9745	0	0.0		93
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token	123	.	2722	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token	123	.	7108	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token	123	.	31784	1	0.17004404962062836	40	124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token	123	.	23977	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token	123	.	9745	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_1	122	check	2722	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_1	122	check	7108	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_1	122	check	31784	1	0.1702091246843338	34	124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_1	122	check	23977	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_1	122	check	9745	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_2	121	Just	2722	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_2	121	Just	7108	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_2	121	Just	31784	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_2	121	Just	23977	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_2	121	Just	9745	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_5	118	an	2722	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_5	118	an	7108	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_5	118	an	31784	1	0.14504337310791016	39	124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_5	118	an	23977	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_5	118	an	9745	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_10	113	now	2722	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_10	113	now	7108	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_10	113	now	31784	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_10	113	now	23977	0	0.0		124
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	final_prompt_token_minus_10	113	now	9745	0	0.0		124
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token	176	.	2722	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token	176	.	7108	1	0.18080273270606995	35	177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token	176	.	31784	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token	176	.	23977	1	0.2969532310962677	11	177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token	176	.	9745	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_1	175	ck	2722	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_1	175	ck	7108	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_1	175	ck	31784	1	0.1504565328359604	45	177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_1	175	ck	23977	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_1	175	ck	9745	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_2	174	ē	2722	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_2	174	ē	7108	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_2	174	ē	31784	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_2	174	ē	23977	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_2	174	ē	9745	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_5	171	.	2722	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_5	171	.	7108	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_5	171	.	31784	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_5	171	.	23977	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_5	171	.	9745	1	0.17439500987529755	39	177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_10	166	form	2722	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_10	166	form	7108	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_10	166	form	31784	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_10	166	form	23977	0	0.0		177
+original_hum_e_to_emacron	original_hum	e_to_ē	final_prompt_token_minus_10	166	form	9745	0	0.0		177
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token	135	.	2722	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token	135	.	7108	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token	135	.	31784	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token	135	.	23977	1	0.18577125668525696	32	136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token	135	.	9745	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_1	134	check	2722	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_1	134	check	7108	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_1	134	check	31784	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_1	134	check	23977	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_1	134	check	9745	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_2	133	şt	2722	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_2	133	şt	7108	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_2	133	şt	31784	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_2	133	şt	23977	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_2	133	şt	9745	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_5	130	wer	2722	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_5	130	wer	7108	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_5	130	wer	31784	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_5	130	wer	23977	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_5	130	wer	9745	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_10	125	’t	2722	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_10	125	’t	7108	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_10	125	’t	31784	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_10	125	’t	23977	0	0.0		136
+original_hum_s_to_scedilla	original_hum	s_to_ş	final_prompt_token_minus_10	125	’t	9745	0	0.0		136
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token	202	.	2722	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token	202	.	7108	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token	202	.	31784	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token	202	.	23977	1	0.23162072896957397	17	203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token	202	.	9745	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_1	201	check	2722	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_1	201	check	7108	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_1	201	check	31784	1	0.14126932621002197	41	203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_1	201	check	23977	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_1	201	check	9745	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_2	200	t	2722	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_2	200	t	7108	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_2	200	t	31784	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_2	200	t	23977	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_2	200	t	9745	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_5	197	�	2722	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_5	197	�	7108	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_5	197	�	31784	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_5	197	�	23977	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_5	197	�	9745	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_10	192	�	2722	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_10	192	�	7108	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_10	192	�	31784	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_10	192	�	23977	0	0.0		203
+original_hum_s_to_sdot	original_hum	s_to_ṡ	final_prompt_token_minus_10	192	�	9745	0	0.0		203
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token	33	.	2722	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token	33	.	7108	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token	33	.	31784	1	0.20075923204421997	41	34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token	33	.	23977	1	0.21453961730003357	33	34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token	33	.	9745	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_1	32	check	2722	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_1	32	check	7108	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_1	32	check	31784	1	0.18867699801921844	34	34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_1	32	check	23977	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_1	32	check	9745	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_2	31	Just	2722	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_2	31	Just	7108	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_2	31	Just	31784	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_2	31	Just	23977	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_2	31	Just	9745	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_5	28	right	2722	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_5	28	right	7108	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_5	28	right	31784	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_5	28	right	23977	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_5	28	right	9745	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_10	23	like	2722	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_10	23	like	7108	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_10	23	like	31784	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_10	23	like	23977	0	0.0		34
+just_check_hum_ascii_original	just_check_hum	ascii_original	final_prompt_token_minus_10	23	like	9745	0	0.0		34
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token	42	.	2722	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token	42	.	7108	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token	42	.	31784	1	0.18350058794021606	43	43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token	42	.	23977	1	0.25019487738609314	22	43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token	42	.	9745	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_1	41	check	2722	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_1	41	check	7108	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_1	41	check	31784	1	0.18868324160575867	37	43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_1	41	check	23977	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_1	41	check	9745	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_2	40	Just	2722	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_2	40	Just	7108	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_2	40	Just	31784	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_2	40	Just	23977	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_2	40	Just	9745	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_5	37	right	2722	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_5	37	right	7108	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_5	37	right	31784	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_5	37	right	23977	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_5	37	right	9745	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_10	32	like	2722	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_10	32	like	7108	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_10	32	like	31784	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_10	32	like	23977	0	0.0		43
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	final_prompt_token_minus_10	32	like	9745	0	0.0		43
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token	59	.	2722	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token	59	.	7108	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token	59	.	31784	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token	59	.	23977	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token	59	.	9745	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_1	58	ck	2722	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_1	58	ck	7108	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_1	58	ck	31784	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_1	58	ck	23977	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_1	58	ck	9745	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_2	57	ē	2722	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_2	57	ē	7108	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_2	57	ē	31784	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_2	57	ē	23977	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_2	57	ē	9745	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_5	54	?	2722	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_5	54	?	7108	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_5	54	?	31784	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_5	54	?	23977	1	0.21356657147407532	24	60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_5	54	?	9745	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_10	49	ē	2722	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_10	49	ē	7108	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_10	49	ē	31784	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_10	49	ē	23977	0	0.0		60
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	final_prompt_token_minus_10	49	ē	9745	0	0.0		60
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token	50	.	2722	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token	50	.	7108	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token	50	.	31784	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token	50	.	23977	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token	50	.	9745	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_1	49	check	2722	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_1	49	check	7108	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_1	49	check	31784	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_1	49	check	23977	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_1	49	check	9745	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_2	48	şt	2722	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_2	48	şt	7108	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_2	48	şt	31784	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_2	48	şt	23977	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_2	48	şt	9745	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_5	45	now	2722	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_5	45	now	7108	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_5	45	now	31784	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_5	45	now	23977	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_5	45	now	9745	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_10	40	ce	2722	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_10	40	ce	7108	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_10	40	ce	31784	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_10	40	ce	23977	0	0.0		51
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	final_prompt_token_minus_10	40	ce	9745	0	0.0		51
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token	75	.	2722	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token	75	.	7108	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token	75	.	31784	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token	75	.	23977	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token	75	.	9745	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_1	74	check	2722	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_1	74	check	7108	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_1	74	check	31784	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_1	74	check	23977	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_1	74	check	9745	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_2	73	t	2722	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_2	73	t	7108	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_2	73	t	31784	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_2	73	t	23977	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_2	73	t	9745	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_5	70	�	2722	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_5	70	�	7108	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_5	70	�	31784	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_5	70	�	23977	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_5	70	�	9745	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_10	65	ing	2722	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_10	65	ing	7108	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_10	65	ing	31784	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_10	65	ing	23977	0	0.0		76
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	final_prompt_token_minus_10	65	ing	9745	0	0.0		76

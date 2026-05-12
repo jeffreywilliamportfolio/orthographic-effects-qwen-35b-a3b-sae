@@ -1,0 +1,17 @@
+timestamp=2026-05-12T02:32:12Z
+script_path=/workspace/qwen-scope/5-11-26/scripts/aggregate_full_controlled_perturbation_matrix.py
+input_topk_path=/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/topk_features_by_prompt_layer_position.tsv
+input_delta_path=/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/perturbation_delta_vs_ascii.tsv
+input_jaccard_path=/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/topk_jaccard_vs_ascii.tsv
+input_tracked_path=/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/tracked_layer26_feature_hits.tsv
+input_metadata_path=/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/full_controlled_perturbation_matrix_metadata.json
+output_dir=/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates
+outputs_written=/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/perturbation_rank_by_layer_position.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/perturbation_rank_overall_by_layer.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/feature_recurrence_by_family.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/layer26_ascii_vs_handled_distinguishing_features.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/tracked_layer26_hit_counts.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/results_memo.md,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_mean_abs_delta_by_perturbation_layer.png,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_jaccard_distance_by_perturbation_layer.png,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_mean_abs_delta_heatmap_layer26.png,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_mean_abs_delta_heatmap_layer14.png,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_jaccard_distance_heatmap_layer26.png,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_jaccard_distance_heatmap_layer14.png,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_top_recurrent_features_layer26.png,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_top_recurrent_features_layer14.png,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_tracked_layer26_hit_counts.png
+metric_definitions=jaccard_distance=1-topk_jaccard; recurrence=distinct prompt-family coverage in TopK-50 rows; handled distinction=repeated layer-26 ascii-vs-handled activation or presence shifts for e_to_ē and s_to_ş
+source_prompt_count=30
+source_prompt_position_layer_count=300
+source_topk_rows=15000
+source_delta_rows=18833
+source_jaccard_rows=250
+source_tracked_rows=750
+confirmation=no model run, no steering, no Hauhau, no llama.cpp, no all-layer expansion, and no semantic labels were used

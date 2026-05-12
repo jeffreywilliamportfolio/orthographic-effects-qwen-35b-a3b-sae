@@ -1,0 +1,17 @@
+root=/workspace/qwen-scope/5-11-26
+Python 3.10.12
+{
+  "cuda_available": true,
+  "cuda_device_count": 2,
+  "cuda_devices": [
+    "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+    "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
+  ],
+  "torch": "2.11.0+cu130",
+  "torch_cuda": "13.0"
+}
+67G	/workspace/qwen-scope/5-11-26/models/Qwen3.5-35B-A3B-Base
+21G	/workspace/qwen-scope/5-11-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50
+0	/workspace/qwen-scope/5-11-26/smoke-runs
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         1.0T   95G  930G  10% /

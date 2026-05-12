@@ -1,0 +1,49 @@
+verified_utc=2026-05-11T19:04:13Z
+instance_id=36563002
+instance_label=qwen-scope-5-11-26-2x96gb-smoke-segregated
+failed_4x5090_instance_id=36562807 destroyed_before_setup=true
+source_instance_id=36555651 retained_until_this_verification=true
+workspace_root=/workspace/qwen-scope/5-11-26
+phase=Transformers/PyTorch residual-stream + Qwen-Scope SAE work; not GGUF, llama.cpp, Hauhau, or router capture
+smoke_run_root=/workspace/qwen-scope/5-11-26/smoke-runs
+env_file_mode=600
+model_du=67G
+model_file_count=52
+model_safetensor_shards=14
+sae_du=21G
+sae_file_count=90
+sae_layer_files=40
+pre_migration_smoke_file_count=29
+pre_migration_smoke_du=336K
+migration_validation_file_count=14
+migration_validation_du=136K
+cuda_summary
+{"cuda_available": true, "device_count": 2, "devices": ["NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition", "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"], "torch": "2.11.0+cu130", "torch_cuda": "13.0"}
+smoke_delta_line_counts
+   51 /workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/dstroke_hum_layer_14_top_features.tsv
+   51 /workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/dstroke_hum_layer_26_top_features.tsv
+  116 /workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/feature_delta_topk50.tsv
+   51 /workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/normal_hum_layer_14_top_features.tsv
+   51 /workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/normal_hum_layer_26_top_features.tsv
+  201 /workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/top_features_by_condition.tsv
+  521 total
+top_delta_preview
+layer	feature_id	normal_activation	dstroke_activation	delta_dstroke_minus_normal	abs_delta	rank_abs_delta	in_normal_top50	in_dstroke_top50
+14	11006	0.0	0.13742899894714355	0.13742899894714355	0.13742899894714355	1	0	1
+14	30172	0.12711578607559204	0.0	-0.12711578607559204	0.12711578607559204	2	1	0
+14	32358	0.12462654709815979	0.0	-0.12462654709815979	0.12462654709815979	3	1	0
+14	12433	0.11901742219924927	0.0	-0.11901742219924927	0.11901742219924927	4	1	0
+14	3291	0.0	0.1183885857462883	0.1183885857462883	0.1183885857462883	5	0	1
+14	8677	0.0	0.1166292130947113	0.1166292130947113	0.1166292130947113	6	0	1
+14	28025	0.11595268547534943	0.0	-0.11595268547534943	0.11595268547534943	7	1	0
+14	16845	0.11518758535385132	0.0	-0.11518758535385132	0.11518758535385132	8	1	0
+14	4880	0.11506471037864685	0.0	-0.11506471037864685	0.11506471037864685	9	1	0
+14	22687	0.0	0.11035263538360596	0.11035263538360596	0.11035263538360596	10	0	1
+14	23427	0.0	0.10897936671972275	0.10897936671972275	0.10897936671972275	11	0	1
+14	11864	0.0	0.10824991762638092	0.10824991762638092	0.10824991762638092	12	0	1
+nvidia_smi
+NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition, 97887 MiB, 2 MiB, 590.48.01
+NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition, 97887 MiB, 2 MiB, 590.48.01
+disk_free
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         1.0T   95G  930G  10% /

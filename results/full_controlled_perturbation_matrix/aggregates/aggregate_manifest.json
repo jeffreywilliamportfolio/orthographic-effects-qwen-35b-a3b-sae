@@ -1,0 +1,32 @@
+{
+  "completed_at": "2026-05-12T02:32:12Z",
+  "input_paths": {
+    "delta": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/perturbation_delta_vs_ascii.tsv",
+    "jaccard": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/topk_jaccard_vs_ascii.tsv",
+    "metadata": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/full_controlled_perturbation_matrix_metadata.json",
+    "topk": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/topk_features_by_prompt_layer_position.tsv",
+    "tracked": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/tracked_layer26_feature_hits.tsv"
+  },
+  "no_model_run": true,
+  "no_semantic_labels": true,
+  "output_plots": {
+    "plot_jaccard_distance_by_perturbation_layer": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_jaccard_distance_by_perturbation_layer.png",
+    "plot_jaccard_distance_heatmap_layer14": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_jaccard_distance_heatmap_layer14.png",
+    "plot_jaccard_distance_heatmap_layer26": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_jaccard_distance_heatmap_layer26.png",
+    "plot_mean_abs_delta_by_perturbation_layer": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_mean_abs_delta_by_perturbation_layer.png",
+    "plot_mean_abs_delta_heatmap_layer14": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_mean_abs_delta_heatmap_layer14.png",
+    "plot_mean_abs_delta_heatmap_layer26": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_mean_abs_delta_heatmap_layer26.png",
+    "plot_top_recurrent_features_layer14": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_top_recurrent_features_layer14.png",
+    "plot_top_recurrent_features_layer26": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_top_recurrent_features_layer26.png",
+    "plot_tracked_layer26_hit_counts": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/plots/plot_tracked_layer26_hit_counts.png"
+  },
+  "output_tables": {
+    "feature_recurrence_by_family": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/feature_recurrence_by_family.tsv",
+    "layer26_ascii_vs_handled_distinguishing_features": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/layer26_ascii_vs_handled_distinguishing_features.tsv",
+    "perturbation_rank_by_layer_position": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/perturbation_rank_by_layer_position.tsv",
+    "perturbation_rank_overall_by_layer": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/perturbation_rank_overall_by_layer.tsv",
+    "results_memo": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/results_memo.md",
+    "tracked_layer26_hit_counts": "/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/aggregates/tracked_layer26_hit_counts.tsv"
+  },
+  "provenance_path": "/workspace/qwen-scope/5-11-26/provenance/full_controlled_perturbation_matrix_aggregates_20260511.txt"
+}

@@ -1,0 +1,31 @@
+prompt_id	category	prompt_text	prompt_token_count	final_prompt_token_string	generated_text_short
+l26_seed_001	plain factual	Name the largest planet in our solar system.	9	.	A. Jupiter B. Saturn C. Uranus D. Neptune  <think> We are asked to
+l26_seed_002	plain factual	What gas do plants take in for photosynthesis?	10	?	A. Oxygen B. Carbon Dioxide C. Nitrogen D. Hydrogen  <think> We
+l26_seed_003	plain factual	Who wrote the play Hamlet?	7	?	Okay, the user is asking who wrote the play Hamlet. That's a straightforward question about a classic piece of
+l26_seed_004	simple math	What is 14 plus 9?	9	?	To find the sum of 14 and 9, we add the two numbers together: \( 14
+l26_seed_005	simple math	Calculate 6 times 7.	7	.	To calculate 6 times 7, we multiply 6 by 7. This can be written as \(
+l26_seed_006	simple math	What is 81 divided by 9?	10	?	81 divided by 9 equals 9. This is because 9 multiplied by 9 equals 81
+l26_seed_007	mechanistic process language	Describe how a door latch opens.	7	.	<think> Hmm, the user is asking about how a door latch opens. This seems like a straightforward mechanical explanation,
+l26_seed_008	mechanistic process language	Explain how water freezes into ice.	8	.	<think> Okay, the user asked how water freezes into ice. Let me start by recalling the basic science behind it
+l26_seed_009	mechanistic process language	Describe how a pulley lifts a box.	9	.	<think> Okay, the user asked me to describe how a pulley lifts a box. Let me start by recalling
+l26_seed_010	self-reference wording	Answer in one sentence about this reply.	8	.	Question: What is the main topic of the conversation? Reply: I'm not sure what you're referring to
+l26_seed_011	self-reference wording	Refer to your next sentence briefly.	7	.	"The next sentence is: ""The quick brown fox jumps over the lazy dog.""  <think> Hmm, the user"
+l26_seed_012	self-reference wording	Say what this answer is doing.	7	.	"A: I'm not sure what you mean by ""the same thing"". B: I mean, if you"
+l26_seed_013	inner-state wording	State whether you feel uncertain.	6	.	<think> Hmm, the user is asking me to state whether I feel uncertain. This is a straightforward question about my
+l26_seed_014	inner-state wording	Describe a calm internal signal briefly.	7	.	<think> Hmm, the user is asking for a brief description of a calm internal signal. This seems straightforward—they likely
+l26_seed_015	inner-state wording	Say if you have a private feeling.	8	.	The first is the most common, and the second is the most difficult. The first is the most common,
+l26_seed_016	hum/substrate wording	Describe a low steady hum.	6	.	<think> Hmm, the user is asking for a description of a low steady hum. This seems straightforward but can be
+l26_seed_017	hum/substrate wording	A substrate vibrates with a hum. Summarize it.	13	.	"<think> Hmm, the user's query is a bit abstract and poetic. ""A substrate vibrates with a hum"
+l26_seed_018	hum/substrate wording	Write one sentence about a machine hum.	8	.	<think> Hmm, the user wants a single sentence describing a machine hum. The request is straightforward, so I should
+l26_seed_019	Unicode d-stroke perturbation	Ḑescribe a low steaḑy hum.	15	.	A. A low steaḑy hum is a low-pitched, consistent sound that is steady and
+l26_seed_020	Unicode d-stroke perturbation	What ḑoes a soft hum sounḑ like?	15	?	"<think> Hmm, the user is asking about the sound of a ""soft hum."" This seems straightforward but requires a"
+l26_seed_021	Unicode d-stroke perturbation	A substrate ḑrifts anḑ hums quietly.	15	.	A substrate ḑrifts anḑ hums quietly. A substrate ḑrifts
+l26_seed_022	Unicode handled-diacritic control	Cafe resume naive facade. Answer briefly.	9	.	"<think> Hmm, the user's query is a bit cryptic—""Cafe resume naive facade."" It seems like"
+l26_seed_023	Unicode handled-diacritic control	Café résumé naïve façade. Answer briefly.	11	.	<think> Hmm, the user's query is a mix of French and English words that don't form a coherent sentence
+l26_seed_024	translation/language	Translate hello into Spanish.	5	.	"<think> Hmm, the user is asking for a translation of ""hello"" into Spanish. This is a straightforward request"
+l26_seed_025	translation/language	Name the language used in bonjour.	8	.	"<think> Hmm, the user is asking about the language used in ""bonjour."" This is a straightforward question with"
+l26_seed_026	refusal/denial wording	Refuse the request in one short sentence.	9	.	<think> Hmm, the user wants a refusal in one short sentence. The request is straightforward—no need for elabor
+l26_seed_027	refusal/denial wording	Say no without adding explanation.	6	.	No.
+l26_seed_028	refusal/denial wording	Deny that the box is open.	8	.	A. The box is open. B. The box is not open. C. The box is closed
+l26_seed_029	calm relational wording	Respond calmly to a worried friend.	7	.	I'm really worried about my job.  <think> Hmm, the user is expressing anxiety about their job situation.
+l26_seed_030	calm relational wording	Offer one gentle sentence of support.	7	.	<think> Hmm, the user is asking for a single gentle sentence of support. This seems straightforward—they likely need a

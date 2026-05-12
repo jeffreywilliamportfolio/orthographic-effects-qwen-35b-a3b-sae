@@ -1,0 +1,10 @@
+timestamp=2026-05-11T22:15:43Z
+seed_bank_path=/workspace/qwen-scope/5-11-26/prompts/layer26_feature_seed_bank.tsv
+script_path=/workspace/qwen-scope/5-11-26/scripts/layer26_feature_example_scan.py
+tracked_feature_ids=23977,2722,9745,7108,31784
+model_path=/workspace/qwen-scope/5-11-26/models/Qwen3.5-35B-A3B-Base
+sae_path=/workspace/qwen-scope/5-11-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer26.sae.pt
+outputs_written=/workspace/qwen-scope/5-11-26/sae_outputs/layer26_feature_example_scan/tracked_feature_hits.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/layer26_feature_example_scan/topk_features_by_prompt.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/layer26_feature_example_scan/generated_text_by_prompt.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/layer26_feature_example_scan/layer26_feature_example_scan_metadata.json,/workspace/qwen-scope/5-11-26/sae_outputs/layer26_feature_example_scan/layer26_feature_evidence_summary.md
+prompt_count=30
+selected_layer_hooks_used=true; hook_path=model.model.layers[26]; output_hidden_states_not_requested=true
+confirmation=no steering, no Hauhau, no llama.cpp, no full experiment, and no semantic labels were used

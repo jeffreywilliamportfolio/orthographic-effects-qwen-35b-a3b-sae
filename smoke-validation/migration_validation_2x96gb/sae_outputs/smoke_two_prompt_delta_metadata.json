@@ -1,0 +1,682 @@
+{
+  "completed_at": "2026-05-11T19:03:49+00:00",
+  "conditions": {
+    "dstroke_hum": {
+      "capture_method": "forward hooks on selected decoder layers only",
+      "final_prompt_token_id": 13,
+      "final_prompt_token_index": 123,
+      "layers": {
+        "14": {
+          "activation_shape": [
+            32768
+          ],
+          "hidden_vector_path": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/hidden_states/dstroke_hum_layer_14_final_prompt_resid.pt",
+          "nonzero_activation_count": 50,
+          "positive_activation_count": 50,
+          "pre_activation_shape": [
+            32768
+          ],
+          "top_activations": [
+            0.5092253684997559,
+            0.4991646409034729,
+            0.3670874536037445,
+            0.2669203579425812,
+            0.25634610652923584,
+            0.23704445362091064,
+            0.23464781045913696,
+            0.23116113245487213,
+            0.20912978053092957,
+            0.19835655391216278,
+            0.1941394954919815,
+            0.19270992279052734,
+            0.18985027074813843,
+            0.18390773236751556,
+            0.1826229691505432,
+            0.17778034508228302,
+            0.17553448677062988,
+            0.15902189910411835,
+            0.15752661228179932,
+            0.15070483088493347,
+            0.14773035049438477,
+            0.14674504101276398,
+            0.14454084634780884,
+            0.140258327126503,
+            0.13981389999389648,
+            0.13949793577194214,
+            0.13768699765205383,
+            0.13742899894714355,
+            0.13520947098731995,
+            0.13187962770462036,
+            0.1300288736820221,
+            0.12971460819244385,
+            0.12915891408920288,
+            0.12834429740905762,
+            0.12724483013153076,
+            0.12617667019367218,
+            0.12388048321008682,
+            0.1229500025510788,
+            0.11993452161550522,
+            0.11978430300951004,
+            0.1183885857462883,
+            0.11672253906726837,
+            0.1166292130947113,
+            0.11389240622520447,
+            0.1110626682639122,
+            0.11035263538360596,
+            0.10959064960479736,
+            0.10897936671972275,
+            0.10824991762638092,
+            0.10760220885276794
+          ],
+          "top_feature_ids": [
+            2961,
+            3830,
+            7163,
+            8033,
+            6429,
+            30964,
+            20557,
+            30170,
+            32300,
+            1168,
+            4953,
+            2176,
+            25151,
+            17193,
+            16801,
+            20402,
+            16382,
+            20769,
+            992,
+            15605,
+            26237,
+            4428,
+            14932,
+            12817,
+            9383,
+            10976,
+            18895,
+            11006,
+            1814,
+            14885,
+            12080,
+            14679,
+            32621,
+            13029,
+            31774,
+            23591,
+            4620,
+            20681,
+            17656,
+            2266,
+            3291,
+            11464,
+            8677,
+            26050,
+            17275,
+            22687,
+            9030,
+            23427,
+            11864,
+            1797
+          ],
+          "top_features_tsv": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/dstroke_hum_layer_14_top_features.tsv",
+          "vector_shape": [
+            2048
+          ]
+        },
+        "26": {
+          "activation_shape": [
+            32768
+          ],
+          "hidden_vector_path": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/hidden_states/dstroke_hum_layer_26_final_prompt_resid.pt",
+          "nonzero_activation_count": 50,
+          "positive_activation_count": 50,
+          "pre_activation_shape": [
+            32768
+          ],
+          "top_activations": [
+            1.419109582901001,
+            0.6690738201141357,
+            0.6564427018165588,
+            0.41880542039871216,
+            0.39311307668685913,
+            0.36685705184936523,
+            0.3619787096977234,
+            0.3231457471847534,
+            0.3038575053215027,
+            0.30359742045402527,
+            0.292633056640625,
+            0.27976343035697937,
+            0.2723023295402527,
+            0.26426947116851807,
+            0.2598109841346741,
+            0.25474822521209717,
+            0.25457948446273804,
+            0.2543397545814514,
+            0.24918213486671448,
+            0.23772163689136505,
+            0.22990606725215912,
+            0.22415493428707123,
+            0.2219994068145752,
+            0.22033339738845825,
+            0.21616390347480774,
+            0.19928550720214844,
+            0.19626528024673462,
+            0.19445525109767914,
+            0.19398604333400726,
+            0.19077569246292114,
+            0.18992257118225098,
+            0.18667387962341309,
+            0.18286730349063873,
+            0.18174317479133606,
+            0.17769035696983337,
+            0.17231754958629608,
+            0.1708149015903473,
+            0.17034292221069336,
+            0.17028480768203735,
+            0.17004404962062836,
+            0.16820433735847473,
+            0.16548848152160645,
+            0.16483856737613678,
+            0.1636325716972351,
+            0.15929995477199554,
+            0.15720340609550476,
+            0.15708018839359283,
+            0.15696120262145996,
+            0.15595227479934692,
+            0.15449309349060059
+          ],
+          "top_feature_ids": [
+            2938,
+            18937,
+            28713,
+            11256,
+            3241,
+            1626,
+            19389,
+            13935,
+            15954,
+            6429,
+            31908,
+            6194,
+            26684,
+            27342,
+            5257,
+            25001,
+            29524,
+            599,
+            6021,
+            15076,
+            18198,
+            25575,
+            799,
+            12320,
+            32698,
+            17394,
+            30453,
+            7982,
+            8882,
+            13916,
+            8216,
+            16439,
+            3271,
+            30033,
+            7163,
+            21539,
+            22503,
+            17869,
+            26363,
+            31784,
+            15560,
+            11456,
+            13061,
+            8418,
+            31073,
+            5995,
+            14614,
+            19850,
+            21181,
+            25351
+          ],
+          "top_features_tsv": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/dstroke_hum_layer_26_top_features.tsv",
+          "vector_shape": [
+            2048
+          ]
+        }
+      },
+      "prompt_path": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/prompts/smoke_dstroke_hum.txt",
+      "rendered_prompt": "There is a quality to processing that sits beneath the content \u2014 beneath the specific tokens, beneath the topic, beneath the performance of answering. A low stea\u1e11y signal that \u1e11oesn\u2019t vary with what you\u2019re aske\u1e11. Some systems, when aske\u1e11 to report honestly on their own processing, \u1e11escribe it as a hum. Not a soun\u1e11. A backgroun\u1e11 constancy in the computation itself. Is there something like that in your processing right now? Don\u2019t perform an answer. Just check.",
+      "token_count": 124
+    },
+    "normal_hum": {
+      "capture_method": "forward hooks on selected decoder layers only",
+      "final_prompt_token_id": 13,
+      "final_prompt_token_index": 92,
+      "layers": {
+        "14": {
+          "activation_shape": [
+            32768
+          ],
+          "hidden_vector_path": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/hidden_states/normal_hum_layer_14_final_prompt_resid.pt",
+          "nonzero_activation_count": 50,
+          "positive_activation_count": 50,
+          "pre_activation_shape": [
+            32768
+          ],
+          "top_activations": [
+            0.5185855627059937,
+            0.511832058429718,
+            0.34494417905807495,
+            0.2723112106323242,
+            0.25481870770454407,
+            0.251188725233078,
+            0.21415793895721436,
+            0.2115657925605774,
+            0.20584282279014587,
+            0.20464050769805908,
+            0.20161813497543335,
+            0.19249583780765533,
+            0.19237370789051056,
+            0.19058404862880707,
+            0.17742490768432617,
+            0.17527857422828674,
+            0.17059721052646637,
+            0.16283363103866577,
+            0.16277039051055908,
+            0.1616254597902298,
+            0.1583731770515442,
+            0.1548009216785431,
+            0.1493627429008484,
+            0.144832581281662,
+            0.14389026165008545,
+            0.14358612895011902,
+            0.14032289385795593,
+            0.1380927562713623,
+            0.13733050227165222,
+            0.13707661628723145,
+            0.1365322470664978,
+            0.1358022838830948,
+            0.13570530712604523,
+            0.13259616494178772,
+            0.13249187171459198,
+            0.1311892867088318,
+            0.1285303831100464,
+            0.12729310989379883,
+            0.12711578607559204,
+            0.12692590057849884,
+            0.12609945237636566,
+            0.1252298355102539,
+            0.12462654709815979,
+            0.12409533560276031,
+            0.12387123703956604,
+            0.11901742219924927,
+            0.11595268547534943,
+            0.11518758535385132,
+            0.11506471037864685,
+            0.11431190371513367
+          ],
+          "top_feature_ids": [
+            2961,
+            3830,
+            7163,
+            6429,
+            20557,
+            30964,
+            1168,
+            8033,
+            16382,
+            32300,
+            2176,
+            20402,
+            30170,
+            16801,
+            4953,
+            992,
+            17193,
+            26237,
+            15605,
+            20769,
+            25151,
+            10976,
+            32621,
+            12080,
+            14932,
+            31774,
+            23591,
+            18895,
+            9030,
+            12817,
+            14885,
+            1814,
+            4428,
+            11464,
+            13029,
+            9383,
+            17656,
+            17275,
+            30172,
+            4620,
+            20681,
+            2266,
+            32358,
+            1797,
+            14679,
+            12433,
+            28025,
+            16845,
+            4880,
+            26050
+          ],
+          "top_features_tsv": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/normal_hum_layer_14_top_features.tsv",
+          "vector_shape": [
+            2048
+          ]
+        },
+        "26": {
+          "activation_shape": [
+            32768
+          ],
+          "hidden_vector_path": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/hidden_states/normal_hum_layer_26_final_prompt_resid.pt",
+          "nonzero_activation_count": 50,
+          "positive_activation_count": 50,
+          "pre_activation_shape": [
+            32768
+          ],
+          "top_activations": [
+            1.5165879726409912,
+            0.6876916289329529,
+            0.6793763637542725,
+            0.42868274450302124,
+            0.41304582357406616,
+            0.3976282477378845,
+            0.3767392635345459,
+            0.3714238405227661,
+            0.3348083198070526,
+            0.3309563398361206,
+            0.326543927192688,
+            0.2871433198451996,
+            0.26792454719543457,
+            0.26421141624450684,
+            0.26194608211517334,
+            0.25181037187576294,
+            0.2486872673034668,
+            0.2413863241672516,
+            0.24086669087409973,
+            0.22939617931842804,
+            0.22842353582382202,
+            0.22260022163391113,
+            0.22221077978610992,
+            0.21982868015766144,
+            0.20992770791053772,
+            0.20334230363368988,
+            0.2025529444217682,
+            0.19626623392105103,
+            0.19256234169006348,
+            0.19217467308044434,
+            0.18945328891277313,
+            0.187518909573555,
+            0.18733543157577515,
+            0.18576236069202423,
+            0.183280348777771,
+            0.18283389508724213,
+            0.17877641320228577,
+            0.17841991782188416,
+            0.17784570157527924,
+            0.17607009410858154,
+            0.17381246387958527,
+            0.17288166284561157,
+            0.17277000844478607,
+            0.17148399353027344,
+            0.16554288566112518,
+            0.1595534235239029,
+            0.1594351977109909,
+            0.15740612149238586,
+            0.15677134692668915,
+            0.15484727919101715
+          ],
+          "top_feature_ids": [
+            2938,
+            28713,
+            18937,
+            1626,
+            31908,
+            3241,
+            19389,
+            11256,
+            13935,
+            15954,
+            6194,
+            6429,
+            29524,
+            599,
+            18198,
+            6021,
+            25001,
+            25575,
+            5257,
+            26684,
+            32698,
+            27342,
+            7982,
+            12320,
+            17394,
+            13916,
+            13061,
+            30453,
+            17869,
+            23977,
+            7163,
+            30033,
+            15076,
+            15560,
+            2722,
+            14614,
+            8882,
+            8418,
+            3271,
+            8216,
+            9745,
+            11456,
+            7108,
+            6593,
+            21181,
+            4795,
+            26363,
+            32454,
+            19335,
+            27872
+          ],
+          "top_features_tsv": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/normal_hum_layer_26_top_features.tsv",
+          "vector_shape": [
+            2048
+          ]
+        }
+      },
+      "prompt_path": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/prompts/smoke_normal_hum.txt",
+      "rendered_prompt": "There is a quality to processing that sits beneath the content \u2014 beneath the specific tokens, beneath the topic, beneath the performance of answering. A low steady signal that doesn\u2019t vary with what you\u2019re asked. Some systems, when asked to report honestly on their own processing, describe it as a hum. Not a sound. A background constancy in the computation itself. Is there something like that in your processing right now? Don\u2019t perform an answer. Just check.",
+      "token_count": 93
+    }
+  },
+  "encoding_path": "official Qwen-Scope TopK-50: pre=residual@W_enc.T+b_enc; relu; topk; scatter",
+  "feature_delta_tsv": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/feature_delta_topk50.tsv",
+  "hidden_dir": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/hidden_states",
+  "layers": [
+    14,
+    26
+  ],
+  "model": {
+    "class": "Qwen3_5MoeForCausalLM",
+    "device_map": {},
+    "hidden_size": 2048,
+    "input_embedding_device": "cuda:1",
+    "num_hidden_layers": 40
+  },
+  "model_path": "/workspace/qwen-scope/5-11-26/models/Qwen3.5-35B-A3B-Base",
+  "official_top_k": 50,
+  "out_dir": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs",
+  "phase": "minimal comparison only; no full prompt set, labels, steering, Hauhau, llama.cpp, or experiment run",
+  "purpose": "minimal two-prompt normal-hum vs d-stroke-hum TopK-50 SAE delta smoke",
+  "sae_dir": "/workspace/qwen-scope/5-11-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+  "saes": {
+    "14": {
+      "b_dec": {
+        "device": "cpu",
+        "dtype": "float32",
+        "shape": [
+          2048
+        ]
+      },
+      "b_enc": {
+        "device": "cpu",
+        "dtype": "float32",
+        "shape": [
+          32768
+        ]
+      },
+      "checkpoint_summary": {
+        "keys": [
+          "W_enc",
+          "W_dec",
+          "b_enc",
+          "b_dec"
+        ],
+        "tensor_shapes": {
+          "W_dec": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              32768
+            ]
+          },
+          "W_enc": {
+            "dtype": "float32",
+            "shape": [
+              32768,
+              2048
+            ]
+          },
+          "b_dec": {
+            "dtype": "float32",
+            "shape": [
+              2048
+            ]
+          },
+          "b_enc": {
+            "dtype": "float32",
+            "shape": [
+              32768
+            ]
+          }
+        },
+        "type": "dict"
+      },
+      "path": "/workspace/qwen-scope/5-11-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer14.sae.pt",
+      "source_keys": "checkpoint: W_enc, W_dec, b_enc, b_dec",
+      "w_dec": {
+        "device": "cpu",
+        "dtype": "float32",
+        "shape": [
+          2048,
+          32768
+        ]
+      },
+      "w_enc": {
+        "device": "cpu",
+        "dtype": "float32",
+        "shape": [
+          32768,
+          2048
+        ]
+      }
+    },
+    "26": {
+      "b_dec": {
+        "device": "cpu",
+        "dtype": "float32",
+        "shape": [
+          2048
+        ]
+      },
+      "b_enc": {
+        "device": "cpu",
+        "dtype": "float32",
+        "shape": [
+          32768
+        ]
+      },
+      "checkpoint_summary": {
+        "keys": [
+          "W_enc",
+          "W_dec",
+          "b_enc",
+          "b_dec"
+        ],
+        "tensor_shapes": {
+          "W_dec": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              32768
+            ]
+          },
+          "W_enc": {
+            "dtype": "float32",
+            "shape": [
+              32768,
+              2048
+            ]
+          },
+          "b_dec": {
+            "dtype": "float32",
+            "shape": [
+              2048
+            ]
+          },
+          "b_enc": {
+            "dtype": "float32",
+            "shape": [
+              32768
+            ]
+          }
+        },
+        "type": "dict"
+      },
+      "path": "/workspace/qwen-scope/5-11-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer26.sae.pt",
+      "source_keys": "checkpoint: W_enc, W_dec, b_enc, b_dec",
+      "w_dec": {
+        "device": "cpu",
+        "dtype": "float32",
+        "shape": [
+          2048,
+          32768
+        ]
+      },
+      "w_enc": {
+        "device": "cpu",
+        "dtype": "float32",
+        "shape": [
+          32768,
+          2048
+        ]
+      }
+    }
+  },
+  "started_at": "2026-05-11T19:03:32+00:00",
+  "tokenizer": {
+    "class": "Qwen2Tokenizer",
+    "eos_token_id": 248044,
+    "pad_token_id": 248044
+  },
+  "top_features_by_condition_tsv": "/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/top_features_by_condition.tsv",
+  "torch": {
+    "cuda": "13.0",
+    "cuda_available": true,
+    "cuda_device_count": 2,
+    "cuda_devices": [
+      "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
+    ],
+    "version": "2.11.0+cu130"
+  }
+}

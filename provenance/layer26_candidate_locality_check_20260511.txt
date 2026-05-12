@@ -1,0 +1,12 @@
+timestamp=2026-05-11T22:23:04Z
+prompt_tsv_path=/workspace/qwen-scope/5-11-26/prompts/layer26_candidate_locality_prompts.tsv
+script_path=/workspace/qwen-scope/5-11-26/scripts/layer26_candidate_locality_check.py
+tracked_feature_ids=23977,2722,9745,7108,31784
+capture_positions=final_prompt_token,final_prompt_token_minus_1,final_prompt_token_minus_2,final_prompt_token_minus_5,final_prompt_token_minus_10
+model_path=/workspace/qwen-scope/5-11-26/models/Qwen3.5-35B-A3B-Base
+sae_path=/workspace/qwen-scope/5-11-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer26.sae.pt
+outputs_written=/workspace/qwen-scope/5-11-26/sae_outputs/layer26_candidate_locality_check/tracked_feature_hits_by_position.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/layer26_candidate_locality_check/topk_features_by_prompt_position.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/layer26_candidate_locality_check/generated_text_by_prompt.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/layer26_candidate_locality_check/layer26_candidate_locality_metadata.json,/workspace/qwen-scope/5-11-26/sae_outputs/layer26_candidate_locality_check/layer26_candidate_locality_summary.md
+prompt_count=10
+prompt_position_count=50
+selected_layer_hooks_used=true; hook_path=model.model.layers[26]; output_hidden_states_not_requested=true
+confirmation=no steering, no Hauhau, no llama.cpp, no full experiment, and no semantic labels were used

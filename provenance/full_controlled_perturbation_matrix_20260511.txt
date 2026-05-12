@@ -1,0 +1,16 @@
+timestamp=2026-05-11T23:05:32Z
+prompt_matrix_path=/workspace/qwen-scope/5-11-26/prompts/full_controlled_perturbation_matrix.tsv
+script_path=/workspace/qwen-scope/5-11-26/scripts/full_controlled_perturbation_matrix.py
+model_path=/workspace/qwen-scope/5-11-26/models/Qwen3.5-35B-A3B-Base
+sae_paths=/workspace/qwen-scope/5-11-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer26.sae.pt,/workspace/qwen-scope/5-11-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer14.sae.pt
+layers=26,14
+capture_positions=final_prompt_token,final_prompt_token_minus_1,final_prompt_token_minus_2,final_prompt_token_minus_5,final_prompt_token_minus_10
+perturbation_types=ascii_original,d_to_ḑ,e_to_ē,s_to_ş,s_to_ṡ,random_readable_unicode_control
+base_prompt_families=original_hum,just_check_hum,yes_no_hum,paraphrase_hum,removed_sentence_hum
+prompt_count=30
+prompt_position_layer_count=300
+tracked_feature_ids_layer26=2722,7108,31784,23977,9745
+outputs_written=/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/topk_features_by_prompt_layer_position.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/tracked_layer26_feature_hits.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/perturbation_delta_vs_ascii.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/topk_jaccard_vs_ascii.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/generated_text_by_prompt.tsv,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/full_controlled_perturbation_matrix_metadata.json,/workspace/qwen-scope/5-11-26/sae_outputs/full_controlled_perturbation_matrix/full_controlled_perturbation_matrix_summary.md
+random_control_seed=20260511
+selected_layer_hooks_used=true; hook_path=model.model.layers[26],model.model.layers[14]; output_hidden_states_not_requested=true
+confirmation=no steering, no Hauhau, no llama.cpp, no all-hidden-state request, and no semantic labels were used

@@ -1,0 +1,10 @@
+torch
+transformers
+accelerate
+safetensors
+huggingface_hub
+numpy
+pandas
+einops
+tqdm
+matplotlib

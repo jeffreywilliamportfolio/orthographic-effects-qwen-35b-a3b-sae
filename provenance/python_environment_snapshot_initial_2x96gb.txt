@@ -1,0 +1,25 @@
+{
+  "cuda": {
+    "available": true,
+    "device_count": 2,
+    "devices": [
+      "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
+    ],
+    "torch_cuda": "13.0"
+  },
+  "executable": "/workspace/qwen-scope/5-11-26/.venv/bin/python",
+  "package_versions": {
+    "accelerate": "1.13.0",
+    "einops": "0.8.2",
+    "huggingface_hub": "1.14.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "safetensors": "0.7.0",
+    "torch": "2.11.0+cu130",
+    "tqdm": "4.67.3",
+    "transformers": "5.8.0"
+  },
+  "platform": "Linux-6.8.0-94-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]"
+}

@@ -1,0 +1,17 @@
+created_utc=2026-05-11T18:57:45Z
+workspace_root=/workspace/qwen-scope/5-11-26
+source_instance_id=36555651
+source_instance_label=qwen-scope-5-11-26-2x5090-1tb
+failed_target_instance_id=36562807
+failed_target_offer=4x RTX 5090 offer 35676693
+failed_target_outcome=created but remained stopped/loading; destroyed before setup
+target_instance_id=36563002
+target_instance_label=qwen-scope-5-11-26-2x96gb-smoke-segregated
+target_hardware=2 x RTX PRO 6000 WS / Blackwell Max-Q, 97887 MiB each
+target_reason=higher VRAM headroom to avoid OOM; fallback after 4x5090 provider did not start
+model_repo=Qwen/Qwen3.5-35B-A3B-Base
+model_dir=/workspace/qwen-scope/5-11-26/models/Qwen3.5-35B-A3B-Base
+sae_repo=Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50
+sae_dir=/workspace/qwen-scope/5-11-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50
+smoke_run_root=/workspace/qwen-scope/5-11-26/smoke-runs
+phase=Transformers/PyTorch residual-stream hidden states + Qwen-Scope SAE feature analysis; not GGUF, llama.cpp, Hauhau, or router capture

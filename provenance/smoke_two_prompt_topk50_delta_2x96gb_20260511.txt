@@ -1,0 +1,50 @@
+provenance_started_utc=2026-05-11T19:03:30Z
+instance_id=36563002
+run_root=/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb
+script=/workspace/qwen-scope/5-11-26/scripts/smoke_two_prompt_topk50_delta.py
+purpose=migration validation on 2x96GB instance; selected-layer hooks; official TopK-50; no labels; no steering; no full experiment; no Hauhau; no llama.cpp
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+started_at=2026-05-11T19:03:32+00:00
+model_path=/workspace/qwen-scope/5-11-26/models/Qwen3.5-35B-A3B-Base
+sae_dir=/workspace/qwen-scope/5-11-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50
+hidden_dir=/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/hidden_states
+out_dir=/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs
+conditions=['normal_hum', 'dstroke_hum']
+layers=[14, 26]
+official_top_k=50
+encoding_path=official Qwen-Scope TopK-50: pre=residual@W_enc.T+b_enc; relu; topk; scatter
+torch=2.11.0+cu130
+torch_cuda=13.0
+cuda_available=True
+cuda_device_count=2
+Loading weights:   0%|          | 0/693 [00:00<?, ?it/s]Loading weights:   0%|          | 1/693 [00:00<03:02,  3.80it/s]Loading weights:   1%|▏         | 9/693 [00:00<00:22, 30.30it/s]Loading weights:   2%|▏         | 14/693 [00:00<00:23, 29.24it/s]Loading weights:   4%|▍         | 31/693 [00:00<00:09, 66.78it/s]Loading weights:   6%|▌         | 40/693 [00:00<00:10, 60.54it/s]Loading weights:   7%|▋         | 50/693 [00:01<00:13, 49.41it/s]Loading weights:   8%|▊         | 57/693 [00:01<00:16, 39.38it/s]Loading weights:  12%|█▏        | 82/693 [00:01<00:08, 73.64it/s]Loading weights:  13%|█▎        | 93/693 [00:01<00:10, 59.50it/s]Loading weights:  15%|█▍        | 102/693 [00:01<00:10, 57.25it/s]Loading weights:  17%|█▋        | 117/693 [00:02<00:10, 55.72it/s]Loading weights:  18%|█▊        | 128/693 [00:02<00:11, 50.25it/s]Loading weights:  22%|██▏       | 151/693 [00:02<00:07, 75.71it/s]Loading weights:  23%|██▎       | 162/693 [00:02<00:07, 70.68it/s]Loading weights:  25%|██▍       | 171/693 [00:03<00:09, 55.88it/s]Loading weights:  27%|██▋       | 187/693 [00:03<00:07, 71.82it/s]Loading weights:  28%|██▊       | 197/693 [00:03<00:10, 46.90it/s]Loading weights:  32%|███▏      | 220/693 [00:03<00:06, 70.81it/s]Loading weights:  33%|███▎      | 232/693 [00:03<00:06, 69.02it/s]Loading weights:  35%|███▍      | 242/693 [00:04<00:07, 57.36it/s]Loading weights:  37%|███▋      | 257/693 [00:04<00:07, 56.50it/s]Loading weights:  38%|███▊      | 266/693 [00:04<00:08, 49.27it/s]Loading weights:  42%|████▏     | 289/693 [00:04<00:05, 73.89it/s]Loading weights:  43%|████▎     | 300/693 [00:05<00:05, 71.07it/s]Loading weights:  45%|████▍     | 309/693 [00:05<00:06, 57.93it/s]Loading weights:  47%|████▋     | 324/693 [00:05<00:06, 56.17it/s]Loading weights:  48%|████▊     | 333/693 [00:05<00:06, 54.34it/s]Loading weights:  51%|█████▏    | 356/693 [00:05<00:04, 82.79it/s]Loading weights:  53%|█████▎    | 368/693 [00:06<00:04, 68.86it/s]Loading weights:  55%|█████▍    | 378/693 [00:06<00:05, 56.96it/s]Loading weights:  57%|█████▋    | 394/693 [00:06<00:04, 72.76it/s]Loading weights:  58%|█████▊    | 404/693 [00:07<00:06, 44.30it/s]Loading weights:  61%|██████▏   | 425/693 [00:07<00:04, 63.03it/s]Loading weights:  63%|██████▎   | 435/693 [00:07<00:04, 59.92it/s]Loading weights:  64%|██████▍   | 445/693 [00:07<00:03, 66.09it/s]Loading weights:  66%|██████▌   | 454/693 [00:07<00:03, 63.07it/s]Loading weights:  67%|██████▋   | 463/693 [00:07<00:03, 68.11it/s]Loading weights:  68%|██████▊   | 472/693 [00:08<00:04, 53.25it/s]Loading weights:  69%|██████▉   | 479/693 [00:08<00:04, 48.90it/s]Loading weights:  72%|███████▏  | 496/693 [00:08<00:02, 70.29it/s]Loading weights:  73%|███████▎  | 505/693 [00:08<00:02, 64.07it/s]Loading weights:  74%|███████▍  | 513/693 [00:08<00:03, 49.39it/s]Loading weights:  76%|███████▋  | 530/693 [00:09<00:03, 53.33it/s]Loading weights:  78%|███████▊  | 541/693 [00:09<00:03, 49.52it/s]Loading weights:  82%|████████▏ | 565/693 [00:09<00:01, 77.10it/s]Loading weights:  83%|████████▎ | 576/693 [00:09<00:01, 72.67it/s]Loading weights:  85%|████████▍ | 586/693 [00:09<00:01, 57.48it/s]Loading weights:  87%|████████▋ | 601/693 [00:10<00:01, 56.44it/s]Loading weights:  88%|████████▊ | 611/693 [00:10<00:01, 50.32it/s]Loading weights:  91%|█████████▏| 634/693 [00:10<00:00, 75.08it/s]Loading weights:  93%|█████████▎| 645/693 [00:10<00:00, 71.77it/s]Loading weights:  94%|█████████▍| 654/693 [00:11<00:00, 57.16it/s]Loading weights:  97%|█████████▋| 670/693 [00:11<00:00, 73.54it/s]Loading weights:  98%|█████████▊| 680/693 [00:11<00:00, 48.01it/s]Loading weights: 100%|██████████| 693/693 [00:11<00:00, 59.95it/s]
+model_loaded=true
+model_class=Qwen3_5MoeForCausalLM
+hf_device_map={}
+hidden_size=2048
+num_hidden_layers=40
+condition=normal_hum token_count=93 final_prompt_token_index=92
+condition=normal_hum layer=14 vector_path=/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/hidden_states/normal_hum_layer_14_final_prompt_resid.pt kept_features=50 positive=50 nonzero=50 top_first5=[2961, 3830, 7163, 6429, 20557]
+condition=normal_hum layer=26 vector_path=/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/hidden_states/normal_hum_layer_26_final_prompt_resid.pt kept_features=50 positive=50 nonzero=50 top_first5=[2938, 28713, 18937, 1626, 31908]
+condition=dstroke_hum token_count=124 final_prompt_token_index=123
+condition=dstroke_hum layer=14 vector_path=/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/hidden_states/dstroke_hum_layer_14_final_prompt_resid.pt kept_features=50 positive=50 nonzero=50 top_first5=[2961, 3830, 7163, 8033, 6429]
+condition=dstroke_hum layer=26 vector_path=/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/hidden_states/dstroke_hum_layer_26_final_prompt_resid.pt kept_features=50 positive=50 nonzero=50 top_first5=[2938, 18937, 28713, 11256, 3241]
+top_features_by_condition_tsv=/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/top_features_by_condition.tsv
+feature_delta_tsv=/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/feature_delta_topk50.tsv
+metadata_path=/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/smoke_two_prompt_delta_metadata.json
+delta_preview
+layer	feature_id	normal_activation	dstroke_activation	delta_dstroke_minus_normal	abs_delta	rank_abs_delta	in_normal_top50	in_dstroke_top50
+14	11006	0.0	0.13742899894714355	0.13742899894714355	0.13742899894714355	1	0	1
+14	30172	0.12711578607559204	0.0	-0.12711578607559204	0.12711578607559204	2	1	0
+14	32358	0.12462654709815979	0.0	-0.12462654709815979	0.12462654709815979	3	1	0
+14	12433	0.11901742219924927	0.0	-0.11901742219924927	0.11901742219924927	4	1	0
+14	3291	0.0	0.1183885857462883	0.1183885857462883	0.1183885857462883	5	0	1
+14	8677	0.0	0.1166292130947113	0.1166292130947113	0.1166292130947113	6	0	1
+14	28025	0.11595268547534943	0.0	-0.11595268547534943	0.11595268547534943	7	1	0
+14	16845	0.11518758535385132	0.0	-0.11518758535385132	0.11518758535385132	8	1	0
+14	4880	0.11506471037864685	0.0	-0.11506471037864685	0.11506471037864685	9	1	0
+14	22687	0.0	0.11035263538360596	0.11035263538360596	0.11035263538360596	10	0	1
+14	23427	0.0	0.10897936671972275	0.10897936671972275	0.10897936671972275	11	0	1
+14	11864	0.0	0.10824991762638092	0.10824991762638092	0.10824991762638092	12	0	1
+smoke_two_prompt_topk50_delta_status=ok
+provenance_completed_utc=2026-05-11T19:03:50Z

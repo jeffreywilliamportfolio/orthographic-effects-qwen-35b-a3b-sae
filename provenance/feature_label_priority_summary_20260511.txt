@@ -1,0 +1,8 @@
+timestamp=2026-05-11T20:59:36Z
+input_evidence_path=/workspace/qwen-scope/5-11-26/sae_outputs/feature_label_pilot/feature_label_pilot_evidence.tsv
+input_notes_path=/workspace/qwen-scope/5-11-26/sae_outputs/feature_label_pilot/feature_label_pilot_notes.md
+output_tsv_path=/workspace/qwen-scope/5-11-26/sae_outputs/feature_label_pilot/feature_label_priority_summary.tsv
+output_markdown_path=/workspace/qwen-scope/5-11-26/sae_outputs/feature_label_pilot/feature_label_priority_summary.md
+candidate_feature_count=10
+ranking_method_summary=Grouped paired normal_hum/dstroke_hum evidence rows by layer and feature; classified with allowed pattern_type values from TopK-50 presence flags and rank/delta movement; ranked binary-only TopK changes first by abs_delta, then shifted-in-both features by abs_delta/rank movement, then stable or unclear features.
+confirmation=no model run, seed bank, steering, Hauhau, llama.cpp, full experiment, or semantic labels were used

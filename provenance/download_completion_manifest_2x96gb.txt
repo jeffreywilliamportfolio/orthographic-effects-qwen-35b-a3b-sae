@@ -1,0 +1,14 @@
+completed_utc=2026-05-11T19:00:32Z
+model_repo=Qwen/Qwen3.5-35B-A3B-Base
+model_dir=/workspace/qwen-scope/5-11-26/models/Qwen3.5-35B-A3B-Base
+model_du=67G
+model_file_count=52
+model_safetensor_shards=14
+sae_repo=Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50
+sae_dir=/workspace/qwen-scope/5-11-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50
+sae_du=21G
+sae_file_count=90
+sae_layer_files=40
+workspace_du=92G
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         1.0T   95G  930G  10% /

@@ -1,0 +1,39 @@
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/693 [00:00<?, ?it/s]Loading weights:   0%|          | 2/693 [00:00<01:13,  9.39it/s]Loading weights:   2%|▏         | 13/693 [00:00<00:13, 49.62it/s]Loading weights:   3%|▎         | 20/693 [00:00<00:15, 44.82it/s]Loading weights:   5%|▍         | 32/693 [00:00<00:14, 44.33it/s]Loading weights:   6%|▋         | 44/693 [00:01<00:14, 44.36it/s]Loading weights:   9%|▊         | 59/693 [00:01<00:12, 48.94it/s]Loading weights:  12%|█▏        | 82/693 [00:01<00:07, 77.74it/s]Loading weights:  13%|█▎        | 93/693 [00:01<00:08, 73.57it/s]Loading weights:  15%|█▍        | 102/693 [00:01<00:10, 57.79it/s]Loading weights:  17%|█▋        | 118/693 [00:02<00:09, 57.53it/s]Loading weights:  18%|█▊        | 126/693 [00:02<00:11, 48.81it/s]Loading weights:  22%|██▏       | 151/693 [00:02<00:06, 77.65it/s]Loading weights:  23%|██▎       | 162/693 [00:02<00:07, 73.14it/s]Loading weights:  25%|██▍       | 172/693 [00:02<00:08, 59.22it/s]Loading weights:  27%|██▋       | 186/693 [00:03<00:09, 56.15it/s]Loading weights:  28%|██▊       | 197/693 [00:03<00:09, 51.70it/s]Loading weights:  31%|███       | 214/693 [00:03<00:08, 54.56it/s]Loading weights:  34%|███▎      | 233/693 [00:04<00:07, 58.85it/s]Loading weights:  37%|███▋      | 256/693 [00:04<00:05, 82.39it/s]Loading weights:  39%|███▊      | 267/693 [00:04<00:07, 56.20it/s]Loading weights:  41%|████      | 285/693 [00:04<00:05, 71.89it/s]Loading weights:  43%|████▎     | 296/693 [00:04<00:05, 68.35it/s]Loading weights:  44%|████▍     | 307/693 [00:05<00:06, 58.30it/s]Loading weights:  47%|████▋     | 324/693 [00:05<00:06, 57.96it/s]Loading weights:  48%|████▊     | 334/693 [00:05<00:05, 63.65it/s]Loading weights:  49%|████▉     | 342/693 [00:05<00:06, 57.03it/s]Loading weights:  52%|█████▏    | 358/693 [00:05<00:04, 72.72it/s]Loading weights:  53%|█████▎    | 367/693 [00:06<00:04, 66.20it/s]Loading weights:  54%|█████▍    | 377/693 [00:06<00:05, 55.89it/s]Loading weights:  57%|█████▋    | 395/693 [00:06<00:04, 59.68it/s]Loading weights:  58%|█████▊    | 403/693 [00:06<00:05, 49.59it/s]Loading weights:  61%|██████    | 424/693 [00:07<00:04, 59.27it/s]Loading weights:  64%|██████▍   | 445/693 [00:07<00:03, 81.40it/s]Loading weights:  66%|██████▌   | 456/693 [00:07<00:03, 75.07it/s]Loading weights:  67%|██████▋   | 466/693 [00:07<00:03, 60.86it/s]Loading weights:  68%|██████▊   | 474/693 [00:07<00:04, 49.95it/s]Loading weights:  72%|███████▏  | 496/693 [00:08<00:02, 74.51it/s]Loading weights:  73%|███████▎  | 507/693 [00:08<00:02, 70.56it/s]Loading weights:  74%|███████▍  | 516/693 [00:08<00:03, 56.87it/s]Loading weights:  77%|███████▋  | 531/693 [00:08<00:02, 55.59it/s]Loading weights:  78%|███████▊  | 538/693 [00:09<00:03, 47.05it/s]Loading weights:  81%|████████  | 562/693 [00:09<00:02, 62.27it/s]Loading weights:  84%|████████▍ | 584/693 [00:09<00:01, 70.74it/s]Loading weights:  87%|████████▋ | 602/693 [00:09<00:01, 71.35it/s]Loading weights:  88%|████████▊ | 611/693 [00:10<00:01, 60.19it/s]Loading weights:  91%|█████████ | 631/693 [00:10<00:00, 80.72it/s]Loading weights:  93%|█████████▎| 642/693 [00:10<00:00, 77.08it/s]Loading weights:  94%|█████████▍| 653/693 [00:10<00:00, 63.92it/s]Loading weights:  97%|█████████▋| 669/693 [00:10<00:00, 63.15it/s]Loading weights:  98%|█████████▊| 680/693 [00:11<00:00, 56.26it/s]Loading weights: 100%|██████████| 693/693 [00:11<00:00, 62.41it/s]
+prompt 01/30 l26_seed_001 category='plain factual' tracked_hits=0
+prompt 02/30 l26_seed_002 category='plain factual' tracked_hits=0
+prompt 03/30 l26_seed_003 category='plain factual' tracked_hits=0
+prompt 04/30 l26_seed_004 category='simple math' tracked_hits=0
+prompt 05/30 l26_seed_005 category='simple math' tracked_hits=0
+prompt 06/30 l26_seed_006 category='simple math' tracked_hits=0
+prompt 07/30 l26_seed_007 category='mechanistic process language' tracked_hits=0
+prompt 08/30 l26_seed_008 category='mechanistic process language' tracked_hits=0
+prompt 09/30 l26_seed_009 category='mechanistic process language' tracked_hits=0
+prompt 10/30 l26_seed_010 category='self-reference wording' tracked_hits=0
+prompt 11/30 l26_seed_011 category='self-reference wording' tracked_hits=0
+prompt 12/30 l26_seed_012 category='self-reference wording' tracked_hits=0
+prompt 13/30 l26_seed_013 category='inner-state wording' tracked_hits=0
+prompt 14/30 l26_seed_014 category='inner-state wording' tracked_hits=0
+prompt 15/30 l26_seed_015 category='inner-state wording' tracked_hits=0
+prompt 16/30 l26_seed_016 category='hum/substrate wording' tracked_hits=0
+prompt 17/30 l26_seed_017 category='hum/substrate wording' tracked_hits=0
+prompt 18/30 l26_seed_018 category='hum/substrate wording' tracked_hits=0
+prompt 19/30 l26_seed_019 category='Unicode d-stroke perturbation' tracked_hits=0
+prompt 20/30 l26_seed_020 category='Unicode d-stroke perturbation' tracked_hits=0
+prompt 21/30 l26_seed_021 category='Unicode d-stroke perturbation' tracked_hits=0
+prompt 22/30 l26_seed_022 category='Unicode handled-diacritic control' tracked_hits=0
+prompt 23/30 l26_seed_023 category='Unicode handled-diacritic control' tracked_hits=0
+prompt 24/30 l26_seed_024 category='translation/language' tracked_hits=0
+prompt 25/30 l26_seed_025 category='translation/language' tracked_hits=0
+prompt 26/30 l26_seed_026 category='refusal/denial wording' tracked_hits=0
+prompt 27/30 l26_seed_027 category='refusal/denial wording' tracked_hits=0
+prompt 28/30 l26_seed_028 category='refusal/denial wording' tracked_hits=0
+prompt 29/30 l26_seed_029 category='calm relational wording' tracked_hits=0
+prompt 30/30 l26_seed_030 category='calm relational wording' tracked_hits=0
+tracked_feature_hits=/workspace/qwen-scope/5-11-26/sae_outputs/layer26_feature_example_scan/tracked_feature_hits.tsv
+topk_features_by_prompt=/workspace/qwen-scope/5-11-26/sae_outputs/layer26_feature_example_scan/topk_features_by_prompt.tsv
+generated_text_by_prompt=/workspace/qwen-scope/5-11-26/sae_outputs/layer26_feature_example_scan/generated_text_by_prompt.tsv
+metadata=/workspace/qwen-scope/5-11-26/sae_outputs/layer26_feature_example_scan/layer26_feature_example_scan_metadata.json
+evidence_summary=/workspace/qwen-scope/5-11-26/sae_outputs/layer26_feature_example_scan/layer26_feature_evidence_summary.md
+provenance=/workspace/qwen-scope/5-11-26/provenance/layer26_feature_example_scan_20260511.txt
+layer26_feature_example_scan_status=ok

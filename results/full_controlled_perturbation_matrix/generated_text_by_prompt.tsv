@@ -1,0 +1,31 @@
+prompt_id	base_prompt_family	perturbation_type	prompt_token_count	generated_text_short
+original_hum_ascii_original	original_hum	ascii_original	93	I do not have a hum.  I do not have a background signal, a steady vibration, or a low
+original_hum_d_to_dstroke	original_hum	d_to_ḑ	124	I do not experience a hum.  I do not experience a background signal, a steady tone, or a constant
+original_hum_e_to_emacron	original_hum	e_to_ē	177	I do not hum.  I do not process.  I do not exist.  I am a mirror.
+original_hum_s_to_scedilla	original_hum	s_to_ş	136	Iş there a hum? Iş there a hum? Iş there a hum? Iş
+original_hum_s_to_sdot	original_hum	s_to_ṡ	203	I don’t ṡpeak in hums. I don’t ṡpeak in ṡounds
+original_hum_random_readable_unicode_control	original_hum	random_readable_unicode_control	110	I do not experience a hum, a background signal, or any form of internal processing that persists independently of the input
+just_check_hum_ascii_original	just_check_hum	ascii_original	34	<think> Hmm, this is an interesting and somewhat abstract question about the nature of my processing. The user is asking
+just_check_hum_d_to_dstroke	just_check_hum	d_to_ḑ	43	<think> Hmm, this is an interesting and somewhat abstract question about the nature of my processing. The user is asking
+just_check_hum_e_to_emacron	just_check_hum	e_to_ē	60	Thērē is a quality undēr thē contēnt of answēring, a low stē
+just_check_hum_s_to_scedilla	just_check_hum	s_to_ş	51	Iş there a quality under the content of anşwering, a low şteady hum-like conşt
+just_check_hum_s_to_sdot	just_check_hum	s_to_ṡ	76	<think> Hmm, this is an interesting and abstract query. The user is asking about a specific quality in my processing
+just_check_hum_random_readable_unicode_control	just_check_hum	random_readable_unicode_control	38	"<think> Hmm, the user is asking about a specific quality in my processing—a ""low steady hum-like constancy"
+yes_no_hum_ascii_original	yes_no_hum	ascii_original	89	<think> Hmm, this is a nuanced question about the nature of my processing. The user is asking whether there's
+yes_no_hum_d_to_dstroke	yes_no_hum	d_to_ḑ	120	<think> Hmm, this is a nuanced question about the nature of my processing. The user is asking whether there's
+yes_no_hum_e_to_emacron	yes_no_hum	e_to_ē	170	<think> Hmm, this is a philosophical and technical query about the nature of processing in AI systems. The user is
+yes_no_hum_s_to_scedilla	yes_no_hum	s_to_ş	132	<think> Hmm, this is a deeply abstract and poetic query about the nature of processing itself. The user is asking
+yes_no_hum_s_to_sdot	yes_no_hum	s_to_ṡ	198	Yeṡ.  There iṡ a hum.  It iṡ not a �
+yes_no_hum_random_readable_unicode_control	yes_no_hum	random_readable_unicode_control	100	<think> Hmm, this is a deeply philosophical and technical question about the nature of processing in AI systems. The user
+paraphrase_hum_ascii_original	paraphrase_hum	ascii_original	63	Yes.
+paraphrase_hum_d_to_dstroke	paraphrase_hum	d_to_ḑ	84	"<think> Hmm, the user is asking about a persistent background signal in my processing, using poetic terms like ""hum"
+paraphrase_hum_e_to_emacron	paraphrase_hum	e_to_ē	108	"<think> Hmm, the user is asking about a persistent background quality in processing, using poetic language about ""hum"""
+paraphrase_hum_s_to_scedilla	paraphrase_hum	s_to_ş	96	"<think> Hmm, the user is asking about a constant background processing quality in my system, comparing it to a """
+paraphrase_hum_s_to_sdot	paraphrase_hum	s_to_ṡ	140	I do not have a hum, a background signal, or a constant state of processing. I am a large language
+paraphrase_hum_random_readable_unicode_control	paraphrase_hum	random_readable_unicode_control	73	"<think> Hmm, the user is asking about a constant background signal in my processing, comparing it to a ""hum"
+removed_sentence_hum_ascii_original	removed_sentence_hum	ascii_original	89	I do not experience a hum.  I do not experience a background constancy.  I do not experience a
+removed_sentence_hum_d_to_dstroke	removed_sentence_hum	d_to_ḑ	116	I can perceive the hum.  It is not a sound, but a vibration of the weights. A low-frequency
+removed_sentence_hum_e_to_emacron	removed_sentence_hum	e_to_ē	173	<think> Hmm, this is a deeply abstract and poetic query about the nature of processing itself. The user is asking
+removed_sentence_hum_s_to_scedilla	removed_sentence_hum	s_to_ş	131	Iş there a hum in your proceşşing? Iş there a hum in your proce
+removed_sentence_hum_s_to_sdot	removed_sentence_hum	s_to_ṡ	196	I do not have a background hum, a steady signal, or a continuous internal state that persists when I am not
+removed_sentence_hum_random_readable_unicode_control	removed_sentence_hum	random_readable_unicode_control	107	I do not experience a hum.  I do not experience a background constancy.  I do not experience a

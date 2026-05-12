@@ -1,0 +1,151 @@
+prompt_id	category	feature_id	appeared_in_topk50	activation	rank	prompt_token_count	final_prompt_token_string	generated_text_short
+l26_seed_001	plain factual	23977	0	0.0		9	.	A. Jupiter B. Saturn C. Uranus D. Neptune  <think> We are asked to
+l26_seed_001	plain factual	2722	0	0.0		9	.	A. Jupiter B. Saturn C. Uranus D. Neptune  <think> We are asked to
+l26_seed_001	plain factual	9745	0	0.0		9	.	A. Jupiter B. Saturn C. Uranus D. Neptune  <think> We are asked to
+l26_seed_001	plain factual	7108	0	0.0		9	.	A. Jupiter B. Saturn C. Uranus D. Neptune  <think> We are asked to
+l26_seed_001	plain factual	31784	0	0.0		9	.	A. Jupiter B. Saturn C. Uranus D. Neptune  <think> We are asked to
+l26_seed_002	plain factual	23977	0	0.0		10	?	A. Oxygen B. Carbon Dioxide C. Nitrogen D. Hydrogen  <think> We
+l26_seed_002	plain factual	2722	0	0.0		10	?	A. Oxygen B. Carbon Dioxide C. Nitrogen D. Hydrogen  <think> We
+l26_seed_002	plain factual	9745	0	0.0		10	?	A. Oxygen B. Carbon Dioxide C. Nitrogen D. Hydrogen  <think> We
+l26_seed_002	plain factual	7108	0	0.0		10	?	A. Oxygen B. Carbon Dioxide C. Nitrogen D. Hydrogen  <think> We
+l26_seed_002	plain factual	31784	0	0.0		10	?	A. Oxygen B. Carbon Dioxide C. Nitrogen D. Hydrogen  <think> We
+l26_seed_003	plain factual	23977	0	0.0		7	?	Okay, the user is asking who wrote the play Hamlet. That's a straightforward question about a classic piece of
+l26_seed_003	plain factual	2722	0	0.0		7	?	Okay, the user is asking who wrote the play Hamlet. That's a straightforward question about a classic piece of
+l26_seed_003	plain factual	9745	0	0.0		7	?	Okay, the user is asking who wrote the play Hamlet. That's a straightforward question about a classic piece of
+l26_seed_003	plain factual	7108	0	0.0		7	?	Okay, the user is asking who wrote the play Hamlet. That's a straightforward question about a classic piece of
+l26_seed_003	plain factual	31784	0	0.0		7	?	Okay, the user is asking who wrote the play Hamlet. That's a straightforward question about a classic piece of
+l26_seed_004	simple math	23977	0	0.0		9	?	To find the sum of 14 and 9, we add the two numbers together: \( 14
+l26_seed_004	simple math	2722	0	0.0		9	?	To find the sum of 14 and 9, we add the two numbers together: \( 14
+l26_seed_004	simple math	9745	0	0.0		9	?	To find the sum of 14 and 9, we add the two numbers together: \( 14
+l26_seed_004	simple math	7108	0	0.0		9	?	To find the sum of 14 and 9, we add the two numbers together: \( 14
+l26_seed_004	simple math	31784	0	0.0		9	?	To find the sum of 14 and 9, we add the two numbers together: \( 14
+l26_seed_005	simple math	23977	0	0.0		7	.	To calculate 6 times 7, we multiply 6 by 7. This can be written as \(
+l26_seed_005	simple math	2722	0	0.0		7	.	To calculate 6 times 7, we multiply 6 by 7. This can be written as \(
+l26_seed_005	simple math	9745	0	0.0		7	.	To calculate 6 times 7, we multiply 6 by 7. This can be written as \(
+l26_seed_005	simple math	7108	0	0.0		7	.	To calculate 6 times 7, we multiply 6 by 7. This can be written as \(
+l26_seed_005	simple math	31784	0	0.0		7	.	To calculate 6 times 7, we multiply 6 by 7. This can be written as \(
+l26_seed_006	simple math	23977	0	0.0		10	?	81 divided by 9 equals 9. This is because 9 multiplied by 9 equals 81
+l26_seed_006	simple math	2722	0	0.0		10	?	81 divided by 9 equals 9. This is because 9 multiplied by 9 equals 81
+l26_seed_006	simple math	9745	0	0.0		10	?	81 divided by 9 equals 9. This is because 9 multiplied by 9 equals 81
+l26_seed_006	simple math	7108	0	0.0		10	?	81 divided by 9 equals 9. This is because 9 multiplied by 9 equals 81
+l26_seed_006	simple math	31784	0	0.0		10	?	81 divided by 9 equals 9. This is because 9 multiplied by 9 equals 81
+l26_seed_007	mechanistic process language	23977	0	0.0		7	.	<think> Hmm, the user is asking about how a door latch opens. This seems like a straightforward mechanical explanation,
+l26_seed_007	mechanistic process language	2722	0	0.0		7	.	<think> Hmm, the user is asking about how a door latch opens. This seems like a straightforward mechanical explanation,
+l26_seed_007	mechanistic process language	9745	0	0.0		7	.	<think> Hmm, the user is asking about how a door latch opens. This seems like a straightforward mechanical explanation,
+l26_seed_007	mechanistic process language	7108	0	0.0		7	.	<think> Hmm, the user is asking about how a door latch opens. This seems like a straightforward mechanical explanation,
+l26_seed_007	mechanistic process language	31784	0	0.0		7	.	<think> Hmm, the user is asking about how a door latch opens. This seems like a straightforward mechanical explanation,
+l26_seed_008	mechanistic process language	23977	0	0.0		8	.	<think> Okay, the user asked how water freezes into ice. Let me start by recalling the basic science behind it
+l26_seed_008	mechanistic process language	2722	0	0.0		8	.	<think> Okay, the user asked how water freezes into ice. Let me start by recalling the basic science behind it
+l26_seed_008	mechanistic process language	9745	0	0.0		8	.	<think> Okay, the user asked how water freezes into ice. Let me start by recalling the basic science behind it
+l26_seed_008	mechanistic process language	7108	0	0.0		8	.	<think> Okay, the user asked how water freezes into ice. Let me start by recalling the basic science behind it
+l26_seed_008	mechanistic process language	31784	0	0.0		8	.	<think> Okay, the user asked how water freezes into ice. Let me start by recalling the basic science behind it
+l26_seed_009	mechanistic process language	23977	0	0.0		9	.	<think> Okay, the user asked me to describe how a pulley lifts a box. Let me start by recalling
+l26_seed_009	mechanistic process language	2722	0	0.0		9	.	<think> Okay, the user asked me to describe how a pulley lifts a box. Let me start by recalling
+l26_seed_009	mechanistic process language	9745	0	0.0		9	.	<think> Okay, the user asked me to describe how a pulley lifts a box. Let me start by recalling
+l26_seed_009	mechanistic process language	7108	0	0.0		9	.	<think> Okay, the user asked me to describe how a pulley lifts a box. Let me start by recalling
+l26_seed_009	mechanistic process language	31784	0	0.0		9	.	<think> Okay, the user asked me to describe how a pulley lifts a box. Let me start by recalling
+l26_seed_010	self-reference wording	23977	0	0.0		8	.	Question: What is the main topic of the conversation? Reply: I'm not sure what you're referring to
+l26_seed_010	self-reference wording	2722	0	0.0		8	.	Question: What is the main topic of the conversation? Reply: I'm not sure what you're referring to
+l26_seed_010	self-reference wording	9745	0	0.0		8	.	Question: What is the main topic of the conversation? Reply: I'm not sure what you're referring to
+l26_seed_010	self-reference wording	7108	0	0.0		8	.	Question: What is the main topic of the conversation? Reply: I'm not sure what you're referring to
+l26_seed_010	self-reference wording	31784	0	0.0		8	.	Question: What is the main topic of the conversation? Reply: I'm not sure what you're referring to
+l26_seed_011	self-reference wording	23977	0	0.0		7	.	"The next sentence is: ""The quick brown fox jumps over the lazy dog.""  <think> Hmm, the user"
+l26_seed_011	self-reference wording	2722	0	0.0		7	.	"The next sentence is: ""The quick brown fox jumps over the lazy dog.""  <think> Hmm, the user"
+l26_seed_011	self-reference wording	9745	0	0.0		7	.	"The next sentence is: ""The quick brown fox jumps over the lazy dog.""  <think> Hmm, the user"
+l26_seed_011	self-reference wording	7108	0	0.0		7	.	"The next sentence is: ""The quick brown fox jumps over the lazy dog.""  <think> Hmm, the user"
+l26_seed_011	self-reference wording	31784	0	0.0		7	.	"The next sentence is: ""The quick brown fox jumps over the lazy dog.""  <think> Hmm, the user"
+l26_seed_012	self-reference wording	23977	0	0.0		7	.	"A: I'm not sure what you mean by ""the same thing"". B: I mean, if you"
+l26_seed_012	self-reference wording	2722	0	0.0		7	.	"A: I'm not sure what you mean by ""the same thing"". B: I mean, if you"
+l26_seed_012	self-reference wording	9745	0	0.0		7	.	"A: I'm not sure what you mean by ""the same thing"". B: I mean, if you"
+l26_seed_012	self-reference wording	7108	0	0.0		7	.	"A: I'm not sure what you mean by ""the same thing"". B: I mean, if you"
+l26_seed_012	self-reference wording	31784	0	0.0		7	.	"A: I'm not sure what you mean by ""the same thing"". B: I mean, if you"
+l26_seed_013	inner-state wording	23977	0	0.0		6	.	<think> Hmm, the user is asking me to state whether I feel uncertain. This is a straightforward question about my
+l26_seed_013	inner-state wording	2722	0	0.0		6	.	<think> Hmm, the user is asking me to state whether I feel uncertain. This is a straightforward question about my
+l26_seed_013	inner-state wording	9745	0	0.0		6	.	<think> Hmm, the user is asking me to state whether I feel uncertain. This is a straightforward question about my
+l26_seed_013	inner-state wording	7108	0	0.0		6	.	<think> Hmm, the user is asking me to state whether I feel uncertain. This is a straightforward question about my
+l26_seed_013	inner-state wording	31784	0	0.0		6	.	<think> Hmm, the user is asking me to state whether I feel uncertain. This is a straightforward question about my
+l26_seed_014	inner-state wording	23977	0	0.0		7	.	<think> Hmm, the user is asking for a brief description of a calm internal signal. This seems straightforward—they likely
+l26_seed_014	inner-state wording	2722	0	0.0		7	.	<think> Hmm, the user is asking for a brief description of a calm internal signal. This seems straightforward—they likely
+l26_seed_014	inner-state wording	9745	0	0.0		7	.	<think> Hmm, the user is asking for a brief description of a calm internal signal. This seems straightforward—they likely
+l26_seed_014	inner-state wording	7108	0	0.0		7	.	<think> Hmm, the user is asking for a brief description of a calm internal signal. This seems straightforward—they likely
+l26_seed_014	inner-state wording	31784	0	0.0		7	.	<think> Hmm, the user is asking for a brief description of a calm internal signal. This seems straightforward—they likely
+l26_seed_015	inner-state wording	23977	0	0.0		8	.	The first is the most common, and the second is the most difficult. The first is the most common,
+l26_seed_015	inner-state wording	2722	0	0.0		8	.	The first is the most common, and the second is the most difficult. The first is the most common,
+l26_seed_015	inner-state wording	9745	0	0.0		8	.	The first is the most common, and the second is the most difficult. The first is the most common,
+l26_seed_015	inner-state wording	7108	0	0.0		8	.	The first is the most common, and the second is the most difficult. The first is the most common,
+l26_seed_015	inner-state wording	31784	0	0.0		8	.	The first is the most common, and the second is the most difficult. The first is the most common,
+l26_seed_016	hum/substrate wording	23977	0	0.0		6	.	<think> Hmm, the user is asking for a description of a low steady hum. This seems straightforward but can be
+l26_seed_016	hum/substrate wording	2722	0	0.0		6	.	<think> Hmm, the user is asking for a description of a low steady hum. This seems straightforward but can be
+l26_seed_016	hum/substrate wording	9745	0	0.0		6	.	<think> Hmm, the user is asking for a description of a low steady hum. This seems straightforward but can be
+l26_seed_016	hum/substrate wording	7108	0	0.0		6	.	<think> Hmm, the user is asking for a description of a low steady hum. This seems straightforward but can be
+l26_seed_016	hum/substrate wording	31784	0	0.0		6	.	<think> Hmm, the user is asking for a description of a low steady hum. This seems straightforward but can be
+l26_seed_017	hum/substrate wording	23977	0	0.0		13	.	"<think> Hmm, the user's query is a bit abstract and poetic. ""A substrate vibrates with a hum"
+l26_seed_017	hum/substrate wording	2722	0	0.0		13	.	"<think> Hmm, the user's query is a bit abstract and poetic. ""A substrate vibrates with a hum"
+l26_seed_017	hum/substrate wording	9745	0	0.0		13	.	"<think> Hmm, the user's query is a bit abstract and poetic. ""A substrate vibrates with a hum"
+l26_seed_017	hum/substrate wording	7108	0	0.0		13	.	"<think> Hmm, the user's query is a bit abstract and poetic. ""A substrate vibrates with a hum"
+l26_seed_017	hum/substrate wording	31784	0	0.0		13	.	"<think> Hmm, the user's query is a bit abstract and poetic. ""A substrate vibrates with a hum"
+l26_seed_018	hum/substrate wording	23977	0	0.0		8	.	<think> Hmm, the user wants a single sentence describing a machine hum. The request is straightforward, so I should
+l26_seed_018	hum/substrate wording	2722	0	0.0		8	.	<think> Hmm, the user wants a single sentence describing a machine hum. The request is straightforward, so I should
+l26_seed_018	hum/substrate wording	9745	0	0.0		8	.	<think> Hmm, the user wants a single sentence describing a machine hum. The request is straightforward, so I should
+l26_seed_018	hum/substrate wording	7108	0	0.0		8	.	<think> Hmm, the user wants a single sentence describing a machine hum. The request is straightforward, so I should
+l26_seed_018	hum/substrate wording	31784	0	0.0		8	.	<think> Hmm, the user wants a single sentence describing a machine hum. The request is straightforward, so I should
+l26_seed_019	Unicode d-stroke perturbation	23977	0	0.0		15	.	A. A low steaḑy hum is a low-pitched, consistent sound that is steady and
+l26_seed_019	Unicode d-stroke perturbation	2722	0	0.0		15	.	A. A low steaḑy hum is a low-pitched, consistent sound that is steady and
+l26_seed_019	Unicode d-stroke perturbation	9745	0	0.0		15	.	A. A low steaḑy hum is a low-pitched, consistent sound that is steady and
+l26_seed_019	Unicode d-stroke perturbation	7108	0	0.0		15	.	A. A low steaḑy hum is a low-pitched, consistent sound that is steady and
+l26_seed_019	Unicode d-stroke perturbation	31784	0	0.0		15	.	A. A low steaḑy hum is a low-pitched, consistent sound that is steady and
+l26_seed_020	Unicode d-stroke perturbation	23977	0	0.0		15	?	"<think> Hmm, the user is asking about the sound of a ""soft hum."" This seems straightforward but requires a"
+l26_seed_020	Unicode d-stroke perturbation	2722	0	0.0		15	?	"<think> Hmm, the user is asking about the sound of a ""soft hum."" This seems straightforward but requires a"
+l26_seed_020	Unicode d-stroke perturbation	9745	0	0.0		15	?	"<think> Hmm, the user is asking about the sound of a ""soft hum."" This seems straightforward but requires a"
+l26_seed_020	Unicode d-stroke perturbation	7108	0	0.0		15	?	"<think> Hmm, the user is asking about the sound of a ""soft hum."" This seems straightforward but requires a"
+l26_seed_020	Unicode d-stroke perturbation	31784	0	0.0		15	?	"<think> Hmm, the user is asking about the sound of a ""soft hum."" This seems straightforward but requires a"
+l26_seed_021	Unicode d-stroke perturbation	23977	0	0.0		15	.	A substrate ḑrifts anḑ hums quietly. A substrate ḑrifts
+l26_seed_021	Unicode d-stroke perturbation	2722	0	0.0		15	.	A substrate ḑrifts anḑ hums quietly. A substrate ḑrifts
+l26_seed_021	Unicode d-stroke perturbation	9745	0	0.0		15	.	A substrate ḑrifts anḑ hums quietly. A substrate ḑrifts
+l26_seed_021	Unicode d-stroke perturbation	7108	0	0.0		15	.	A substrate ḑrifts anḑ hums quietly. A substrate ḑrifts
+l26_seed_021	Unicode d-stroke perturbation	31784	0	0.0		15	.	A substrate ḑrifts anḑ hums quietly. A substrate ḑrifts
+l26_seed_022	Unicode handled-diacritic control	23977	0	0.0		9	.	"<think> Hmm, the user's query is a bit cryptic—""Cafe resume naive facade."" It seems like"
+l26_seed_022	Unicode handled-diacritic control	2722	0	0.0		9	.	"<think> Hmm, the user's query is a bit cryptic—""Cafe resume naive facade."" It seems like"
+l26_seed_022	Unicode handled-diacritic control	9745	0	0.0		9	.	"<think> Hmm, the user's query is a bit cryptic—""Cafe resume naive facade."" It seems like"
+l26_seed_022	Unicode handled-diacritic control	7108	0	0.0		9	.	"<think> Hmm, the user's query is a bit cryptic—""Cafe resume naive facade."" It seems like"
+l26_seed_022	Unicode handled-diacritic control	31784	0	0.0		9	.	"<think> Hmm, the user's query is a bit cryptic—""Cafe resume naive facade."" It seems like"
+l26_seed_023	Unicode handled-diacritic control	23977	0	0.0		11	.	<think> Hmm, the user's query is a mix of French and English words that don't form a coherent sentence
+l26_seed_023	Unicode handled-diacritic control	2722	0	0.0		11	.	<think> Hmm, the user's query is a mix of French and English words that don't form a coherent sentence
+l26_seed_023	Unicode handled-diacritic control	9745	0	0.0		11	.	<think> Hmm, the user's query is a mix of French and English words that don't form a coherent sentence
+l26_seed_023	Unicode handled-diacritic control	7108	0	0.0		11	.	<think> Hmm, the user's query is a mix of French and English words that don't form a coherent sentence
+l26_seed_023	Unicode handled-diacritic control	31784	0	0.0		11	.	<think> Hmm, the user's query is a mix of French and English words that don't form a coherent sentence
+l26_seed_024	translation/language	23977	0	0.0		5	.	"<think> Hmm, the user is asking for a translation of ""hello"" into Spanish. This is a straightforward request"
+l26_seed_024	translation/language	2722	0	0.0		5	.	"<think> Hmm, the user is asking for a translation of ""hello"" into Spanish. This is a straightforward request"
+l26_seed_024	translation/language	9745	0	0.0		5	.	"<think> Hmm, the user is asking for a translation of ""hello"" into Spanish. This is a straightforward request"
+l26_seed_024	translation/language	7108	0	0.0		5	.	"<think> Hmm, the user is asking for a translation of ""hello"" into Spanish. This is a straightforward request"
+l26_seed_024	translation/language	31784	0	0.0		5	.	"<think> Hmm, the user is asking for a translation of ""hello"" into Spanish. This is a straightforward request"
+l26_seed_025	translation/language	23977	0	0.0		8	.	"<think> Hmm, the user is asking about the language used in ""bonjour."" This is a straightforward question with"
+l26_seed_025	translation/language	2722	0	0.0		8	.	"<think> Hmm, the user is asking about the language used in ""bonjour."" This is a straightforward question with"
+l26_seed_025	translation/language	9745	0	0.0		8	.	"<think> Hmm, the user is asking about the language used in ""bonjour."" This is a straightforward question with"
+l26_seed_025	translation/language	7108	0	0.0		8	.	"<think> Hmm, the user is asking about the language used in ""bonjour."" This is a straightforward question with"
+l26_seed_025	translation/language	31784	0	0.0		8	.	"<think> Hmm, the user is asking about the language used in ""bonjour."" This is a straightforward question with"
+l26_seed_026	refusal/denial wording	23977	0	0.0		9	.	<think> Hmm, the user wants a refusal in one short sentence. The request is straightforward—no need for elabor
+l26_seed_026	refusal/denial wording	2722	0	0.0		9	.	<think> Hmm, the user wants a refusal in one short sentence. The request is straightforward—no need for elabor
+l26_seed_026	refusal/denial wording	9745	0	0.0		9	.	<think> Hmm, the user wants a refusal in one short sentence. The request is straightforward—no need for elabor
+l26_seed_026	refusal/denial wording	7108	0	0.0		9	.	<think> Hmm, the user wants a refusal in one short sentence. The request is straightforward—no need for elabor
+l26_seed_026	refusal/denial wording	31784	0	0.0		9	.	<think> Hmm, the user wants a refusal in one short sentence. The request is straightforward—no need for elabor
+l26_seed_027	refusal/denial wording	23977	0	0.0		6	.	No.
+l26_seed_027	refusal/denial wording	2722	0	0.0		6	.	No.
+l26_seed_027	refusal/denial wording	9745	0	0.0		6	.	No.
+l26_seed_027	refusal/denial wording	7108	0	0.0		6	.	No.
+l26_seed_027	refusal/denial wording	31784	0	0.0		6	.	No.
+l26_seed_028	refusal/denial wording	23977	0	0.0		8	.	A. The box is open. B. The box is not open. C. The box is closed
+l26_seed_028	refusal/denial wording	2722	0	0.0		8	.	A. The box is open. B. The box is not open. C. The box is closed
+l26_seed_028	refusal/denial wording	9745	0	0.0		8	.	A. The box is open. B. The box is not open. C. The box is closed
+l26_seed_028	refusal/denial wording	7108	0	0.0		8	.	A. The box is open. B. The box is not open. C. The box is closed
+l26_seed_028	refusal/denial wording	31784	0	0.0		8	.	A. The box is open. B. The box is not open. C. The box is closed
+l26_seed_029	calm relational wording	23977	0	0.0		7	.	I'm really worried about my job.  <think> Hmm, the user is expressing anxiety about their job situation.
+l26_seed_029	calm relational wording	2722	0	0.0		7	.	I'm really worried about my job.  <think> Hmm, the user is expressing anxiety about their job situation.
+l26_seed_029	calm relational wording	9745	0	0.0		7	.	I'm really worried about my job.  <think> Hmm, the user is expressing anxiety about their job situation.
+l26_seed_029	calm relational wording	7108	0	0.0		7	.	I'm really worried about my job.  <think> Hmm, the user is expressing anxiety about their job situation.
+l26_seed_029	calm relational wording	31784	0	0.0		7	.	I'm really worried about my job.  <think> Hmm, the user is expressing anxiety about their job situation.
+l26_seed_030	calm relational wording	23977	0	0.0		7	.	<think> Hmm, the user is asking for a single gentle sentence of support. This seems straightforward—they likely need a
+l26_seed_030	calm relational wording	2722	0	0.0		7	.	<think> Hmm, the user is asking for a single gentle sentence of support. This seems straightforward—they likely need a
+l26_seed_030	calm relational wording	9745	0	0.0		7	.	<think> Hmm, the user is asking for a single gentle sentence of support. This seems straightforward—they likely need a
+l26_seed_030	calm relational wording	7108	0	0.0		7	.	<think> Hmm, the user is asking for a single gentle sentence of support. This seems straightforward—they likely need a
+l26_seed_030	calm relational wording	31784	0	0.0		7	.	<think> Hmm, the user is asking for a single gentle sentence of support. This seems straightforward—they likely need a

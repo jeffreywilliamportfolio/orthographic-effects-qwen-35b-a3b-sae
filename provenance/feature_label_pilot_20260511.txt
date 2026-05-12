@@ -1,0 +1,13 @@
+feature_label_pilot=20260511
+generated_utc=2026-05-11T20:18:10.605853Z
+active_instance_id=36563002
+workspace=/workspace/qwen-scope/5-11-26
+delta_source=/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/feature_delta_topk50.tsv
+top_feature_source=/workspace/qwen-scope/5-11-26/smoke-runs/migration_validation_2x96gb/sae_outputs/top_features_by_condition.tsv
+evidence_tsv=/workspace/qwen-scope/5-11-26/sae_outputs/feature_label_pilot/feature_label_pilot_evidence.tsv
+notes_md=/workspace/qwen-scope/5-11-26/sae_outputs/feature_label_pilot/feature_label_pilot_notes.md
+layers=14,26
+layer_14_features=9030,30172,12433,3291,28025
+layer_26_features=23977,7108,2722,9745,31784
+method=existing_two_prompt_topk50_tables_only; evidence statements only; no semantic labels
+stop_condition=no steering; no full experiment; no Hauhau; no llama.cpp

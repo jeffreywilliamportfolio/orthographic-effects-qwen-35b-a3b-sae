@@ -1,0 +1,8 @@
+old_instance_id=36555651
+destroyed_utc=2026-05-11T20:16:37Z
+reason=old stopped storage no longer needed after migration verification
+archive_manifest_path=/workspace/qwen-scope/5-11-26/smoke-runs/pre_migration_2x5090/artifacts/old_instance_archive_manifest.tsv
+active_instance_id=36563002
+active_workspace=/workspace/qwen-scope/5-11-26
+destroy_verification=old instance absent from Vast show instances after destroy command
+archive_manifest_rows=33
