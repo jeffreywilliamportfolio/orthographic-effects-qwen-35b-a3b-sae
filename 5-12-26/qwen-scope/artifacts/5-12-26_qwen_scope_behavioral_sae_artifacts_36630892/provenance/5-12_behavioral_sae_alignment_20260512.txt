@@ -1,0 +1,17 @@
+timestamp=2026-05-12T18:30:58Z
+instance_id=36630892
+workspace_root=/workspace/qwen-scope/5-12-26
+model_path=/workspace/qwen-scope/5-12-26/models/Qwen3.5-35B-A3B-Base
+SAE_path=/workspace/qwen-scope/5-12-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50
+prompt_matrix_path=/workspace/qwen-scope/5-12-26/prompts/hum_behavioral_perturbation_matrix.tsv
+rubric_path=/workspace/qwen-scope/5-12-26/prompts/behavioral_output_class_rubric.tsv
+scripts_created=/workspace/qwen-scope/5-12-26/scripts/run_qwen_hum_behavioral_matrix.py; /workspace/qwen-scope/5-12-26/scripts/run_qwen_hum_sae_alignment.py; /workspace/qwen-scope/5-12-26/scripts/build_5_12_alignment_outputs.py
+outputs_written=/workspace/qwen-scope/5-12-26/provenance/5-11_frozen_findings_summary.md; /workspace/qwen-scope/5-12-26/prompts/behavioral_output_class_rubric.tsv; /workspace/qwen-scope/5-12-26/prompts/hum_behavioral_perturbation_matrix.tsv; /workspace/qwen-scope/5-12-26/behavioral_outputs/qwen_hum_behavioral_outputs.tsv; /workspace/qwen-scope/5-12-26/behavioral_outputs/qwen_hum_behavioral_metadata.json; /workspace/qwen-scope/5-12-26/sae_outputs/hum_behavioral_sae_alignment/topk_features_by_prompt_layer_position.tsv; /workspace/qwen-scope/5-12-26/sae_outputs/hum_behavioral_sae_alignment/perturbation_delta_vs_ascii.tsv; /workspace/qwen-scope/5-12-26/sae_outputs/hum_behavioral_sae_alignment/topk_jaccard_vs_ascii.tsv; /workspace/qwen-scope/5-12-26/sae_outputs/hum_behavioral_sae_alignment/hum_behavioral_sae_alignment_metadata.json; /workspace/qwen-scope/5-12-26/outputs/behavioral_sae_alignment_summary.tsv; /workspace/qwen-scope/5-12-26/outputs/behavioral_sae_alignment_summary.md; /workspace/qwen-scope/5-12-26/behavioral_outputs/cross_model_behavioral_observations.tsv; /workspace/qwen-scope/5-12-26/outputs/5-12_behavioral_sae_alignment_memo.md
+layers_used=26 primary; 14 comparison
+capture_positions_used=final_prompt_token, final_prompt_token_minus_1, final_prompt_token_minus_5, final_prompt_token_minus_10
+perturbation_types_used=ascii_original, d_to_ḑ, e_to_ē, d_plus_e, s_to_ş, s_to_ṡ, all_diacritics
+selected_layer_hooks_used=true
+model_device_map=single_gpu_cuda0
+device_map_note=device_map=auto produced NaN hidden states on this fresh instance during diagnostics; single GPU cuda:0 produced finite layer 14 and layer 26 hidden states and fit in VRAM
+confirmation=no steering, no Hauhau, no llama.cpp, no all-layer expansion, no all-hidden-state request, and no semantic SAE feature labels were used
+summary_rows=7

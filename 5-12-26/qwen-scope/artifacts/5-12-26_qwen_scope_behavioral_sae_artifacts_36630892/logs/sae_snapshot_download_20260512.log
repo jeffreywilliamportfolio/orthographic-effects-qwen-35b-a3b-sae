@@ -1,0 +1,2 @@
+SAE_DOWNLOAD_START repo=Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50 local_dir=/workspace/qwen-scope/5-12-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50 timestamp_utc=2026-05-12T17:48:56Z
+SAE_DOWNLOAD_DONE repo=Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50 snapshot_path=/workspace/qwen-scope/5-12-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50 timestamp_utc=2026-05-12T17:52:21Z

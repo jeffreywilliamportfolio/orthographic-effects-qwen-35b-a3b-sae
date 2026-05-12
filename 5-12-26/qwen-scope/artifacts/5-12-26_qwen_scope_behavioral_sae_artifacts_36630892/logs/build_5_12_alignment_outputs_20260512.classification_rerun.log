@@ -1,0 +1,4 @@
+summary_tsv=/workspace/qwen-scope/5-12-26/outputs/behavioral_sae_alignment_summary.tsv
+summary_rows=7
+memo=/workspace/qwen-scope/5-12-26/outputs/5-12_behavioral_sae_alignment_memo.md
+provenance=/workspace/qwen-scope/5-12-26/provenance/5-12_behavioral_sae_alignment_20260512.txt

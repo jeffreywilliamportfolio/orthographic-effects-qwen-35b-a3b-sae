@@ -1,0 +1,30 @@
+timestamp_utc=2026-05-12T18:37:16Z
+archive=5-12-26/qwen-scope/artifacts/5-12-26_qwen_scope_behavioral_sae_artifacts_36630892.tar.gz
+archive_sha256=d005201a95e553d29dd591ac6a0189a623c1a09558a2fdcbdd31e01b45c2029f
+archive_size_bytes=203648
+extracted_dir=5-12-26/qwen-scope/artifacts/5-12-26_qwen_scope_behavioral_sae_artifacts_36630892
+extracted_file_count=42
+
+included_remote_paths=prompts; scripts; outputs; behavioral_outputs; sae_outputs; provenance; manifests; logs
+excluded_remote_paths=models; saes; .hf_home; .venv; .env.hf; .offload
+
+secret_file_scan=no .env, token, secret, key, or private-key files found in extracted artifact tree
+secret_pattern_scan=no HF token, Hugging Face token env var, Vast API key, private-key, or api-key assignment pattern found
+weight_file_scan=no .safetensors, .pt, .gguf, .bin, models path, saes path, .venv path, .hf_home path, or .offload path found
+
+required_output_behavioral_sae_alignment_summary_tsv=present
+required_output_behavioral_sae_alignment_summary_md=present
+required_output_5_12_behavioral_sae_alignment_memo_md=present
+required_output_5_12_behavioral_sae_alignment_20260512_txt=present
+
+topk_row_count=2800
+summary_row_count=7
+cross_model_observation_row_count=4
+topk_activation_nan_or_inf_count=0
+delta_abs_delta_nan_or_inf_count=0
+jaccard_distance_nan_or_inf_count=0
+summary_layer26_mean_abs_delta_nan_or_inf_count=0
+
+nan_or_inf_text_mentions=device_map auto diagnostic/provenance/script metadata only
+organized_staging_scripts=5-12-26/qwen-scope/staging/remote_scripts
+teardown_provenance=5-12-26/qwen-scope/provenance/teardown_36630892_20260512.txt

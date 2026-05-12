@@ -89,3 +89,30 @@ See:
 
 `results/full_controlled_perturbation_matrix/generated_text_by_prompt.tsv`
 
+## 5-12 Behavioral-SAE Alignment
+
+The 5-12 run tested whether behavioral posture tracks SAE displacement or dissociates from it.
+
+Verified counts:
+
+- Prompt matrix rows: `7`
+- Behavioral output rows: `7`
+- Prompt-position-layer captures: `56`
+- TopK rows: `2800`
+- Skipped positions: `0`
+
+Key readout:
+
+- Largest token inflation: `all_diacritics`, `+257` tokens.
+- Largest layer-26 SAE displacement: `all_diacritics`, mean abs delta `0.247368853`.
+- Largest layer-14 SAE displacement: `all_diacritics`, mean abs delta `0.165524479`.
+- Strongest auto-classified behavioral movement: `s_to_ṡ`, `stylized_abstraction`.
+- Largest SAE displacement did not match strongest behavioral movement in this Qwen run.
+- `e_to_ē` displaced SAE features more than `d_to_ḑ`, but both were denial/no-hum in Qwen.
+- `device_map="auto"` produced NaN hidden states on the fresh instance; single-GPU `cuda:0` produced finite layer 14 and layer 26 hidden states and was used for the valid outputs.
+
+See:
+
+- `5-12-26/qwen-scope/artifacts/5-12-26_qwen_scope_behavioral_sae_artifacts_36630892/outputs/behavioral_sae_alignment_summary.tsv`
+- `5-12-26/qwen-scope/artifacts/5-12-26_qwen_scope_behavioral_sae_artifacts_36630892/outputs/behavioral_sae_alignment_summary.md`
+- `5-12-26/qwen-scope/artifacts/5-12-26_qwen_scope_behavioral_sae_artifacts_36630892/outputs/5-12_behavioral_sae_alignment_memo.md`

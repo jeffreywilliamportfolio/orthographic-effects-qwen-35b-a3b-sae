@@ -1,0 +1,17 @@
+timestamp_utc=2026-05-12T17:57:31Z
+python_version=Python 3.10.13
+torch_version=2.11.0+cu130
+torch_cuda_version=13.0
+cuda_available=True
+cuda_device_count=2
+gpu_0_name=NVIDIA RTX PRO 6000 Blackwell Workstation Edition
+gpu_1_name=NVIDIA RTX PRO 6000 Blackwell Workstation Edition
+model_directory_size=67G
+sae_directory_size=21G
+safetensor_shard_count=14
+sae_layer_file_count=40
+model_file_count=25
+sae_file_count=44
+disk_usage_workspace=92G
+disk_free=4.4T
+disk_line=overlay         7.3T  2.5T  4.4T  37% /

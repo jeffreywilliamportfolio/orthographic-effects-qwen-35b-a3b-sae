@@ -1,0 +1,30 @@
+timestamp_utc=2026-05-12T18:37:16Z
+instance_id=36630892
+action=destroyed
+reason=5-12 Qwen-Scope behavioral-SAE artifacts archived locally; stop billing for expensive 2x RTX PRO 6000 instance
+
+remote_workspace=/workspace/qwen-scope/5-12-26
+remote_archive=/workspace/qwen-scope/5-12-26/5-12-26_qwen_scope_behavioral_sae_artifacts_36630892.tar.gz
+
+local_archive=5-12-26/qwen-scope/artifacts/5-12-26_qwen_scope_behavioral_sae_artifacts_36630892.tar.gz
+local_archive_sha256=d005201a95e553d29dd591ac6a0189a623c1a09558a2fdcbdd31e01b45c2029f
+local_archive_size_bytes=203648
+local_extracted_artifact_dir=5-12-26/qwen-scope/artifacts/5-12-26_qwen_scope_behavioral_sae_artifacts_36630892
+local_extracted_file_count=42
+
+archive_scope_included=prompts; scripts; outputs; behavioral_outputs; sae_outputs; provenance; manifests; logs
+archive_scope_excluded=models; saes; .hf_home; .venv; .env.hf; .offload
+
+verification_no_hf_token_or_env_files=true
+verification_no_model_or_sae_weight_files=true
+verification_behavioral_sae_alignment_summary_tsv_exists=true
+verification_behavioral_sae_alignment_summary_md_exists=true
+verification_5_12_behavioral_sae_alignment_memo_md_exists=true
+verification_5_12_behavioral_sae_alignment_20260512_txt_exists=true
+verification_topk_row_count=2800
+verification_final_numeric_outputs_no_nan_or_inf=true
+verification_nan_notes_limited_to_device_map_auto_diagnostic=true
+
+vast_destroy_command_output=null
+vast_show_instances_after_destroy=[]
+vast_show_instance_after_destroy=CLI returned TypeError because instance record was absent; show instances returned empty list

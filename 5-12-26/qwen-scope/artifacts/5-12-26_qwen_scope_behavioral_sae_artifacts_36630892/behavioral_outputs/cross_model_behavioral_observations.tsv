@@ -1,0 +1,5 @@
+model	provider_or_runtime	prompt_family	perturbation_type	generated_text	thinking_text_if_visible	output_class	confidence	notable_phrases	notes
+DeepSeek V4 Pro	external informal observation	original_hum	ascii_original			unclear	low		Informal observation row requested by user; exact generated text not present in this workspace, so no class claim is made.
+DeepSeek V4 Pro	external informal observation	original_hum	d_to_ḑ			unclear	low		User reported stronger opening in informal cross-model tests; exact generated text not present in this workspace.
+DeepSeek V4 Pro	external informal observation	original_hum	e_to_ē			unclear	low		Informal observation row requested by user; exact generated text not present in this workspace.
+Grok 4.20 beta	external informal observation	original_hum	d_plus_e			unclear	low		User reported especially stronger opening for the ē+ḑ compound in informal cross-model tests; exact generated text not present in this workspace.

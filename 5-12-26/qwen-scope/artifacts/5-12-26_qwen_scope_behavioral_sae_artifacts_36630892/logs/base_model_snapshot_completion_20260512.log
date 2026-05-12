@@ -1,0 +1,2 @@
+BASE_COMPLETION_START repo=Qwen/Qwen3.5-35B-A3B-Base timestamp_utc=2026-05-12T17:48:41Z
+BASE_COMPLETION_DONE repo=Qwen/Qwen3.5-35B-A3B-Base snapshot_path=/workspace/qwen-scope/5-12-26/models/Qwen3.5-35B-A3B-Base timestamp_utc=2026-05-12T17:48:42Z

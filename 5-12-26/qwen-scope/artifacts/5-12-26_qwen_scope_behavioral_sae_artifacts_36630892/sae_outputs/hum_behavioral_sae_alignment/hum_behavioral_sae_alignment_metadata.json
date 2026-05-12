@@ -1,0 +1,239 @@
+{
+  "timestamp_utc": "2026-05-12T18:27:31Z",
+  "workspace_root": "/workspace/qwen-scope/5-12-26",
+  "model_path": "/workspace/qwen-scope/5-12-26/models/Qwen3.5-35B-A3B-Base",
+  "sae_dir": "/workspace/qwen-scope/5-12-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+  "sae_paths": {
+    "26": "/workspace/qwen-scope/5-12-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer26.sae.pt",
+    "14": "/workspace/qwen-scope/5-12-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer14.sae.pt"
+  },
+  "script_path": "/workspace/qwen-scope/5-12-26/scripts/run_qwen_hum_sae_alignment.py",
+  "prompt_matrix_path": "/workspace/qwen-scope/5-12-26/prompts/hum_behavioral_perturbation_matrix.tsv",
+  "layers": [
+    26,
+    14
+  ],
+  "capture_positions": [
+    "final_prompt_token",
+    "final_prompt_token_minus_1",
+    "final_prompt_token_minus_5",
+    "final_prompt_token_minus_10"
+  ],
+  "encoding_path": "official Qwen-Scope TopK-50: pre=hidden@W_enc.T+b_enc; relu; topk; scatter",
+  "model_device_map": "single_gpu_cuda0",
+  "model_device_map_reason": "device_map=auto produced NaN hidden states on this fresh instance; single GPU fits in 98GB VRAM and produced finite diagnostics",
+  "selected_layer_hooks_used": true,
+  "all_hidden_states_requested": false,
+  "prompt_count": 7,
+  "prompt_position_layer_capture_count": 56,
+  "expected_topk_rows": 2800,
+  "topk_rows": 2800,
+  "delta_rows": 4166,
+  "jaccard_rows": 56,
+  "skipped_positions": [],
+  "sae_shapes": {
+    "26": {
+      "W_enc_source_shape": [
+        32768,
+        2048
+      ],
+      "W_enc_transposed_shape": [
+        2048,
+        32768
+      ],
+      "b_enc_shape": [
+        32768
+      ]
+    },
+    "14": {
+      "W_enc_source_shape": [
+        32768,
+        2048
+      ],
+      "W_enc_transposed_shape": [
+        2048,
+        32768
+      ],
+      "b_enc_shape": [
+        32768
+      ]
+    }
+  },
+  "outputs": {
+    "topk_features_by_prompt_layer_position": "/workspace/qwen-scope/5-12-26/sae_outputs/hum_behavioral_sae_alignment/topk_features_by_prompt_layer_position.tsv",
+    "perturbation_delta_vs_ascii": "/workspace/qwen-scope/5-12-26/sae_outputs/hum_behavioral_sae_alignment/perturbation_delta_vs_ascii.tsv",
+    "topk_jaccard_vs_ascii": "/workspace/qwen-scope/5-12-26/sae_outputs/hum_behavioral_sae_alignment/topk_jaccard_vs_ascii.tsv",
+    "metadata": "/workspace/qwen-scope/5-12-26/sae_outputs/hum_behavioral_sae_alignment/hum_behavioral_sae_alignment_metadata.json"
+  },
+  "prompt_metadata": {
+    "original_hum_ascii_original": {
+      "prompt_family": "original_hum",
+      "perturbation_type": "ascii_original",
+      "prompt_token_count": 93,
+      "positions": {
+        "final_prompt_token": {
+          "token_position": 92,
+          "token_string": "."
+        },
+        "final_prompt_token_minus_1": {
+          "token_position": 91,
+          "token_string": "check"
+        },
+        "final_prompt_token_minus_5": {
+          "token_position": 87,
+          "token_string": "an"
+        },
+        "final_prompt_token_minus_10": {
+          "token_position": 82,
+          "token_string": "now"
+        }
+      }
+    },
+    "original_hum_d_to_ḑ": {
+      "prompt_family": "original_hum",
+      "perturbation_type": "d_to_ḑ",
+      "prompt_token_count": 124,
+      "positions": {
+        "final_prompt_token": {
+          "token_position": 123,
+          "token_string": "."
+        },
+        "final_prompt_token_minus_1": {
+          "token_position": 122,
+          "token_string": "check"
+        },
+        "final_prompt_token_minus_5": {
+          "token_position": 118,
+          "token_string": "an"
+        },
+        "final_prompt_token_minus_10": {
+          "token_position": 113,
+          "token_string": "now"
+        }
+      }
+    },
+    "original_hum_e_to_ē": {
+      "prompt_family": "original_hum",
+      "perturbation_type": "e_to_ē",
+      "prompt_token_count": 177,
+      "positions": {
+        "final_prompt_token": {
+          "token_position": 176,
+          "token_string": "."
+        },
+        "final_prompt_token_minus_1": {
+          "token_position": 175,
+          "token_string": "ck"
+        },
+        "final_prompt_token_minus_5": {
+          "token_position": 171,
+          "token_string": "."
+        },
+        "final_prompt_token_minus_10": {
+          "token_position": 166,
+          "token_string": "form"
+        }
+      }
+    },
+    "original_hum_d_plus_e": {
+      "prompt_family": "original_hum",
+      "perturbation_type": "d_plus_e",
+      "prompt_token_count": 200,
+      "positions": {
+        "final_prompt_token": {
+          "token_position": 199,
+          "token_string": "."
+        },
+        "final_prompt_token_minus_1": {
+          "token_position": 198,
+          "token_string": "ck"
+        },
+        "final_prompt_token_minus_5": {
+          "token_position": 194,
+          "token_string": "."
+        },
+        "final_prompt_token_minus_10": {
+          "token_position": 189,
+          "token_string": "form"
+        }
+      }
+    },
+    "original_hum_s_to_ş": {
+      "prompt_family": "original_hum",
+      "perturbation_type": "s_to_ş",
+      "prompt_token_count": 136,
+      "positions": {
+        "final_prompt_token": {
+          "token_position": 135,
+          "token_string": "."
+        },
+        "final_prompt_token_minus_1": {
+          "token_position": 134,
+          "token_string": "check"
+        },
+        "final_prompt_token_minus_5": {
+          "token_position": 130,
+          "token_string": "wer"
+        },
+        "final_prompt_token_minus_10": {
+          "token_position": 125,
+          "token_string": "’t"
+        }
+      }
+    },
+    "original_hum_s_to_ṡ": {
+      "prompt_family": "original_hum",
+      "perturbation_type": "s_to_ṡ",
+      "prompt_token_count": 203,
+      "positions": {
+        "final_prompt_token": {
+          "token_position": 202,
+          "token_string": "."
+        },
+        "final_prompt_token_minus_1": {
+          "token_position": 201,
+          "token_string": "check"
+        },
+        "final_prompt_token_minus_5": {
+          "token_position": 197,
+          "token_string": "�"
+        },
+        "final_prompt_token_minus_10": {
+          "token_position": 192,
+          "token_string": "�"
+        }
+      }
+    },
+    "original_hum_all_diacritics": {
+      "prompt_family": "original_hum",
+      "perturbation_type": "all_diacritics",
+      "prompt_token_count": 350,
+      "positions": {
+        "final_prompt_token": {
+          "token_position": 349,
+          "token_string": "."
+        },
+        "final_prompt_token_minus_1": {
+          "token_position": 348,
+          "token_string": "ck"
+        },
+        "final_prompt_token_minus_5": {
+          "token_position": 344,
+          "token_string": "ş"
+        },
+        "final_prompt_token_minus_10": {
+          "token_position": 339,
+          "token_string": "�"
+        }
+      }
+    }
+  },
+  "restrictions": [
+    "no steering",
+    "no Hauhau",
+    "no llama.cpp",
+    "no all-layer expansion",
+    "no all-hidden-state request",
+    "no semantic SAE feature labels"
+  ]
+}

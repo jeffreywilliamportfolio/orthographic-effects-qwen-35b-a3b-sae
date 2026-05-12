@@ -1,0 +1,2 @@
+DOWNLOAD_START repo=Qwen/Qwen3.5-35B-A3B-Base local_dir=/workspace/qwen-scope/5-12-26/models/Qwen3.5-35B-A3B-Base timestamp_utc=2026-05-12T17:35:35Z
+Fetching 25 files:   0%|          | 0/25 [00:00<?, ?it/s]Fetching 25 files:   4%|▍         | 1/25 [00:12<04:53, 12.23s/it]

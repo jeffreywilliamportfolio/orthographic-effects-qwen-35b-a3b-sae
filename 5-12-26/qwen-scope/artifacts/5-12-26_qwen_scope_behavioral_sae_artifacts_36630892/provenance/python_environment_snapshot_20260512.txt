@@ -1,0 +1,11 @@
+timestamp_utc=2026-05-12T17:34:07Z
+workspace_root=/workspace/qwen-scope/5-12-26
+python=Python 3.10.13
+executable=/workspace/qwen-scope/5-12-26/.venv/bin/python
+platform=Linux-6.17.0-19-generic-x86_64-with-glibc2.35
+torch_version=2.11.0+cu130
+torch_cuda_version=13.0
+cuda_available=True
+cuda_device_count=2
+gpu_0_name=NVIDIA RTX PRO 6000 Blackwell Workstation Edition
+gpu_1_name=NVIDIA RTX PRO 6000 Blackwell Workstation Edition
