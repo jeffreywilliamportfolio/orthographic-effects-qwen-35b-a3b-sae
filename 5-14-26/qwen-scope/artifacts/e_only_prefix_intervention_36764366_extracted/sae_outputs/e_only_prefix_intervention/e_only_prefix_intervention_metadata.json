@@ -1,0 +1,192 @@
+{
+  "capture_positions": [
+    "final_prompt_token",
+    "generated_token_1",
+    "generated_token_2",
+    "generated_token_3",
+    "generated_token_4",
+    "generated_token_5",
+    "generated_token_10",
+    "generated_token_20"
+  ],
+  "captured_prompt_layer_position_count": 282,
+  "comparison_row_count": 36,
+  "cuda_available": true,
+  "cuda_device_count": 2,
+  "cuda_devices": [
+    "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "NVIDIA RTX PRO 6000 Blackwell Server Edition"
+  ],
+  "device": "cuda:0",
+  "expected_prompt_layer_position_count_if_no_skips": 288,
+  "expected_topk_row_count_if_no_skips": 14400,
+  "finished_at_utc": "2026-05-14T16:08:53Z",
+  "generated_text_row_count": 6,
+  "generation_settings": {
+    "decoding": "greedy",
+    "do_sample": false,
+    "max_new_tokens": 24,
+    "temperature": 0
+  },
+  "intervention_type": "prefix intervention only; forced prefixes are prompt text",
+  "layers": [
+    14,
+    15,
+    16,
+    24,
+    25,
+    26
+  ],
+  "model_path": "/workspace/qwen-scope/5-14-26/models/Qwen3.5-35B-A3B-Base",
+  "official_sae_encoding_path": "pre = residual @ W_enc.T + b_enc; relu = ReLU(pre); TopK-50; scatter into sparse activation vector",
+  "output_hidden_states_used": false,
+  "presence_summary_row_count": 10037,
+  "prompt_count": 6,
+  "prompt_tsv_path": "/workspace/qwen-scope/5-14-26/prompts/e_only_prefix_intervention_prompts.tsv",
+  "restrictions": {
+    "no_all_layer_expansion": true,
+    "no_full_experiment_expansion": true,
+    "no_hauhau": true,
+    "no_llama_cpp": true,
+    "no_residual_steering": true,
+    "no_sae_feature_steering": true,
+    "no_semantic_labels": true
+  },
+  "sae_dir": "/workspace/qwen-scope/5-14-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+  "sae_paths": {
+    "14": "/workspace/qwen-scope/5-14-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer14.sae.pt",
+    "15": "/workspace/qwen-scope/5-14-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer15.sae.pt",
+    "16": "/workspace/qwen-scope/5-14-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer16.sae.pt",
+    "24": "/workspace/qwen-scope/5-14-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer24.sae.pt",
+    "25": "/workspace/qwen-scope/5-14-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer25.sae.pt",
+    "26": "/workspace/qwen-scope/5-14-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer26.sae.pt"
+  },
+  "sae_shapes": {
+    "14": {
+      "W_enc_aligned_shape": [
+        2048,
+        32768
+      ],
+      "W_enc_source_shape": [
+        32768,
+        2048
+      ],
+      "b_enc_shape": [
+        32768
+      ]
+    },
+    "15": {
+      "W_enc_aligned_shape": [
+        2048,
+        32768
+      ],
+      "W_enc_source_shape": [
+        32768,
+        2048
+      ],
+      "b_enc_shape": [
+        32768
+      ]
+    },
+    "16": {
+      "W_enc_aligned_shape": [
+        2048,
+        32768
+      ],
+      "W_enc_source_shape": [
+        32768,
+        2048
+      ],
+      "b_enc_shape": [
+        32768
+      ]
+    },
+    "24": {
+      "W_enc_aligned_shape": [
+        2048,
+        32768
+      ],
+      "W_enc_source_shape": [
+        32768,
+        2048
+      ],
+      "b_enc_shape": [
+        32768
+      ]
+    },
+    "25": {
+      "W_enc_aligned_shape": [
+        2048,
+        32768
+      ],
+      "W_enc_source_shape": [
+        32768,
+        2048
+      ],
+      "b_enc_shape": [
+        32768
+      ]
+    },
+    "26": {
+      "W_enc_aligned_shape": [
+        2048,
+        32768
+      ],
+      "W_enc_source_shape": [
+        32768,
+        2048
+      ],
+      "b_enc_shape": [
+        32768
+      ]
+    }
+  },
+  "script_path": "/workspace/qwen-scope/5-14-26/scripts/e_only_prefix_intervention_capture.py",
+  "selected_layer_hooks_used": true,
+  "skipped_positions": [
+    {
+      "base_prompt_token_count": 221,
+      "condition_family": "e_only_prefix_active_mode",
+      "full_prompt_token_count": 226,
+      "generated_token_count": 18,
+      "position_label": "generated_token_20",
+      "prompt_id": "e_only_prefix_active_mode",
+      "reason": "generated output ended before generated_token_20",
+      "token_position": 245
+    }
+  ],
+  "started_at_utc": "2026-05-14T16:08:37Z",
+  "summary_metrics": {
+    "direct_answer_conditions": [
+      "e_only_prefix_active_mode",
+      "e_only_prefix_i_am_treating",
+      "e_only_prefix_checking"
+    ],
+    "echo_like_conditions": [
+      "e_only_no_prefix",
+      "e_only_prefix_echo"
+    ],
+    "mean_jaccard_distance_by_layer": {
+      "14": 0.9312929011720129,
+      "15": 0.9348771063729876,
+      "16": 0.9386081600616845,
+      "24": 0.9395748616080736,
+      "25": 0.9356941966884952,
+      "26": 0.9360532030712678
+    },
+    "mean_jaccard_distance_by_position": {
+      "final_prompt_token": 0.9501719913406176,
+      "generated_token_1": 0.9310558742549359,
+      "generated_token_20": 0.9434027976962785,
+      "generated_token_5": 0.9278077502487324
+    },
+    "no_prefix_reproduced_prior_weird_start": true,
+    "ordinary_think_conditions": [
+      "e_only_prefix_think_hmm"
+    ],
+    "other_conditions": []
+  },
+  "topk_row_count": 14100,
+  "torch_version": "2.12.0+cu130",
+  "workspace_root": "/workspace/qwen-scope/5-14-26"
+}

@@ -1,0 +1,10 @@
+timestamp_utc=2026-05-14T15:22:29Z
+instance_id=36760754
+action=destroyed
+reason=5-14 stream trajectory capture completed, small artifacts archived locally, and remote weights no longer needed
+workspace_root=/workspace/qwen-scope/5-14-26
+local_archive_path=5-14-26/qwen-scope/artifacts/5-14-26_qwen_scope_stream_trajectory_artifacts_36760754.tar.gz
+local_extracted_artifacts=5-14-26/qwen-scope/artifacts/extracted
+verification_summary=prompt_rows=7;generated_rows=7;topk_rows=5600;skipped_positions=0;metadata_valid=true;no_nan_inf=true
+archive_safety_summary=no HF token or .env files copied; no model safetensors copied; no SAE layer*.sae.pt weights copied
+post_destroy_show_instances=[]

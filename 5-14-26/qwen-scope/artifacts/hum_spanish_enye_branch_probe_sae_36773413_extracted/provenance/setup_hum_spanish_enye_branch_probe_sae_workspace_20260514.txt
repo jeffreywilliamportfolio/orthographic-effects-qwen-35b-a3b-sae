@@ -1,0 +1,9 @@
+timestamp_utc=2026-05-14T18:33:21Z
+instance_id=36773413
+workspace_root=/workspace/qwen-scope/5-14-26
+purpose=5-14 hum Spanish enye-control branch-probing SAE trajectory setup
+model_repo=Qwen/Qwen3.5-35B-A3B-Base
+model_path=/workspace/qwen-scope/5-14-26/models/Qwen3.5-35B-A3B-Base
+sae_repo=Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50
+sae_path=/workspace/qwen-scope/5-14-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50
+confirmation=setup only; no experiment run in this script

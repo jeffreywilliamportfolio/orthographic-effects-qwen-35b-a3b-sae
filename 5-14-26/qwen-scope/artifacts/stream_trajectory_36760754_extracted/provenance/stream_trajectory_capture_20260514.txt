@@ -1,0 +1,22 @@
+timestamp=2026-05-14T15:14:16Z
+prompt_tsv_path=/workspace/qwen-scope/5-14-26/prompts/stream_trajectory_prompts.tsv
+script_path=/workspace/qwen-scope/5-14-26/scripts/stream_trajectory_capture.py
+model_path=/workspace/qwen-scope/5-14-26/models/Qwen3.5-35B-A3B-Base
+sae_paths={"14": "/workspace/qwen-scope/5-14-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer14.sae.pt", "26": "/workspace/qwen-scope/5-14-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50/layer26.sae.pt"}
+layers=14,26
+capture_positions=final_prompt_token,generated_token_1,generated_token_2,generated_token_3,generated_token_4,generated_token_5,generated_token_10,generated_token_20
+generation_settings=temperature=0;do_sample=false;max_new_tokens=24;greedy=true
+prompt_count=7
+captured_prompt_layer_position_count=112
+topk_row_count=5600
+generated_text_row_count=7
+outputs_written=/workspace/qwen-scope/5-14-26/sae_outputs/stream_trajectory_capture/topk_features_by_prompt_layer_position.tsv,/workspace/qwen-scope/5-14-26/sae_outputs/stream_trajectory_capture/trajectory_feature_presence_summary.tsv,/workspace/qwen-scope/5-14-26/sae_outputs/stream_trajectory_capture/generated_text_by_prompt.tsv,/workspace/qwen-scope/5-14-26/sae_outputs/stream_trajectory_capture/stream_trajectory_metadata.json,/workspace/qwen-scope/5-14-26/sae_outputs/stream_trajectory_capture/stream_trajectory_summary.md
+selected_layer_hooks_used=true
+output_hidden_states=True was not used
+no_steering=true
+no_Hauhau=true
+no_llama_cpp=true
+no_all_layer_expansion=true
+no_full_experiment_expansion=true
+no_semantic_labels=true
+path_correction=stale 5-11 task body paths normalized to /workspace/qwen-scope/5-14-26

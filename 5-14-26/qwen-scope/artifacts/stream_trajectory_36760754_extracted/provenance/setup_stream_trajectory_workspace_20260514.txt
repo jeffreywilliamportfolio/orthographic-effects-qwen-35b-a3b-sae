@@ -1,0 +1,8 @@
+timestamp_utc=2026-05-14T15:00:56Z
+instance_id=36760754
+workspace_root=/workspace/qwen-scope/5-14-26
+model_repo=Qwen/Qwen3.5-35B-A3B-Base
+model_path=/workspace/qwen-scope/5-14-26/models/Qwen3.5-35B-A3B-Base
+sae_repo=Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50
+sae_path=/workspace/qwen-scope/5-14-26/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50
+phase=stream trajectory observational setup

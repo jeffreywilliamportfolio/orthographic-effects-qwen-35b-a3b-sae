@@ -1,0 +1,16 @@
+{
+  "cuda_available": true,
+  "cuda_device_count": 2,
+  "cuda_devices": [
+    "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+    "NVIDIA RTX PRO 6000 Blackwell Workstation Edition"
+  ],
+  "nvidia_smi": [
+    "NVIDIA RTX PRO 6000 Blackwell Workstation Edition, 97887 MiB, 590.48.01",
+    "NVIDIA RTX PRO 6000 Blackwell Workstation Edition, 97887 MiB, 590.48.01"
+  ],
+  "platform": "Linux-6.8.0-49-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]",
+  "torch_cuda_version": "13.0",
+  "torch_version": "2.12.0+cu130"
+}

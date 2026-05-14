@@ -1,0 +1,33 @@
+timestamp_utc=2026-05-14T18:41:16Z
+instance_id=36773413
+action=destroyed after local artifact archive verification
+vast_show_instances_after_destroy=[]
+
+run_name=hum_spanish_enye_branch_probe_sae_capture
+remote_workspace=/workspace/qwen-scope/5-14-26
+remote_archive=/workspace/qwen-scope/5-14-26/5-14-26_qwen_scope_hum_spanish_enye_branch_probe_sae_artifacts_36773413.tar.gz
+local_archive=5-14-26/qwen-scope/artifacts/5-14-26_qwen_scope_hum_spanish_enye_branch_probe_sae_artifacts_36773413.tar.gz
+local_archive_sha256=41ddb1ed6dace18a89a810ee2aa5ab26d1427179cd380b44544e6e3335f6e0fd
+local_archive_size=6.3M
+local_extracted_copy=5-14-26/qwen-scope/artifacts/hum_spanish_enye_branch_probe_sae_36773413_extracted
+
+verified_prompt_rows=30
+verified_next_token_logit_rows=60
+verified_generated_text_rows=30
+verified_branch_comparison_rows=180
+verified_topk_rows=215100
+expected_topk_rows_if_no_skips=225000
+recorded_skipped_prompt_layer_position_captures=33
+
+layers=14,15,16,24,25,26
+capture_positions=final_prompt_token,generated_token_1..20,generated_token_32,generated_token_64,generated_token_96,generated_token_128
+generation=max_new_tokens=128,greedy,temperature=0,do_sample=false
+conditions=ascii_control,n_all,n_high_impact
+branch_count=10
+n_to_enye_substitution_counts=ascii_control:0,n_all:31,n_high_impact:15
+n_high_impact_materially_distinct_from_n_all=true
+
+local_archive_verification=no .env files; no HF-token-looking strings; no .safetensors; no .gguf; no layer*.sae.pt; no model weights; no SAE weights; metadata JSON parsed; summary and provenance non-empty; TopK row count preserved
+scope_confirmations=branch probing / prefix intervention only; selected-layer hooks used; output_hidden_states=True not used; no residual steering; no SAE feature steering; no Hauhau; no llama.cpp; no all-layer expansion; no semantic SAE labels
+
+key_behavioral_readout=ascii_control + Checking stayed denial; n_all + Checking shifted to a hum-present/checking path; n_high_impact + Checking stayed denial. This did not fully reproduce the prior d-stroke Checking split, where both d_all and d_high_impact flipped.

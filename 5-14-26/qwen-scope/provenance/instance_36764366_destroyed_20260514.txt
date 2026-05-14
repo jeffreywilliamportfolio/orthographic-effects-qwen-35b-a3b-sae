@@ -1,0 +1,36 @@
+timestamp_utc	2026-05-14T16:12:25Z
+instance_id	36764366
+action	destroyed
+reason	Prefix-intervention run was verified and archived locally; instance was no longer needed.
+remote_workspace	/workspace/qwen-scope/5-14-26
+local_archive_path	5-14-26/qwen-scope/artifacts/5-14-26_qwen_scope_e_only_prefix_intervention_artifacts_36764366.tar.gz
+local_extracted_path	5-14-26/qwen-scope/artifacts/e_only_prefix_intervention_36764366_extracted
+remote_archive_name	5-14-26_qwen_scope_e_only_prefix_intervention_artifacts_36764366.tar.gz
+local_archive_verified	true
+post_destroy_show_instances	[]
+
+verification_summary
+- Prompt rows: 6.
+- Layers: 14, 15, 16, 24, 25, 26.
+- Captured positions requested: final_prompt_token, generated_token_1, generated_token_2, generated_token_3, generated_token_4, generated_token_5, generated_token_10, generated_token_20.
+- Generated text rows: 6.
+- Prefix comparison rows: 36.
+- TopK rows: 14100.
+- Metadata TopK rows: 14100.
+- Skipped positions recorded in metadata: 1.
+- No NaN or Inf values found in numeric TopK output columns.
+- No .env files found in local extracted archive.
+- No HF-token-looking strings found in local extracted archive.
+- No .safetensors files found in local extracted archive.
+- No .gguf files found in local extracted archive.
+- No layer*.sae.pt files found in local extracted archive.
+- No model or SAE weight directories found in local extracted archive.
+
+scope_confirmations
+- This was prefix intervention only.
+- No residual steering was performed.
+- No SAE feature steering was performed.
+- No Hauhau model was run.
+- No llama.cpp or GGUF path was used.
+- No all-layer expansion was run.
+- No semantic SAE feature labels were assigned.

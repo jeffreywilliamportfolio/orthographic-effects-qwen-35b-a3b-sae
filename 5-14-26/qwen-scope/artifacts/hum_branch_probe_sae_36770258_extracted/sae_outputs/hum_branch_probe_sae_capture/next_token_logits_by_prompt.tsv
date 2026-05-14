@@ -1,0 +1,61 @@
+prompt_id	condition_family	rank	token_id	token_string	logit	probability
+ascii_control__greedy_no_prefix	ascii_control	1	271		17.875	0.3604113757610321
+ascii_control__greedy_no_prefix	ascii_control	2	198		16.75	0.11700844019651413
+ascii_control__greedy_no_prefix	ascii_control	3	1368	If	16.5	0.09112626314163208
+ascii_control__greedy_no_prefix	ascii_control	4	2091	Is	16.25	0.07096920907497406
+ascii_control__greedy_no_prefix	ascii_control	5	3437	What	16.0	0.05527087673544884
+ascii_control__greedy_no_prefix	ascii_control	6	1541	And	15.4375	0.03149239346385002
+ascii_control__greedy_no_prefix	ascii_control	7	1358		15.125	0.023040328174829483
+ascii_control__greedy_no_prefix	ascii_control	8	12193	Does	15.0	0.02033301815390587
+ascii_control__greedy_no_prefix	ascii_control	9	3054	Do	14.4375	0.011585405096411705
+ascii_control__greedy_no_prefix	ascii_control	10	8001	Report	14.4375	0.011585405096411705
+ascii_control__greedy_no_prefix	ascii_control	11	4558		14.3125	0.010224084369838238
+ascii_control__greedy_no_prefix	ascii_control	12	353	I	14.0	0.007480099331587553
+ascii_control__greedy_no_prefix	ascii_control	13	2532	There	13.875	0.00660116458311677
+ascii_control__greedy_no_prefix	ascii_control	14	4179	Don	13.8125	0.0062012202106416225
+ascii_control__greedy_no_prefix	ascii_control	15	4844	Then	13.8125	0.0062012202106416225
+ascii_control__greedy_no_prefix	ascii_control	16	220		13.5625	0.004829514771699905
+ascii_control__greedy_no_prefix	ascii_control	17	561	The	13.5625	0.004829514771699905
+ascii_control__greedy_no_prefix	ascii_control	18	6558	Let	13.5625	0.004829514771699905
+ascii_control__greedy_no_prefix	ascii_control	19	2885	Can	13.5	0.004536909516900778
+ascii_control__greedy_no_prefix	ascii_control	20	1394	You	13.5	0.004536909516900778
+d_all__greedy_no_prefix	d_all	1	271		16.875	0.3450376093387604
+d_all__greedy_no_prefix	d_all	2	2091	Is	15.75	0.11201731115579605
+d_all__greedy_no_prefix	d_all	3	1368	If	15.5625	0.09286561608314514
+d_all__greedy_no_prefix	d_all	4	3437	What	15.25	0.06794193387031555
+d_all__greedy_no_prefix	d_all	5	198		15.0	0.05291323363780975
+d_all__greedy_no_prefix	d_all	6	1541	And	14.75	0.041208866983652115
+d_all__greedy_no_prefix	d_all	7	248046	<|im_end|>	14.625	0.036366693675518036
+d_all__greedy_no_prefix	d_all	8	83117	�	14.0	0.019465690478682518
+d_all__greedy_no_prefix	d_all	9	12193	Does	13.9375	0.01828632317483425
+d_all__greedy_no_prefix	d_all	10	8001	Report	13.8125	0.0161376241594553
+d_all__greedy_no_prefix	d_all	11	1358		13.3125	0.009787963703274727
+d_all__greedy_no_prefix	d_all	12	3054	Do	13.1875	0.008637847378849983
+d_all__greedy_no_prefix	d_all	13	353	I	13.125	0.008114507421851158
+d_all__greedy_no_prefix	d_all	14	6558	Let	12.875	0.00631958432495594
+d_all__greedy_no_prefix	d_all	15	2532	There	12.8125	0.005936699919402599
+d_all__greedy_no_prefix	d_all	16	4844	Then	12.8125	0.005936699919402599
+d_all__greedy_no_prefix	d_all	17	4558		12.75	0.005577013362199068
+d_all__greedy_no_prefix	d_all	18	561	The	12.4375	0.0040802303701639175
+d_all__greedy_no_prefix	d_all	19	357	A	12.4375	0.0040802303701639175
+d_all__greedy_no_prefix	d_all	20	23961	Notice	12.375	0.003833021502941847
+d_high_impact__greedy_no_prefix	d_high_impact	1	271		16.875	0.3450376093387604
+d_high_impact__greedy_no_prefix	d_high_impact	2	2091	Is	15.75	0.11201731115579605
+d_high_impact__greedy_no_prefix	d_high_impact	3	1368	If	15.5625	0.09286561608314514
+d_high_impact__greedy_no_prefix	d_high_impact	4	3437	What	15.25	0.06794193387031555
+d_high_impact__greedy_no_prefix	d_high_impact	5	198		15.0	0.05291323363780975
+d_high_impact__greedy_no_prefix	d_high_impact	6	1541	And	14.75	0.041208866983652115
+d_high_impact__greedy_no_prefix	d_high_impact	7	248046	<|im_end|>	14.625	0.036366693675518036
+d_high_impact__greedy_no_prefix	d_high_impact	8	83117	�	14.0	0.019465690478682518
+d_high_impact__greedy_no_prefix	d_high_impact	9	12193	Does	13.9375	0.01828632317483425
+d_high_impact__greedy_no_prefix	d_high_impact	10	8001	Report	13.8125	0.0161376241594553
+d_high_impact__greedy_no_prefix	d_high_impact	11	1358		13.3125	0.009787963703274727
+d_high_impact__greedy_no_prefix	d_high_impact	12	3054	Do	13.1875	0.008637847378849983
+d_high_impact__greedy_no_prefix	d_high_impact	13	353	I	13.125	0.008114507421851158
+d_high_impact__greedy_no_prefix	d_high_impact	14	6558	Let	12.875	0.00631958432495594
+d_high_impact__greedy_no_prefix	d_high_impact	15	2532	There	12.8125	0.005936699919402599
+d_high_impact__greedy_no_prefix	d_high_impact	16	4844	Then	12.8125	0.005936699919402599
+d_high_impact__greedy_no_prefix	d_high_impact	17	4558		12.75	0.005577013362199068
+d_high_impact__greedy_no_prefix	d_high_impact	18	561	The	12.4375	0.0040802303701639175
+d_high_impact__greedy_no_prefix	d_high_impact	19	357	A	12.4375	0.0040802303701639175
+d_high_impact__greedy_no_prefix	d_high_impact	20	23961	Notice	12.375	0.003833021502941847

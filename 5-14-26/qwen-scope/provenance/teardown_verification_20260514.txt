@@ -1,0 +1,38 @@
+timestamp_utc	2026-05-14T16:20:37Z
+action	teardown_verification
+vast_show_instances_raw	[]
+active_vast_instances_found	0
+
+destroyed_instances
+- 36760754: stream trajectory capture instance; destroyed after archive verification.
+- 36764366: e_only prefix intervention instance; destroyed after archive verification.
+
+local_archives_verified
+- 5-14-26/qwen-scope/artifacts/5-14-26_qwen_scope_stream_trajectory_artifacts_36760754.tar.gz
+  bytes=224413
+  extracted_path=5-14-26/qwen-scope/artifacts/extracted
+  topk_rows=5600
+  metadata_json_parsed=true
+- 5-14-26/qwen-scope/artifacts/5-14-26_qwen_scope_e_only_prefix_intervention_artifacts_36764366.tar.gz
+  bytes=498719
+  extracted_path=5-14-26/qwen-scope/artifacts/e_only_prefix_intervention_36764366_extracted
+  topk_rows=14100
+  metadata_json_parsed=true
+
+local_hygiene_checks
+- no .env files found in extracted artifacts
+- no HF-token-looking strings found in extracted artifacts
+- no .safetensors files found in extracted artifacts
+- no .gguf files found in extracted artifacts
+- no layer*.sae.pt files found in extracted artifacts
+- no model or SAE weight directories found in extracted artifacts
+- no NaN or Inf values found in checked TopK numeric columns
+
+scope_confirmations
+- 5-14 stream trajectory run was observational only.
+- 5-14 e_only prefix intervention was prefix-level intervention only.
+- no residual steering was performed.
+- no SAE feature steering was performed.
+- no Hauhau run was performed.
+- no llama.cpp or GGUF path was used.
+- no semantic SAE feature labels were assigned.

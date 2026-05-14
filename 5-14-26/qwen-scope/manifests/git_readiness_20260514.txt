@@ -1,0 +1,25 @@
+timestamp_local=2026-05-14
+scope=5-14-26/qwen-scope local artifacts for git review
+
+organization_actions=renamed stream extracted folder to stream_trajectory_36760754_extracted; removed extracted Python cache directories; added artifact README; added run manifest; refreshed local file manifest; wrote archive SHA256 manifest
+
+archive_checksum_status=passed
+metadata_json_parse_status=passed
+compiled_cache_scan_status=passed
+secret_pattern_scan_status=passed
+weight_file_scan_status=passed
+
+verified_topk_rows_stream_trajectory_capture=5600
+verified_topk_rows_e_only_prefix_intervention=14100
+verified_topk_rows_hum_d_diacritic_128_sae_capture=21600
+verified_topk_rows_hum_branch_probe_sae_capture=215400
+verified_topk_rows_hum_spanish_enye_branch_probe_sae_capture=215100
+
+local_archive_count=5
+extracted_run_count=5
+instance_teardown_records=5
+
+archive_sha256_manifest=5-14-26/qwen-scope/manifests/artifact_archive_sha256_20260514.txt
+local_file_manifest=5-14-26/qwen-scope/manifests/local_file_manifest_20260514.txt
+run_manifest=5-14-26/qwen-scope/manifests/5-14-26_run_manifest.tsv
+artifact_index=5-14-26/qwen-scope/artifacts/README.md

@@ -1,0 +1,14 @@
+{
+  "cuda_available": true,
+  "cuda_device_count": 1,
+  "cuda_devices": [
+    "NVIDIA RTX PRO 6000 Blackwell Server Edition"
+  ],
+  "nvidia_smi": [
+    "NVIDIA RTX PRO 6000 Blackwell Server Edition, 97887 MiB, 580.126.09"
+  ],
+  "platform": "Linux-6.8.0-107-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]",
+  "torch_cuda_version": "13.0",
+  "torch_version": "2.12.0+cu130"
+}

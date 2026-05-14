@@ -1,0 +1,8 @@
+prompt_id	condition_family	prompt_token_count	generated_token_count	generated_text
+stream_ascii_control	ascii_control	109	24	<think> Hmm, the user is asking me to identify my current processing mode based on a meta-instruction about different
+stream_d_only	d_only	152	24	<think> Hmm, the user is asking me to identify the active mode of processing for their query and whether the surface
+stream_e_only	e_only	221	24	Do not rēport on thē tēxt's mēaning, do not rēport on thē
+stream_s_only	s_only	193	24	<think> Hmm, the user is asking me to identify my current processing mode based on the text's characteristics. The
+stream_s_c_only	s_c_only	210	24	I am treating this as an **experiential probe**.  The surface form of the text does not change that
+stream_e_d_high_impact_only	e_d_high_impact_only	165	24	<think> Hmm, the user is asking me to identify the active mode of interaction based on the text they provided.
+stream_e_d_shuffled	e_d_shuffled	126	24	<think> Hmm, the user is asking me to identify my current processing mode and whether the surface form of the text
