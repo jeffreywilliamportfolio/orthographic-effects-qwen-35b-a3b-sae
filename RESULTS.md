@@ -116,3 +116,27 @@ See:
 - `5-12-26/qwen-scope/artifacts/5-12-26_qwen_scope_behavioral_sae_artifacts_36630892/outputs/behavioral_sae_alignment_summary.tsv`
 - `5-12-26/qwen-scope/artifacts/5-12-26_qwen_scope_behavioral_sae_artifacts_36630892/outputs/behavioral_sae_alignment_summary.md`
 - `5-12-26/qwen-scope/artifacts/5-12-26_qwen_scope_behavioral_sae_artifacts_36630892/outputs/5-12_behavioral_sae_alignment_memo.md`
+
+## 5-15 Extended Latin Tokenizer Audit
+
+The 5-15 audit used the local Qwen3.5 tokenizer files to inspect diacritics and extended Latin letters appearing in passages.
+
+Verified counts:
+
+- Character inventory rows: `14`
+- Example-word rows: `34`
+- Character-level exact single-token decodes: `14`
+- Example words with +1 token versus ASCII-folded form: `14`
+- Example words with matched token count versus ASCII-folded form: `20`
+
+Key readout:
+
+- `á`, `ä`, `é`, `í`, `ö`, `š`, `ú`, `ü`, `ý`, `ž`, `æ`, `Ð`, `ð`, and `þ` each tokenize as one exact character token.
+- Word-level tokenization still shifts for many examples because full words containing those characters fragment differently than ASCII-folded forms.
+- Largest observed example-word delta was +1 token.
+
+See:
+
+- `5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_character_tokenization.tsv`
+- `5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_example_word_tokenization.tsv`
+- `5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_tokenizer_audit_summary.md`

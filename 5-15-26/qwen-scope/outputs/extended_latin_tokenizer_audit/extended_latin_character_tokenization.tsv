@@ -1,0 +1,15 @@
+character	base	diacritic_or_letter_type	unicode_name	passage_count	utf8_hex	single_char_token_count	single_char_token_ids	single_char_token_strings	single_char_decoded_pieces	single_char_processing_class	base_token_count	base_token_ids	delta_vs_base_char	leading_space_char_token_count	leading_space_char_token_ids	examples
+á	a	acute	LATIN SMALL LETTER A WITH ACUTE	9	c3 a1	1	1886	Ã¡	á	single_token_exact_decode	1	64	0	1	18135	tongá, náre, enetá, asumá, ása
+ä	a	diaeresis	LATIN SMALL LETTER A WITH DIAERESIS	1	c3 a4	1	2230	Ã¤	ä	single_token_exact_decode	1	64	0	1	12344	Logä
+é	e	acute	LATIN SMALL LETTER E WITH ACUTE	7	c3 a9	1	933	Ã©	é	single_token_exact_decode	1	68	0	1	3825	oémi, Aksé, kése, éseesly
+í	i	acute	LATIN SMALL LETTER I WITH ACUTE	5	c3 ad	1	2347	ÃŃ	í	single_token_exact_decode	1	72	0	1	38804	setíval, aíd, joí, priní
+ö	o	diaeresis	LATIN SMALL LETTER O WITH DIAERESIS	4	c3 b6	1	2862	Ã¶	ö	single_token_exact_decode	1	78	0	1	16445	örej
+š	s	caron	LATIN SMALL LETTER S WITH CARON	22	c5 a1	1	11310	Å¡	š	single_token_exact_decode	1	82	0	1	35220	šida, šrotony
+ú	u	acute	LATIN SMALL LETTER U WITH ACUTE	1	c3 ba	1	6445	Ãº	ú	single_token_exact_decode	1	84	0	1	17428	úri
+ü	u	diaeresis	LATIN SMALL LETTER U WITH DIAERESIS	2	c3 bc	1	2314	Ã¼	ü	single_token_exact_decode	1	84	0	1	10176	ütu
+ý	y	acute	LATIN SMALL LETTER Y WITH ACUTE	6	c3 bd	1	19022	Ã½	ý	single_token_exact_decode	1	88	0	1	170032	oliseý, ýit, irý
+ž	z	caron	LATIN SMALL LETTER Z WITH CARON	4	c5 be	1	11828	Å¾	ž	single_token_exact_decode	1	89	0	1	29946	gerž, žak, udže
+æ	ae	extended_latin_letter	LATIN SMALL LETTER AE	1	c3 a6	1	8918	Ã¦	æ	single_token_exact_decode	1	5734	0	1	62816	æyld
+Ð	D	extended_latin_letter	LATIN CAPITAL LETTER ETH	1	c3 90	1	91914	ÃĲ	Ð	single_token_exact_decode	1	35	0	1	183034	Ðuryh
+ð	d	extended_latin_letter	LATIN SMALL LETTER ETH	32	c3 b0	1	65418	Ã°	ð	single_token_exact_decode	1	67	0	2	1624 108	odoð, siðhi, nirað, acið, tarð
+þ	th	extended_latin_letter	LATIN SMALL LETTER THORN	4	c3 be	1	169023	Ã¾	þ	single_token_exact_decode	1	337	0	1	76863	setasþa, lenþað

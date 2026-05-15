@@ -1,0 +1,14 @@
+timestamp_utc=2026-05-15T22:28:58.401394+00:00
+task=diacritic tokenizer audit
+tokenizer_path=/Volumes/ExternalSSD/aave-registers/5-10-26/tokenizer/Qwen-Qwen3.5-35B-A3B
+tokenizer_class=TokenizersBackend
+vocab_size=248044
+model_family=Qwen/Qwen3.5-35B-A3B
+character_tsv=/Volumes/ExternalSSD/aave-registers/orthographic-effects-qwen-35b-a3b-sae/5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_character_tokenization.tsv
+example_word_tsv=/Volumes/ExternalSSD/aave-registers/orthographic-effects-qwen-35b-a3b-sae/5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_example_word_tokenization.tsv
+summary=/Volumes/ExternalSSD/aave-registers/orthographic-effects-qwen-35b-a3b-sae/5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_tokenizer_audit_summary.md
+metadata=/Volumes/ExternalSSD/aave-registers/orthographic-effects-qwen-35b-a3b-sae/5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_tokenizer_audit_metadata.json
+character_row_count=14
+example_word_row_count=34
+processing_class_counts={'single_token_exact_decode': 14}
+confirmation=local tokenizer-only workflow

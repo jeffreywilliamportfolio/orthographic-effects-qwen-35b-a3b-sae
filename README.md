@@ -70,6 +70,7 @@ Top-level directories:
 - `smoke-validation/`: two-prompt migration validation outputs.
 - `5-12-26/`: 5-12 behavioral-SAE alignment run and archived artifacts.
 - `5-14-26/`: 5-14 stream, prefix, d-diacritic, and Spanish enye-control branch-probe artifacts.
+- `5-15-26/`: diacritic tokenizer audit.
 
 ## Run Chronology
 
@@ -155,6 +156,32 @@ Key files:
 - [`5-14-26/qwen-scope/artifacts/hum_branch_probe_sae_36770258_extracted/sae_outputs/hum_branch_probe_sae_capture/hum_branch_probe_summary.md`](5-14-26/qwen-scope/artifacts/hum_branch_probe_sae_36770258_extracted/sae_outputs/hum_branch_probe_sae_capture/hum_branch_probe_summary.md)
 - [`5-14-26/qwen-scope/artifacts/hum_spanish_enye_branch_probe_sae_36773413_extracted/sae_outputs/hum_spanish_enye_branch_probe_sae_capture/hum_spanish_enye_branch_probe_summary.md`](5-14-26/qwen-scope/artifacts/hum_spanish_enye_branch_probe_sae_36773413_extracted/sae_outputs/hum_spanish_enye_branch_probe_sae_capture/hum_spanish_enye_branch_probe_summary.md)
 
+### 2026-05-15: Extended Latin Tokenizer Audit
+
+The 5-15 audit checked the Qwen3.5 tokenizer behavior for diacritics and extended Latin letters appearing in passages.
+
+Inventory:
+
+- acute letters: `á`, `é`, `í`, `ú`, `ý`
+- diaeresis letters: `ä`, `ö`, `ü`
+- caron letters: `š`, `ž`
+- extended Latin letters: `æ`, `Ð`, `ð`, `þ`
+
+Main evidence:
+
+- 14 inventory characters audited.
+- All 14 are exact single-token characters in the local Qwen3.5 tokenizer.
+- 34 example words audited.
+- 14 example words add one token relative to their ASCII-folded form.
+- Largest observed word-level delta: +1 token.
+
+Key files:
+
+- [`5-15-26/README.md`](5-15-26/README.md)
+- [`5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_character_tokenization.tsv`](5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_character_tokenization.tsv)
+- [`5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_example_word_tokenization.tsv`](5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_example_word_tokenization.tsv)
+- [`5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_tokenizer_audit_summary.md`](5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_tokenizer_audit_summary.md)
+
 ## Artifact Policy
 
 Committed artifacts include prompts, scripts, generated text, SAE TopK rows, delta/Jaccard tables, summaries, logs, manifests, provenance, and small compressed archives of those same artifact bundles.
@@ -173,8 +200,9 @@ The repository includes file manifests and setup provenance that identify the so
 1. Read [`RESULTS.md`](RESULTS.md) for the 5-11 and 5-12 evidence summary.
 2. Read [`5-14-26/README.md`](5-14-26/README.md) for the stream and branch-probe findings.
 3. Open [`5-14-26/qwen-scope/artifacts/README.md`](5-14-26/qwen-scope/artifacts/README.md) to locate each run’s generated text and summary.
-4. Use the TSVs in `results/` and `5-14-26/qwen-scope/artifacts/*/sae_outputs/` for direct analysis.
-5. Use `provenance/` and dated `qwen-scope/provenance/` folders to audit setup, teardown, and artifact handling.
+4. Read [`5-15-26/README.md`](5-15-26/README.md) for the tokenizer audit of diacritics.
+5. Use the TSVs in `results/`, `5-14-26/qwen-scope/artifacts/*/sae_outputs/`, and `5-15-26/qwen-scope/outputs/` for direct analysis.
+6. Use `provenance/` and dated `qwen-scope/provenance/` folders to audit setup, teardown, and artifact handling.
 
 ## Reproducibility Notes
 

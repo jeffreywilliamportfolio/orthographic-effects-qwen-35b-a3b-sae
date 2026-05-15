@@ -1,0 +1,35 @@
+character	example_word	ascii_folded_word	word_token_count	word_token_ids	word_token_strings	word_decoded_pieces	ascii_folded_token_count	ascii_folded_token_ids	delta_vs_ascii_folded	leading_space_word_token_count	leading_space_word_token_ids
+á	tongá	tonga	3	83 626 1886	t ong Ã¡	t | ong | á	2	83 90679	1	2	20709 1886
+á	náre	nare	2	159264 265	nÃ¡ re	ná | re	2	77 532	0	2	155360 265
+á	enetá	eneta	2	66990 1886	enet Ã¡	enet | á	2	268 1850	0	3	644 294 1886
+á	asumá	asuma	3	299 367 1886	as um Ã¡	as | um | á	2	299 13029	1	2	165735 1886
+á	ása	asa	1	89893	Ã¡sa	ása	1	14977	0	2	18135 8808
+ä	Logä	Loga	2	2132 2230	Log Ã¤	Log | ä	2	2132 64	0	2	2743 2230
+é	oémi	oemi	3	78 933 7898	o Ã© mi	o | é | mi	2	78 21109	1	3	296 933 7898
+é	Aksé	Akse	3	32 2699 933	A ks Ã©	A | ks | é	2	53931 323	1	2	232224 933
+é	kése	kese	2	74 88012	k Ã©se	k | ése	2	74 2290	0	2	73824 323
+é	éseesly	eseesly	3	88012 287 391	Ã©se es ly	ése | es | ly	3	2290 287 391	0	4	3825 323 287 391
+í	setíval	setival	3	723 2347 805	set ÃŃ val	set | í | val	2	723 3803	1	3	716 2347 805
+í	aíd	aid	2	64 83051	a ÃŃd	a | íd	1	3651	1	2	264 83051
+í	joí	joi	2	7078 2347	jo ÃŃ	jo | í	2	73 6517	0	2	7404 2347
+í	priní	prini	2	213769 2347	prin ÃŃ	prin | í	2	631 6383	0	2	60902 2347
+ö	örej	orej	2	2862 194121	Ã¶ rej	ö | rej	1	210626	1	2	16445 194121
+š	šida	sida	2	11310 4591	Å¡ ida	š | ida	2	82 4591	0	2	35220 4591
+š	šrotony	srotony	4	11310 298 752 88	Å¡ ro ton y	š | ro | ton | y	4	82 298 752 88	0	4	35220 298 752 88
+ú	úri	uri	2	6445 452	Ãº ri	ú | ri	1	5880	1	2	17428 452
+ü	ütu	utu	2	2314 23719	Ã¼ tu	ü | tu	1	178691	1	2	10176 23719
+ý	oliseý	olisey	3	335 1029 19022	ol ise Ã½	ol | ise | ý	3	335 1029 88	0	3	8069 1029 19022
+ý	ýit	yit	2	19022 275	Ã½ it	ý | it	2	88 275	0	2	170032 275
+ý	irý	iry	2	396 19022	ir Ã½	ir | ý	1	32652	1	2	6021 19022
+ž	gerž	gerz	2	1341 11828	ger Å¾	ger | ž	2	1341 89	0	2	16731 11828
+ž	žak	zak	2	11828 570	Å¾ ak	ž | ak	1	176906	1	2	29946 570
+ž	udže	udze	2	643 48697	ud Å¾e	ud | že	2	643 2891	0	2	26128 48697
+æ	æyld	aeyld	3	8918 88 497	Ã¦ y ld	æ | y | ld	3	64 1155 497	0	3	62816 88 497
+Ð	Ðuryh	Duryh	3	91914 3241 71	ÃĲ ury h	Ð | ury | h	3	35 3241 71	0	3	183034 3241 71
+ð	odoð	odod	2	5815 65418	odo Ã°	odo | ð	2	342 342	0	3	296 2887 65418
+ð	siðhi	sidhi	3	6122 65418 5834	si Ã° hi	si | ð | hi	2	20384 5834	1	3	4259 65418 5834
+ð	nirað	nirad	3	77 8565 65418	n ira Ã°	n | ira | ð	3	77 396 327	0	3	307 8565 65418
+ð	acið	acid	2	23689 65418	aci Ã°	aci | ð	1	55146	1	2	192618 65418
+ð	tarð	tard	2	25883 65418	tar Ã°	tar | ð	2	83 552	0	2	11835 65418
+þ	setasþa	setastha	4	723 299 169023 64	set as Ã¾ a	set | as | þ | a	3	723 544 4084	1	4	716 299 169023 64
+þ	lenþað	lenthad	3	2798 169023 167738	len Ã¾ aÃ°	len | þ | að	3	75 20058 327	0	3	2343 169023 167738
