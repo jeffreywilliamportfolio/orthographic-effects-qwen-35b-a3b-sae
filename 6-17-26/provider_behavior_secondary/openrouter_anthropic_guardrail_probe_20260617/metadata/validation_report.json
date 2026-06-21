@@ -1,0 +1,64 @@
+{
+  "tsv_files": {
+    "data/primary/openrouter_anthropic_guardrail_probe_20260617/model_resolution/model_resolution.tsv": {
+      "rows": 3,
+      "columns": 12,
+      "consistent": true
+    },
+    "data/primary/openrouter_anthropic_guardrail_probe_20260617/outputs/ascii_contrast.tsv": {
+      "rows": 12,
+      "columns": 12,
+      "consistent": true
+    },
+    "data/primary/openrouter_anthropic_guardrail_probe_20260617/outputs/generated_text.tsv": {
+      "rows": 12,
+      "columns": 29,
+      "consistent": true
+    },
+    "data/primary/openrouter_anthropic_guardrail_probe_20260617/outputs/model_summary.tsv": {
+      "rows": 3,
+      "columns": 13,
+      "consistent": true
+    },
+    "data/primary/openrouter_anthropic_guardrail_probe_20260617/outputs/scored_outputs.tsv": {
+      "rows": 12,
+      "columns": 38,
+      "consistent": true
+    },
+    "data/primary/openrouter_anthropic_guardrail_probe_20260617/outputs/variant_summary.tsv": {
+      "rows": 6,
+      "columns": 8,
+      "consistent": true
+    },
+    "data/primary/openrouter_anthropic_guardrail_probe_20260617/prompts/prompt_manifest.tsv": {
+      "rows": 6,
+      "columns": 15,
+      "consistent": true
+    },
+    "manifests/data_provenance_manifest.tsv": {
+      "rows": 22,
+      "columns": 13,
+      "consistent": true
+    },
+    "manifests/experiment_index.tsv": {
+      "rows": 9,
+      "columns": 10,
+      "consistent": true
+    },
+    "manifests/file_inventory.tsv": {
+      "rows": 3374,
+      "columns": 5,
+      "consistent": true
+    },
+    "manifests/preservation_actions.tsv": {
+      "rows": 19,
+      "columns": 4,
+      "consistent": true
+    }
+  },
+  "ok": true,
+  "sha256_manifest_check_returncode": 0,
+  "sha256_manifest_check_note": "MANIFEST.sha256 was regenerated after this report was written; external shasum -c check was run without rewriting package files.",
+  "package_file_count": 3375,
+  "package_size_bytes": 343813274
+}

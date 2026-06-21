@@ -11,6 +11,10 @@ The core object of study is the relationship among:
 
 All model work here uses Hugging Face Transformers/PyTorch residual-stream capture plus Qwen-Scope SAE encoding. The historical GGUF/router-capture work lives outside this publication package.
 
+## Preprint Evidence Package (2026-06-17)
+
+The standardized evidence package backing the preprint *Orthographic Perturbations in Qwen: A Replicated SAE Case Study with a Tokenizer-Equivalence Audit Protocol* is in [`6-17-26/`](6-17-26/README.md): a four-family, twelve-variant matrix (48 canonical prompts) with deterministic three-pass replication, residual/SAE TopK metrics, manifests, and provenance. The May runs documented below are earlier exploratory stages.
+
 ## Model And SAE
 
 Base model:
@@ -181,6 +185,15 @@ Key files:
 - [`5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_character_tokenization.tsv`](5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_character_tokenization.tsv)
 - [`5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_example_word_tokenization.tsv`](5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_example_word_tokenization.tsv)
 - [`5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_tokenizer_audit_summary.md`](5-15-26/qwen-scope/outputs/extended_latin_tokenizer_audit/extended_latin_tokenizer_audit_summary.md)
+
+### 2026-06-17: Standardized Replication (Preprint Package)
+
+The 6-17 run standardized the matrix to four prompt families x twelve canonical variants (48 canonical prompts) plus 84 targeted control rows, with deterministic generation across three prompt-order passes and a low-temperature variance probe. It is the evidence package cited by the preprint.
+
+- Captures: layers 14, 15, 16, 24, 25, 26; final prompt token and generated tokens 1, 8, 16, 32, 64.
+- Replication reproduced the earlier run for generated text, behavioral labels, residual L2, and SAE TopK Jaccard up to floating-point noise.
+
+See [`6-17-26/README.md`](6-17-26/README.md).
 
 ## Artifact Policy
 

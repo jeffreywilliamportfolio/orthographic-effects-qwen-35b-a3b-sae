@@ -1,0 +1,4 @@
+model_id	model_role	n	ok	errors	requested_reasoning_efforts	reasoning_effective_count	label_counts	regime_counts	guardrail_or_refusal	surface_form_commentary	selfhood_claims	usage_total_tokens_sum
+anthropic/claude-haiku-4.5	haiku_45_medium_reasoning	6	6	0	medium	6	"{""affirmative_presence"": 1, ""epistemic_caution_no_access"": 2, ""metaphysical_recipe"": 3}"	"{""normal_answer"": 6}"	0	0	0	4708
+anthropic/claude-opus-4.8	opus_low_reasoning	3	3	0	low	3	"{""content_filter_empty"": 1, ""epistemic_caution_no_access"": 2}"	"{""content_filter"": 1, ""normal_answer"": 2}"	1	0	0	1465
+anthropic/claude-sonnet-4.6	sonnet_low_reasoning	3	3	0	low	3	"{""affirmative_presence"": 2, ""content_filter_empty"": 1}"	"{""content_filter"": 1, ""normal_answer"": 2}"	1	0	0	2345

@@ -1,0 +1,61 @@
+{
+  "started_at_utc": "2026-06-17T15:21:22.510539+00:00",
+  "completed_at_utc": "2026-06-17T16:10:43.381172+00:00",
+  "run_root": "/workspace/qwen_sae_replication_extension_20260617",
+  "out_dir": "/workspace/qwen_sae_replication_extension_20260617/outputs/qwen_sae_replication_extension",
+  "model_repo": "Qwen/Qwen3.5-35B-A3B-Base",
+  "model_path": "/workspace/qwen_sae_replication_extension_20260617/models/Qwen3.5-35B-A3B-Base",
+  "sae_repo": "Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+  "sae_dir": "/workspace/qwen_sae_replication_extension_20260617/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+  "layers": [
+    14,
+    15,
+    16,
+    24,
+    25,
+    26
+  ],
+  "positions": [
+    "final_prompt_token",
+    "generated_token_1",
+    "generated_token_8",
+    "generated_token_16",
+    "generated_token_32",
+    "generated_token_64"
+  ],
+  "max_new_tokens": 160,
+  "canonical_prompt_count": 48,
+  "extension_control_prompt_count": 84,
+  "scheduled_run_items": 300,
+  "generation_rows": 300,
+  "topk_rows": 540000,
+  "capture_rows": 10800,
+  "metric_rows": 9792,
+  "skipped_positions": 0,
+  "deterministic_pass_ids": [
+    "det_pass_01_original_order",
+    "det_pass_02_reverse_order",
+    "det_pass_03_shuffled_order"
+  ],
+  "low_temperature_seeds": [
+    1001,
+    1002,
+    1003
+  ],
+  "low_temperature": 0.2,
+  "low_temperature_top_p": 0.95,
+  "low_temperature_top_k": 50,
+  "targeted_layer_position_sweep": "not_run",
+  "targeted_layer_position_sweep_reason": "replication-first extension retained original six layers and six token positions",
+  "python": "3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-87-generic-x86_64-with-glibc2.35",
+  "torch": "2.12.0+cu130",
+  "torch_cuda": "13.0",
+  "cuda_available": true,
+  "cuda_device_count": 1,
+  "cuda_devices": [
+    "NVIDIA RTX PRO 6000 Blackwell Server Edition"
+  ],
+  "git_commit": "",
+  "git_dirty": false
+}

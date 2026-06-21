@@ -1,0 +1,23 @@
+/venv/main/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py:189: UserWarning: The `resume_download` argument is deprecated and ignored in `snapshot_download`. Downloads always resume whenever possible.
+  warnings.warn(
+Fetching 25 files:   0%|          | 0/25 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 25 files:   4%|▍         | 1/25 [00:00<00:04,  5.25it/s]Fetching 25 files:  24%|██▍       | 6/25 [00:28<01:34,  4.98s/it]Fetching 25 files:  28%|██▊       | 7/25 [00:29<01:14,  4.15s/it]Fetching 25 files:  56%|█████▌    | 14/25 [00:50<00:37,  3.37s/it]Fetching 25 files:  68%|██████▊   | 17/25 [00:50<00:19,  2.42s/it]Fetching 25 files: 100%|██████████| 25/25 [00:50<00:00,  2.02s/it]
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  12%|█▎        | 1/8 [00:00<00:01,  4.50it/s]Fetching 8 files:  38%|███▊      | 3/8 [00:05<00:09,  1.95s/it]Fetching 8 files:  50%|█████     | 4/8 [00:05<00:06,  1.50s/it]Fetching 8 files: 100%|██████████| 8/8 [00:05<00:00,  1.34it/s]
+{
+  "started_at_utc": "2026-06-17T15:18:18.172570+00:00",
+  "completed_at_utc": "2026-06-17T15:19:14.878539+00:00",
+  "root": "/workspace/qwen_sae_replication_extension_20260617",
+  "model_repo": "Qwen/Qwen3.5-35B-A3B-Base",
+  "model_path": "/workspace/qwen_sae_replication_extension_20260617/models/Qwen3.5-35B-A3B-Base",
+  "sae_repo": "Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+  "sae_path": "/workspace/qwen_sae_replication_extension_20260617/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+  "sae_layers": [
+    14,
+    15,
+    16,
+    24,
+    25,
+    26
+  ],
+  "hf_xet_high_performance": "1"
+}

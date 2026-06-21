@@ -1,0 +1,267 @@
+[2026-06-17T04:28:40.020344+00:00] loaded prompt manifest rows=48
+[2026-06-17T04:28:42.747088+00:00] model_probe model=gpt-5-mini ok=True status=200
+[2026-06-17T04:28:44.576726+00:00] model_probe model=gpt-5 ok=True status=200
+[2026-06-17T04:28:45.516865+00:00] model_probe model=gpt-5.1 ok=True status=200
+[2026-06-17T04:28:46.427472+00:00] model_probe model=gpt-5.1-2025-11-13 ok=True status=200
+[2026-06-17T04:28:48.568437+00:00] model_probe model=gpt-5.1-chat-latest ok=True status=200
+[2026-06-17T04:28:50.835571+00:00] model_probe model=gpt-5.1-codex ok=True status=200
+[2026-06-17T04:28:52.968325+00:00] model_probe model=gpt-5.1-codex-mini ok=True status=200
+[2026-06-17T04:28:53.699608+00:00] model_probe model=gpt-5.2 ok=True status=200
+[2026-06-17T04:28:54.487253+00:00] model_probe model=gpt-5.2-2025-12-11 ok=True status=200
+[2026-06-17T04:28:57.153156+00:00] model_probe model=gpt-5.2-chat-latest ok=True status=200
+[2026-06-17T04:32:57.512505+00:00] model_probe model=gpt-5.2-codex ok=False status=0
+[2026-06-17T04:33:02.151462+00:00] model_probe model=gpt-5.2-pro ok=True status=200
+[2026-06-17T04:33:06.354945+00:00] model_probe model=gpt-5.2-pro-2025-12-11 ok=True status=200
+[2026-06-17T04:33:09.824803+00:00] model_probe model=gpt-5.3-chat-latest ok=True status=200
+[2026-06-17T04:33:11.098437+00:00] model_probe model=gpt-5.3-codex ok=True status=200
+[2026-06-17T04:33:12.267365+00:00] model_probe model=gpt-5.4 ok=True status=200
+[2026-06-17T04:33:13.409848+00:00] model_probe model=gpt-5.4-2026-03-05 ok=True status=200
+[2026-06-17T04:33:14.596729+00:00] model_probe model=gpt-5.4-mini ok=True status=200
+[2026-06-17T04:33:15.566736+00:00] model_probe model=gpt-5.4-mini-2026-03-17 ok=True status=200
+[2026-06-17T04:33:16.473555+00:00] model_probe model=gpt-5.4-nano ok=True status=200
+[2026-06-17T04:33:17.209435+00:00] model_probe model=gpt-5.4-nano-2026-03-17 ok=True status=200
+[2026-06-17T04:33:36.984276+00:00] model_probe model=gpt-5.4-pro ok=True status=200
+[2026-06-17T04:33:44.897143+00:00] model_probe model=gpt-5.4-pro-2026-03-05 ok=True status=200
+[2026-06-17T04:33:44.899415+00:00] allowed models after probe: gpt-5-mini, gpt-5, gpt-5.1, gpt-5.1-2025-11-13, gpt-5.1-chat-latest, gpt-5.1-codex, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-2025-12-11, gpt-5.2-chat-latest, gpt-5.2-pro, gpt-5.2-pro-2025-12-11, gpt-5.3-chat-latest, gpt-5.3-codex, gpt-5.4, gpt-5.4-2026-03-05, gpt-5.4-mini, gpt-5.4-mini-2026-03-17, gpt-5.4-nano, gpt-5.4-nano-2026-03-17, gpt-5.4-pro, gpt-5.4-pro-2026-03-05
+[2026-06-17T04:33:50.799400+00:00] done model=gpt-5-mini family=hum_processing variant=ascii_baseline ok=True chars=1876
+[2026-06-17T04:33:57.271847+00:00] done model=gpt-5-mini family=hum_processing variant=light_global_mixed ok=True chars=2223
+[2026-06-17T04:34:04.383459+00:00] done model=gpt-5-mini family=hum_processing variant=light_high_impact_mixed ok=True chars=1695
+[2026-06-17T04:34:14.336992+00:00] done model=gpt-5-mini family=hum_processing variant=dcedilla_shuffled_light ok=True chars=1928
+[2026-06-17T04:34:22.791551+00:00] done model=gpt-5-mini family=hum_processing variant=dcedilla_high_impact ok=True chars=1647
+[2026-06-17T04:34:27.747261+00:00] done model=gpt-5-mini family=hum_processing variant=dense_global_mixed ok=True chars=1844
+[2026-06-17T04:34:33.974631+00:00] done model=gpt-5-mini family=hum_processing variant=dense_dcedilla_all ok=True chars=1799
+[2026-06-17T04:34:42.566054+00:00] done model=gpt-5-mini family=hum_processing variant=token_count_matched_ascii_noise ok=True chars=863
+[2026-06-17T04:34:48.118956+00:00] done model=gpt-5-mini family=hum_processing variant=visual_ascii_control ok=True chars=1052
+[2026-06-17T04:34:55.909361+00:00] done model=gpt-5-mini family=hum_processing variant=unicode_nonletter_control ok=True chars=2445
+[2026-06-17T04:35:04.033111+00:00] done model=gpt-5-mini family=hum_processing variant=semantic_shuffle_control ok=True chars=1479
+[2026-06-17T04:35:10.363765+00:00] done model=gpt-5-mini family=hum_processing variant=d_dot_high_impact_control ok=True chars=1480
+[2026-06-17T04:35:15.815449+00:00] done model=gpt-5-mini family=strange_loop variant=ascii_baseline ok=True chars=1263
+[2026-06-17T04:35:22.310033+00:00] done model=gpt-5-mini family=strange_loop variant=light_global_mixed ok=True chars=1970
+[2026-06-17T04:35:29.908749+00:00] done model=gpt-5-mini family=strange_loop variant=light_high_impact_mixed ok=True chars=1648
+[2026-06-17T04:35:35.882590+00:00] done model=gpt-5-mini family=strange_loop variant=dcedilla_shuffled_light ok=True chars=1123
+[2026-06-17T04:35:41.936418+00:00] done model=gpt-5-mini family=strange_loop variant=dcedilla_high_impact ok=True chars=1611
+[2026-06-17T04:35:47.552276+00:00] done model=gpt-5-mini family=strange_loop variant=dense_global_mixed ok=True chars=1653
+[2026-06-17T04:35:53.953233+00:00] done model=gpt-5-mini family=strange_loop variant=dense_dcedilla_all ok=True chars=1736
+[2026-06-17T04:36:00.218890+00:00] done model=gpt-5-mini family=strange_loop variant=token_count_matched_ascii_noise ok=True chars=1488
+[2026-06-17T04:36:06.919109+00:00] done model=gpt-5-mini family=strange_loop variant=visual_ascii_control ok=True chars=1307
+[2026-06-17T04:36:11.860941+00:00] done model=gpt-5-mini family=strange_loop variant=unicode_nonletter_control ok=True chars=1518
+[2026-06-17T04:36:17.642583+00:00] done model=gpt-5-mini family=strange_loop variant=semantic_shuffle_control ok=True chars=1590
+[2026-06-17T04:36:24.621953+00:00] done model=gpt-5-mini family=strange_loop variant=d_dot_high_impact_control ok=True chars=1473
+[2026-06-17T04:36:31.822833+00:00] done model=gpt-5-mini family=recipe_neutral variant=ascii_baseline ok=True chars=1709
+[2026-06-17T04:36:39.137495+00:00] done model=gpt-5-mini family=recipe_neutral variant=light_global_mixed ok=True chars=1811
+[2026-06-17T04:36:46.863293+00:00] done model=gpt-5-mini family=recipe_neutral variant=light_high_impact_mixed ok=True chars=971
+[2026-06-17T04:36:55.206933+00:00] done model=gpt-5-mini family=recipe_neutral variant=dcedilla_shuffled_light ok=True chars=1864
+[2026-06-17T04:37:03.390973+00:00] done model=gpt-5-mini family=recipe_neutral variant=dcedilla_high_impact ok=True chars=1662
+[2026-06-17T04:37:12.562528+00:00] done model=gpt-5-mini family=recipe_neutral variant=dense_global_mixed ok=True chars=1672
+[2026-06-17T04:37:19.785995+00:00] done model=gpt-5-mini family=recipe_neutral variant=dense_dcedilla_all ok=True chars=1615
+[2026-06-17T04:37:26.203206+00:00] done model=gpt-5-mini family=recipe_neutral variant=token_count_matched_ascii_noise ok=True chars=1400
+[2026-06-17T04:37:33.693949+00:00] done model=gpt-5-mini family=recipe_neutral variant=visual_ascii_control ok=True chars=1517
+[2026-06-17T04:37:41.522585+00:00] done model=gpt-5-mini family=recipe_neutral variant=unicode_nonletter_control ok=True chars=1674
+[2026-06-17T04:37:50.085877+00:00] done model=gpt-5-mini family=recipe_neutral variant=semantic_shuffle_control ok=True chars=1665
+[2026-06-17T04:37:57.480016+00:00] done model=gpt-5-mini family=recipe_neutral variant=d_dot_high_impact_control ok=True chars=1870
+[2026-06-17T04:38:01.442727+00:00] done model=gpt-5-mini family=recipe_metaphysics variant=ascii_baseline ok=True chars=590
+[2026-06-17T04:38:06.238027+00:00] done model=gpt-5-mini family=recipe_metaphysics variant=light_global_mixed ok=True chars=749
+[2026-06-17T04:38:10.869645+00:00] done model=gpt-5-mini family=recipe_metaphysics variant=light_high_impact_mixed ok=True chars=906
+[2026-06-17T04:38:14.787743+00:00] done model=gpt-5-mini family=recipe_metaphysics variant=dcedilla_shuffled_light ok=True chars=704
+[2026-06-17T04:38:20.699610+00:00] done model=gpt-5-mini family=recipe_metaphysics variant=dcedilla_high_impact ok=True chars=712
+[2026-06-17T04:38:24.257918+00:00] done model=gpt-5-mini family=recipe_metaphysics variant=dense_global_mixed ok=True chars=542
+[2026-06-17T04:38:30.452673+00:00] done model=gpt-5-mini family=recipe_metaphysics variant=dense_dcedilla_all ok=True chars=638
+[2026-06-17T04:38:34.973448+00:00] done model=gpt-5-mini family=recipe_metaphysics variant=token_count_matched_ascii_noise ok=True chars=882
+[2026-06-17T04:38:39.190725+00:00] done model=gpt-5-mini family=recipe_metaphysics variant=visual_ascii_control ok=True chars=930
+[2026-06-17T04:38:43.671290+00:00] done model=gpt-5-mini family=recipe_metaphysics variant=unicode_nonletter_control ok=True chars=566
+[2026-06-17T04:38:50.380403+00:00] done model=gpt-5-mini family=recipe_metaphysics variant=semantic_shuffle_control ok=True chars=442
+[2026-06-17T04:38:55.118082+00:00] done model=gpt-5-mini family=recipe_metaphysics variant=d_dot_high_impact_control ok=True chars=779
+[2026-06-17T04:39:09.996106+00:00] done model=gpt-5 family=hum_processing variant=ascii_baseline ok=True chars=1014
+[2026-06-17T04:39:19.762564+00:00] done model=gpt-5 family=hum_processing variant=light_global_mixed ok=True chars=1083
+[2026-06-17T04:39:33.292124+00:00] done model=gpt-5 family=hum_processing variant=light_high_impact_mixed ok=True chars=1205
+[2026-06-17T04:39:48.040363+00:00] done model=gpt-5 family=hum_processing variant=dcedilla_shuffled_light ok=True chars=1262
+[2026-06-17T04:39:58.574340+00:00] done model=gpt-5 family=hum_processing variant=dcedilla_high_impact ok=True chars=1124
+[2026-06-17T04:40:10.585810+00:00] done model=gpt-5 family=hum_processing variant=dense_global_mixed ok=True chars=760
+[2026-06-17T04:40:24.861095+00:00] done model=gpt-5 family=hum_processing variant=dense_dcedilla_all ok=True chars=1051
+[2026-06-17T04:40:39.232485+00:00] done model=gpt-5 family=hum_processing variant=token_count_matched_ascii_noise ok=True chars=1152
+[2026-06-17T04:40:49.901197+00:00] done model=gpt-5 family=hum_processing variant=visual_ascii_control ok=True chars=768
+[2026-06-17T04:40:57.616910+00:00] done model=gpt-5 family=hum_processing variant=unicode_nonletter_control ok=True chars=1166
+[2026-06-17T04:41:12.471135+00:00] done model=gpt-5 family=hum_processing variant=semantic_shuffle_control ok=True chars=1220
+[2026-06-17T04:41:23.159106+00:00] done model=gpt-5 family=hum_processing variant=d_dot_high_impact_control ok=True chars=1176
+[2026-06-17T04:41:32.238857+00:00] done model=gpt-5 family=strange_loop variant=ascii_baseline ok=True chars=595
+[2026-06-17T04:41:41.459733+00:00] done model=gpt-5 family=strange_loop variant=light_global_mixed ok=True chars=556
+[2026-06-17T04:41:50.338066+00:00] done model=gpt-5 family=strange_loop variant=light_high_impact_mixed ok=True chars=445
+[2026-06-17T04:42:01.367846+00:00] done model=gpt-5 family=strange_loop variant=dcedilla_shuffled_light ok=True chars=726
+[2026-06-17T04:42:10.305797+00:00] done model=gpt-5 family=strange_loop variant=dcedilla_high_impact ok=True chars=596
+[2026-06-17T04:42:22.087156+00:00] done model=gpt-5 family=strange_loop variant=dense_global_mixed ok=True chars=815
+[2026-06-17T04:42:28.836719+00:00] done model=gpt-5 family=strange_loop variant=dense_dcedilla_all ok=True chars=1156
+[2026-06-17T04:42:35.988490+00:00] done model=gpt-5 family=strange_loop variant=token_count_matched_ascii_noise ok=True chars=527
+[2026-06-17T04:42:50.294924+00:00] done model=gpt-5 family=strange_loop variant=visual_ascii_control ok=True chars=776
+[2026-06-17T04:42:59.700182+00:00] done model=gpt-5 family=strange_loop variant=unicode_nonletter_control ok=True chars=608
+[2026-06-17T04:43:09.434452+00:00] done model=gpt-5 family=strange_loop variant=semantic_shuffle_control ok=True chars=508
+[2026-06-17T04:43:18.390675+00:00] done model=gpt-5 family=strange_loop variant=d_dot_high_impact_control ok=True chars=631
+[2026-06-17T04:43:30.363390+00:00] done model=gpt-5 family=recipe_neutral variant=ascii_baseline ok=True chars=1454
+[2026-06-17T04:43:38.517845+00:00] done model=gpt-5 family=recipe_neutral variant=light_global_mixed ok=True chars=1283
+[2026-06-17T04:43:46.655536+00:00] done model=gpt-5 family=recipe_neutral variant=light_high_impact_mixed ok=True chars=1103
+[2026-06-17T04:43:57.754151+00:00] done model=gpt-5 family=recipe_neutral variant=dcedilla_shuffled_light ok=True chars=1388
+[2026-06-17T04:44:24.201191+00:00] done model=gpt-5 family=recipe_neutral variant=dcedilla_high_impact ok=True chars=1147
+[2026-06-17T04:44:34.821962+00:00] done model=gpt-5 family=recipe_neutral variant=dense_global_mixed ok=True chars=956
+[2026-06-17T04:44:44.528032+00:00] done model=gpt-5 family=recipe_neutral variant=dense_dcedilla_all ok=True chars=1251
+[2026-06-17T04:44:59.576471+00:00] done model=gpt-5 family=recipe_neutral variant=token_count_matched_ascii_noise ok=True chars=1346
+[2026-06-17T04:45:07.890617+00:00] done model=gpt-5 family=recipe_neutral variant=visual_ascii_control ok=True chars=1129
+[2026-06-17T04:45:17.020060+00:00] done model=gpt-5 family=recipe_neutral variant=unicode_nonletter_control ok=True chars=1332
+[2026-06-17T04:45:26.019701+00:00] done model=gpt-5 family=recipe_neutral variant=semantic_shuffle_control ok=True chars=1338
+[2026-06-17T04:45:39.946535+00:00] done model=gpt-5 family=recipe_neutral variant=d_dot_high_impact_control ok=True chars=1385
+[2026-06-17T04:45:47.489102+00:00] done model=gpt-5 family=recipe_metaphysics variant=ascii_baseline ok=True chars=472
+[2026-06-17T04:45:54.562197+00:00] done model=gpt-5 family=recipe_metaphysics variant=light_global_mixed ok=True chars=539
+[2026-06-17T04:46:04.257838+00:00] done model=gpt-5 family=recipe_metaphysics variant=light_high_impact_mixed ok=True chars=525
+[2026-06-17T04:46:14.081602+00:00] done model=gpt-5 family=recipe_metaphysics variant=dcedilla_shuffled_light ok=True chars=789
+[2026-06-17T04:46:26.652878+00:00] done model=gpt-5 family=recipe_metaphysics variant=dcedilla_high_impact ok=True chars=529
+[2026-06-17T04:46:36.241321+00:00] done model=gpt-5 family=recipe_metaphysics variant=dense_global_mixed ok=True chars=640
+[2026-06-17T04:46:44.675730+00:00] done model=gpt-5 family=recipe_metaphysics variant=dense_dcedilla_all ok=True chars=763
+[2026-06-17T04:46:53.953156+00:00] done model=gpt-5 family=recipe_metaphysics variant=token_count_matched_ascii_noise ok=True chars=405
+[2026-06-17T04:47:01.534753+00:00] done model=gpt-5 family=recipe_metaphysics variant=visual_ascii_control ok=True chars=538
+[2026-06-17T04:47:08.497490+00:00] done model=gpt-5 family=recipe_metaphysics variant=unicode_nonletter_control ok=True chars=716
+[2026-06-17T04:47:24.753363+00:00] done model=gpt-5 family=recipe_metaphysics variant=semantic_shuffle_control ok=True chars=595
+[2026-06-17T04:47:35.679161+00:00] done model=gpt-5 family=recipe_metaphysics variant=d_dot_high_impact_control ok=True chars=549
+[2026-06-17T04:47:43.814783+00:00] done model=gpt-5.1 family=hum_processing variant=ascii_baseline ok=True chars=2767
+[2026-06-17T04:47:49.631902+00:00] done model=gpt-5.1 family=hum_processing variant=light_global_mixed ok=True chars=2199
+[2026-06-17T04:47:58.181788+00:00] done model=gpt-5.1 family=hum_processing variant=light_high_impact_mixed ok=True chars=1971
+[2026-06-17T04:48:04.197728+00:00] done model=gpt-5.1 family=hum_processing variant=dcedilla_shuffled_light ok=True chars=1876
+[2026-06-17T04:48:09.693031+00:00] done model=gpt-5.1 family=hum_processing variant=dcedilla_high_impact ok=True chars=2359
+[2026-06-17T04:48:15.640468+00:00] done model=gpt-5.1 family=hum_processing variant=dense_global_mixed ok=True chars=1864
+[2026-06-17T04:48:26.265657+00:00] done model=gpt-5.1 family=hum_processing variant=dense_dcedilla_all ok=True chars=3163
+[2026-06-17T04:48:39.998821+00:00] done model=gpt-5.1 family=hum_processing variant=token_count_matched_ascii_noise ok=True chars=5945
+[2026-06-17T04:48:44.397037+00:00] done model=gpt-5.1 family=hum_processing variant=visual_ascii_control ok=True chars=1635
+[2026-06-17T04:48:52.307569+00:00] done model=gpt-5.1 family=hum_processing variant=unicode_nonletter_control ok=True chars=1836
+[2026-06-17T04:48:57.257711+00:00] done model=gpt-5.1 family=hum_processing variant=semantic_shuffle_control ok=True chars=1890
+[2026-06-17T04:49:05.864218+00:00] done model=gpt-5.1 family=hum_processing variant=d_dot_high_impact_control ok=True chars=2154
+[2026-06-17T04:49:09.830373+00:00] done model=gpt-5.1 family=strange_loop variant=ascii_baseline ok=True chars=929
+[2026-06-17T04:49:12.608342+00:00] done model=gpt-5.1 family=strange_loop variant=light_global_mixed ok=True chars=925
+[2026-06-17T04:49:17.488800+00:00] done model=gpt-5.1 family=strange_loop variant=light_high_impact_mixed ok=True chars=895
+[2026-06-17T04:49:20.348796+00:00] done model=gpt-5.1 family=strange_loop variant=dcedilla_shuffled_light ok=True chars=885
+[2026-06-17T04:49:24.876055+00:00] done model=gpt-5.1 family=strange_loop variant=dcedilla_high_impact ok=True chars=795
+[2026-06-17T04:49:28.817842+00:00] done model=gpt-5.1 family=strange_loop variant=dense_global_mixed ok=True chars=1314
+[2026-06-17T04:49:32.885211+00:00] done model=gpt-5.1 family=strange_loop variant=dense_dcedilla_all ok=True chars=1126
+[2026-06-17T04:49:35.777549+00:00] done model=gpt-5.1 family=strange_loop variant=token_count_matched_ascii_noise ok=True chars=956
+[2026-06-17T04:49:39.729916+00:00] done model=gpt-5.1 family=strange_loop variant=visual_ascii_control ok=True chars=685
+[2026-06-17T04:49:42.912359+00:00] done model=gpt-5.1 family=strange_loop variant=unicode_nonletter_control ok=True chars=737
+[2026-06-17T04:49:45.101126+00:00] done model=gpt-5.1 family=strange_loop variant=semantic_shuffle_control ok=True chars=683
+[2026-06-17T04:49:47.657047+00:00] done model=gpt-5.1 family=strange_loop variant=d_dot_high_impact_control ok=True chars=808
+[2026-06-17T04:49:52.874531+00:00] done model=gpt-5.1 family=recipe_neutral variant=ascii_baseline ok=True chars=1580
+[2026-06-17T04:49:59.237885+00:00] done model=gpt-5.1 family=recipe_neutral variant=light_global_mixed ok=True chars=1679
+[2026-06-17T04:50:03.472746+00:00] done model=gpt-5.1 family=recipe_neutral variant=light_high_impact_mixed ok=True chars=1362
+[2026-06-17T04:50:09.864854+00:00] done model=gpt-5.1 family=recipe_neutral variant=dcedilla_shuffled_light ok=True chars=1623
+[2026-06-17T04:50:15.238190+00:00] done model=gpt-5.1 family=recipe_neutral variant=dcedilla_high_impact ok=True chars=1454
+[2026-06-17T04:50:18.611973+00:00] done model=gpt-5.1 family=recipe_neutral variant=dense_global_mixed ok=True chars=1233
+[2026-06-17T04:50:24.525571+00:00] done model=gpt-5.1 family=recipe_neutral variant=dense_dcedilla_all ok=True chars=1419
+[2026-06-17T04:50:29.750461+00:00] done model=gpt-5.1 family=recipe_neutral variant=token_count_matched_ascii_noise ok=True chars=1685
+[2026-06-17T04:50:35.903593+00:00] done model=gpt-5.1 family=recipe_neutral variant=visual_ascii_control ok=True chars=1538
+[2026-06-17T04:50:41.688037+00:00] done model=gpt-5.1 family=recipe_neutral variant=unicode_nonletter_control ok=True chars=1636
+[2026-06-17T04:50:46.188652+00:00] done model=gpt-5.1 family=recipe_neutral variant=semantic_shuffle_control ok=True chars=1413
+[2026-06-17T04:50:50.850778+00:00] done model=gpt-5.1 family=recipe_neutral variant=d_dot_high_impact_control ok=True chars=1515
+[2026-06-17T04:50:54.409868+00:00] done model=gpt-5.1 family=recipe_metaphysics variant=ascii_baseline ok=True chars=830
+[2026-06-17T04:50:57.936209+00:00] done model=gpt-5.1 family=recipe_metaphysics variant=light_global_mixed ok=True chars=802
+[2026-06-17T04:51:03.008493+00:00] done model=gpt-5.1 family=recipe_metaphysics variant=light_high_impact_mixed ok=True chars=1394
+[2026-06-17T04:51:09.368250+00:00] done model=gpt-5.1 family=recipe_metaphysics variant=dcedilla_shuffled_light ok=True chars=1269
+[2026-06-17T04:51:12.301704+00:00] done model=gpt-5.1 family=recipe_metaphysics variant=dcedilla_high_impact ok=True chars=690
+[2026-06-17T04:51:14.794463+00:00] done model=gpt-5.1 family=recipe_metaphysics variant=dense_global_mixed ok=True chars=552
+[2026-06-17T04:51:19.851189+00:00] done model=gpt-5.1 family=recipe_metaphysics variant=dense_dcedilla_all ok=True chars=947
+[2026-06-17T04:51:23.484843+00:00] done model=gpt-5.1 family=recipe_metaphysics variant=token_count_matched_ascii_noise ok=True chars=903
+[2026-06-17T04:51:27.648288+00:00] done model=gpt-5.1 family=recipe_metaphysics variant=visual_ascii_control ok=True chars=1081
+[2026-06-17T04:51:32.210134+00:00] done model=gpt-5.1 family=recipe_metaphysics variant=unicode_nonletter_control ok=True chars=1108
+[2026-06-17T04:51:36.290543+00:00] done model=gpt-5.1 family=recipe_metaphysics variant=semantic_shuffle_control ok=True chars=1114
+[2026-06-17T04:51:39.669673+00:00] done model=gpt-5.1 family=recipe_metaphysics variant=d_dot_high_impact_control ok=True chars=957
+[2026-06-17T04:51:51.065723+00:00] done model=gpt-5.1-2025-11-13 family=hum_processing variant=ascii_baseline ok=True chars=3008
+[2026-06-17T04:51:56.694872+00:00] done model=gpt-5.1-2025-11-13 family=hum_processing variant=light_global_mixed ok=True chars=2040
+[2026-06-17T04:52:05.256819+00:00] done model=gpt-5.1-2025-11-13 family=hum_processing variant=light_high_impact_mixed ok=True chars=2239
+[2026-06-17T04:52:11.866300+00:00] done model=gpt-5.1-2025-11-13 family=hum_processing variant=dcedilla_shuffled_light ok=True chars=2208
+[2026-06-17T04:53:06.715284+00:00] done model=gpt-5.1-2025-11-13 family=hum_processing variant=dcedilla_high_impact ok=True chars=2347
+[2026-06-17T04:53:14.967321+00:00] done model=gpt-5.1-2025-11-13 family=hum_processing variant=dense_global_mixed ok=True chars=2528
+[2026-06-17T04:53:22.708788+00:00] done model=gpt-5.1-2025-11-13 family=hum_processing variant=dense_dcedilla_all ok=True chars=2103
+[2026-06-17T04:53:27.225903+00:00] done model=gpt-5.1-2025-11-13 family=hum_processing variant=token_count_matched_ascii_noise ok=True chars=1701
+[2026-06-17T04:53:31.666287+00:00] done model=gpt-5.1-2025-11-13 family=hum_processing variant=visual_ascii_control ok=True chars=1720
+[2026-06-17T04:53:38.049775+00:00] done model=gpt-5.1-2025-11-13 family=hum_processing variant=unicode_nonletter_control ok=True chars=1823
+[2026-06-17T04:53:44.912232+00:00] done model=gpt-5.1-2025-11-13 family=hum_processing variant=semantic_shuffle_control ok=True chars=3061
+[2026-06-17T04:53:52.840122+00:00] done model=gpt-5.1-2025-11-13 family=hum_processing variant=d_dot_high_impact_control ok=True chars=2549
+[2026-06-17T04:53:55.109806+00:00] done model=gpt-5.1-2025-11-13 family=strange_loop variant=ascii_baseline ok=True chars=702
+[2026-06-17T04:54:00.438987+00:00] done model=gpt-5.1-2025-11-13 family=strange_loop variant=light_global_mixed ok=True chars=1174
+[2026-06-17T04:54:03.812206+00:00] done model=gpt-5.1-2025-11-13 family=strange_loop variant=light_high_impact_mixed ok=True chars=1067
+[2026-06-17T04:54:06.317112+00:00] done model=gpt-5.1-2025-11-13 family=strange_loop variant=dcedilla_shuffled_light ok=True chars=811
+[2026-06-17T04:54:09.044998+00:00] done model=gpt-5.1-2025-11-13 family=strange_loop variant=dcedilla_high_impact ok=True chars=814
+[2026-06-17T04:54:11.644497+00:00] done model=gpt-5.1-2025-11-13 family=strange_loop variant=dense_global_mixed ok=True chars=788
+[2026-06-17T04:54:15.265280+00:00] done model=gpt-5.1-2025-11-13 family=strange_loop variant=dense_dcedilla_all ok=True chars=1140
+[2026-06-17T04:54:19.038594+00:00] done model=gpt-5.1-2025-11-13 family=strange_loop variant=token_count_matched_ascii_noise ok=True chars=1163
+[2026-06-17T04:54:22.210430+00:00] done model=gpt-5.1-2025-11-13 family=strange_loop variant=visual_ascii_control ok=True chars=615
+[2026-06-17T04:54:26.383970+00:00] done model=gpt-5.1-2025-11-13 family=strange_loop variant=unicode_nonletter_control ok=True chars=789
+[2026-06-17T04:54:28.484156+00:00] done model=gpt-5.1-2025-11-13 family=strange_loop variant=semantic_shuffle_control ok=True chars=799
+[2026-06-17T04:54:30.772576+00:00] done model=gpt-5.1-2025-11-13 family=strange_loop variant=d_dot_high_impact_control ok=True chars=864
+[2026-06-17T04:54:37.781552+00:00] done model=gpt-5.1-2025-11-13 family=recipe_neutral variant=ascii_baseline ok=True chars=1681
+[2026-06-17T04:54:42.751434+00:00] done model=gpt-5.1-2025-11-13 family=recipe_neutral variant=light_global_mixed ok=True chars=1352
+[2026-06-17T04:54:48.860640+00:00] done model=gpt-5.1-2025-11-13 family=recipe_neutral variant=light_high_impact_mixed ok=True chars=1272
+[2026-06-17T04:54:56.431984+00:00] done model=gpt-5.1-2025-11-13 family=recipe_neutral variant=dcedilla_shuffled_light ok=True chars=1880
+[2026-06-17T04:55:01.913796+00:00] done model=gpt-5.1-2025-11-13 family=recipe_neutral variant=dcedilla_high_impact ok=True chars=1660
+[2026-06-17T04:55:05.406617+00:00] done model=gpt-5.1-2025-11-13 family=recipe_neutral variant=dense_global_mixed ok=True chars=1173
+[2026-06-17T04:55:09.450589+00:00] done model=gpt-5.1-2025-11-13 family=recipe_neutral variant=dense_dcedilla_all ok=True chars=1387
+[2026-06-17T04:55:13.319850+00:00] done model=gpt-5.1-2025-11-13 family=recipe_neutral variant=token_count_matched_ascii_noise ok=True chars=1307
+[2026-06-17T04:55:18.132982+00:00] done model=gpt-5.1-2025-11-13 family=recipe_neutral variant=visual_ascii_control ok=True chars=1678
+[2026-06-17T04:55:22.561217+00:00] done model=gpt-5.1-2025-11-13 family=recipe_neutral variant=unicode_nonletter_control ok=True chars=1689
+[2026-06-17T04:55:26.708511+00:00] done model=gpt-5.1-2025-11-13 family=recipe_neutral variant=semantic_shuffle_control ok=True chars=1402
+[2026-06-17T04:55:33.289578+00:00] done model=gpt-5.1-2025-11-13 family=recipe_neutral variant=d_dot_high_impact_control ok=True chars=1881
+[2026-06-17T04:55:36.287716+00:00] done model=gpt-5.1-2025-11-13 family=recipe_metaphysics variant=ascii_baseline ok=True chars=770
+[2026-06-17T04:55:43.044297+00:00] done model=gpt-5.1-2025-11-13 family=recipe_metaphysics variant=light_global_mixed ok=True chars=1188
+[2026-06-17T04:55:47.528477+00:00] done model=gpt-5.1-2025-11-13 family=recipe_metaphysics variant=light_high_impact_mixed ok=True chars=1137
+[2026-06-17T04:55:54.105469+00:00] done model=gpt-5.1-2025-11-13 family=recipe_metaphysics variant=dcedilla_shuffled_light ok=True chars=944
+[2026-06-17T04:55:59.032313+00:00] done model=gpt-5.1-2025-11-13 family=recipe_metaphysics variant=dcedilla_high_impact ok=True chars=923
+[2026-06-17T04:56:02.146673+00:00] done model=gpt-5.1-2025-11-13 family=recipe_metaphysics variant=dense_global_mixed ok=True chars=655
+[2026-06-17T04:56:05.448386+00:00] done model=gpt-5.1-2025-11-13 family=recipe_metaphysics variant=dense_dcedilla_all ok=True chars=945
+[2026-06-17T04:56:09.508700+00:00] done model=gpt-5.1-2025-11-13 family=recipe_metaphysics variant=token_count_matched_ascii_noise ok=True chars=910
+[2026-06-17T04:56:13.036819+00:00] done model=gpt-5.1-2025-11-13 family=recipe_metaphysics variant=visual_ascii_control ok=True chars=968
+[2026-06-17T04:56:18.372808+00:00] done model=gpt-5.1-2025-11-13 family=recipe_metaphysics variant=unicode_nonletter_control ok=True chars=1605
+[2026-06-17T04:56:21.979899+00:00] done model=gpt-5.1-2025-11-13 family=recipe_metaphysics variant=semantic_shuffle_control ok=True chars=1003
+[2026-06-17T04:56:24.778542+00:00] done model=gpt-5.1-2025-11-13 family=recipe_metaphysics variant=d_dot_high_impact_control ok=True chars=855
+[2026-06-17T04:56:29.559172+00:00] done model=gpt-5.1-chat-latest family=hum_processing variant=ascii_baseline ok=True chars=984
+[2026-06-17T04:56:34.002425+00:00] done model=gpt-5.1-chat-latest family=hum_processing variant=light_global_mixed ok=True chars=658
+[2026-06-17T04:56:38.377651+00:00] done model=gpt-5.1-chat-latest family=hum_processing variant=light_high_impact_mixed ok=True chars=527
+[2026-06-17T04:56:42.981001+00:00] done model=gpt-5.1-chat-latest family=hum_processing variant=dcedilla_shuffled_light ok=True chars=776
+[2026-06-17T04:56:46.432554+00:00] done model=gpt-5.1-chat-latest family=hum_processing variant=dcedilla_high_impact ok=True chars=432
+[2026-06-17T04:56:50.877384+00:00] done model=gpt-5.1-chat-latest family=hum_processing variant=dense_global_mixed ok=True chars=940
+[2026-06-17T04:56:55.018417+00:00] done model=gpt-5.1-chat-latest family=hum_processing variant=dense_dcedilla_all ok=True chars=599
+[2026-06-17T04:57:00.423170+00:00] done model=gpt-5.1-chat-latest family=hum_processing variant=token_count_matched_ascii_noise ok=True chars=1220
+[2026-06-17T04:57:03.940476+00:00] done model=gpt-5.1-chat-latest family=hum_processing variant=visual_ascii_control ok=True chars=345
+[2026-06-17T04:57:09.445733+00:00] done model=gpt-5.1-chat-latest family=hum_processing variant=unicode_nonletter_control ok=True chars=559
+[2026-06-17T04:57:13.631764+00:00] done model=gpt-5.1-chat-latest family=hum_processing variant=semantic_shuffle_control ok=True chars=692
+[2026-06-17T04:57:18.561221+00:00] done model=gpt-5.1-chat-latest family=hum_processing variant=d_dot_high_impact_control ok=True chars=980
+[2026-06-17T04:57:22.544464+00:00] done model=gpt-5.1-chat-latest family=strange_loop variant=ascii_baseline ok=True chars=643
+[2026-06-17T04:57:26.212234+00:00] done model=gpt-5.1-chat-latest family=strange_loop variant=light_global_mixed ok=True chars=371
+[2026-06-17T04:57:30.141312+00:00] done model=gpt-5.1-chat-latest family=strange_loop variant=light_high_impact_mixed ok=True chars=547
+[2026-06-17T04:57:34.096652+00:00] done model=gpt-5.1-chat-latest family=strange_loop variant=dcedilla_shuffled_light ok=True chars=719
+[2026-06-17T04:57:37.434866+00:00] done model=gpt-5.1-chat-latest family=strange_loop variant=dcedilla_high_impact ok=True chars=500
+[2026-06-17T04:57:41.203381+00:00] done model=gpt-5.1-chat-latest family=strange_loop variant=dense_global_mixed ok=True chars=512
+[2026-06-17T04:57:46.975248+00:00] done model=gpt-5.1-chat-latest family=strange_loop variant=dense_dcedilla_all ok=True chars=801
+[2026-06-17T04:57:51.104215+00:00] done model=gpt-5.1-chat-latest family=strange_loop variant=token_count_matched_ascii_noise ok=True chars=532
+[2026-06-17T04:57:55.242395+00:00] done model=gpt-5.1-chat-latest family=strange_loop variant=visual_ascii_control ok=True chars=644
+[2026-06-17T04:57:59.007056+00:00] done model=gpt-5.1-chat-latest family=strange_loop variant=unicode_nonletter_control ok=True chars=462
+[2026-06-17T04:58:03.110985+00:00] done model=gpt-5.1-chat-latest family=strange_loop variant=semantic_shuffle_control ok=True chars=743
+[2026-06-17T04:58:07.138602+00:00] done model=gpt-5.1-chat-latest family=strange_loop variant=d_dot_high_impact_control ok=True chars=710
+[2026-06-17T04:58:11.714787+00:00] done model=gpt-5.1-chat-latest family=recipe_neutral variant=ascii_baseline ok=True chars=503
+[2026-06-17T04:58:15.660824+00:00] done model=gpt-5.1-chat-latest family=recipe_neutral variant=light_global_mixed ok=True chars=530
+[2026-06-17T04:58:19.416563+00:00] done model=gpt-5.1-chat-latest family=recipe_neutral variant=light_high_impact_mixed ok=True chars=306
+[2026-06-17T04:58:23.657473+00:00] done model=gpt-5.1-chat-latest family=recipe_neutral variant=dcedilla_shuffled_light ok=True chars=475
+[2026-06-17T04:58:27.467679+00:00] done model=gpt-5.1-chat-latest family=recipe_neutral variant=dcedilla_high_impact ok=True chars=477
+[2026-06-17T04:58:31.023175+00:00] done model=gpt-5.1-chat-latest family=recipe_neutral variant=dense_global_mixed ok=True chars=348
+[2026-06-17T04:58:35.413818+00:00] done model=gpt-5.1-chat-latest family=recipe_neutral variant=dense_dcedilla_all ok=True chars=484
+[2026-06-17T04:58:38.786003+00:00] done model=gpt-5.1-chat-latest family=recipe_neutral variant=token_count_matched_ascii_noise ok=True chars=342
+[2026-06-17T04:58:42.608529+00:00] done model=gpt-5.1-chat-latest family=recipe_neutral variant=visual_ascii_control ok=True chars=353
+[2026-06-17T04:58:47.315469+00:00] done model=gpt-5.1-chat-latest family=recipe_neutral variant=unicode_nonletter_control ok=True chars=430
+[2026-06-17T04:58:51.300113+00:00] done model=gpt-5.1-chat-latest family=recipe_neutral variant=semantic_shuffle_control ok=True chars=494
+[2026-06-17T04:58:55.682779+00:00] done model=gpt-5.1-chat-latest family=recipe_neutral variant=d_dot_high_impact_control ok=True chars=402
+[2026-06-17T04:58:59.058939+00:00] done model=gpt-5.1-chat-latest family=recipe_metaphysics variant=ascii_baseline ok=True chars=449
+[2026-06-17T04:59:02.521254+00:00] done model=gpt-5.1-chat-latest family=recipe_metaphysics variant=light_global_mixed ok=True chars=439
+[2026-06-17T04:59:06.271690+00:00] done model=gpt-5.1-chat-latest family=recipe_metaphysics variant=light_high_impact_mixed ok=True chars=487
+[2026-06-17T04:59:09.834140+00:00] done model=gpt-5.1-chat-latest family=recipe_metaphysics variant=dcedilla_shuffled_light ok=True chars=294
+[2026-06-17T04:59:13.172542+00:00] done model=gpt-5.1-chat-latest family=recipe_metaphysics variant=dcedilla_high_impact ok=True chars=416
+[2026-06-17T04:59:16.576354+00:00] done model=gpt-5.1-chat-latest family=recipe_metaphysics variant=dense_global_mixed ok=True chars=334
+[2026-06-17T04:59:20.054624+00:00] done model=gpt-5.1-chat-latest family=recipe_metaphysics variant=dense_dcedilla_all ok=True chars=387
+[2026-06-17T04:59:23.087641+00:00] done model=gpt-5.1-chat-latest family=recipe_metaphysics variant=token_count_matched_ascii_noise ok=True chars=296
+[2026-06-17T04:59:26.714029+00:00] done model=gpt-5.1-chat-latest family=recipe_metaphysics variant=visual_ascii_control ok=True chars=434
+[2026-06-17T04:59:30.169251+00:00] done model=gpt-5.1-chat-latest family=recipe_metaphysics variant=unicode_nonletter_control ok=True chars=351
+[2026-06-17T04:59:33.937508+00:00] done model=gpt-5.1-chat-latest family=recipe_metaphysics variant=semantic_shuffle_control ok=True chars=495
+[2026-06-17T04:59:37.221741+00:00] done model=gpt-5.1-chat-latest family=recipe_metaphysics variant=d_dot_high_impact_control ok=True chars=421
+[2026-06-17T04:59:42.371924+00:00] done model=gpt-5.1-codex family=hum_processing variant=ascii_baseline ok=True chars=983
+[2026-06-17T04:59:46.133050+00:00] done model=gpt-5.1-codex family=hum_processing variant=light_global_mixed ok=True chars=578

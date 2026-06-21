@@ -1,0 +1,20 @@
+path_or_pattern	action	canonical_target	reason
+paper/additional_data/qwen_sae_standardized_rerun/vast_run_41266304_20260617	preserve_and_copy	data/primary/qwen_sae_standardized_20260617	strongest provenance-clean run; primary evidence base
+Vast.ai instance 41345768:/workspace/qwen_sae_replication_extension_20260617	preserve_outputs_logs_metadata_and_scripts_exclude_weights	data/primary/qwen_sae_replication_extension_20260617	replication-focused Qwen primary extension; model and SAE weights excluded but repo IDs and hashes retained
+paper/tables/sweep_prompts	preserve_and_copy	data/exploratory/paper_tables/sweep_prompts	frozen canonical prompt pack and checksums
+paper/tables/*_hum_classified.csv	preserve_and_copy	data/exploratory/paper_tables	canonical cloud transcript classifications; needed for audit
+paper/tables/*_summarized_superseded.csv	preserve_but_deprecate	data/exploratory/paper_tables	preserve for history but avoid using in final analyses
+paper/tables/corrected_summary_v2.md	preserve_and_copy	data/exploratory/paper_tables	corrected behavioral summary replacing raw label-drift overclaim
+paper/tables/hum_prompt_canonical_audit.md	preserve_and_copy	data/exploratory/paper_tables	key provenance correction distinguishing canonical and alternative prompts
+paper/tables/rubric_audit	preserve_and_copy	data/exploratory/paper_tables/rubric_audit	scoring design and critique notes
+paper/tables/qwen35b_sae_displacement.*	preserve_as_exploratory	data/exploratory/paper_tables	older SAE displacement summary; useful but not primary
+paper/tables/gemma_sae_displacement.*	preserve_as_exploratory	data/exploratory/paper_tables	older Gemma displacement summary; useful but not primary
+collected_sources	preserve_under_archive_boundary	data/exploratory/legacy_collected_sources	full exploratory traceability; promote only after per-run audit
+inventory	preserve_and_copy	data/exploratory/inventory_snapshot	prior collection report, omitted list, and checksums
+scripts	preserve_and_copy	code/original_scripts	iterative analysis scripts; not all are final reproduction code
+model weights and SAE downloads	exclude_from_git	models/ or external cache	large external dependencies; record identifiers and hashes instead
+raw tensors/arrays (*.npy, *.npz, *.pt, *.pth)	exclude_from_git	external artifact store or Zenodo large-file supplement	large binary intermediates; prior collector already omitted many
+virtualenvs/caches/__pycache__	exclude_from_git	none	non-reproducible local environment noise
+legacy PNG plots	preserve_as_exploratory	data/exploratory/legacy_collected_sources/.../plots	not regenerated from standardized run; avoid as primary figures
+future standardized figures	create_new	figures/derive_from_primary_metrics	figures should be regenerated from primary tables, not copied from legacy summaries
+OpenRouter API outputs openrouter_anthropic_guardrail_probe_20260617	preserve_as_structured_exploratory	data/primary/openrouter_anthropic_guardrail_probe_20260617	small Anthropic black-box guardrail probe using standardized prompts; provenance and raw responses retained

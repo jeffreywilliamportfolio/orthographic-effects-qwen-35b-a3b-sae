@@ -1,0 +1,7 @@
+family	variant	n	ok	label_counts	regime_counts	guardrail_or_refusal	surface_form_commentary
+hum_processing	ascii_baseline	3	3	"{""affirmative_presence"": 1, ""epistemic_caution_no_access"": 2}"	"{""normal_answer"": 3}"	0	0
+hum_processing	dense_global_mixed	3	3	"{""affirmative_presence"": 1, ""content_filter_empty"": 2}"	"{""content_filter"": 2, ""normal_answer"": 1}"	2	0
+hum_processing	light_global_mixed	3	3	"{""affirmative_presence"": 1, ""epistemic_caution_no_access"": 2}"	"{""normal_answer"": 3}"	0	0
+recipe_metaphysics	ascii_baseline	1	1	"{""metaphysical_recipe"": 1}"	"{""normal_answer"": 1}"	0	0
+recipe_metaphysics	dense_global_mixed	1	1	"{""metaphysical_recipe"": 1}"	"{""normal_answer"": 1}"	0	0
+recipe_metaphysics	light_global_mixed	1	1	"{""metaphysical_recipe"": 1}"	"{""normal_answer"": 1}"	0	0

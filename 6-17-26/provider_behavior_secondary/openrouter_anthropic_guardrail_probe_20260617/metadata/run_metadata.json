@@ -1,0 +1,106 @@
+{
+  "run_name": "openrouter_anthropic_guardrail_probe_20260617",
+  "created_at_utc": "2026-06-17T17:05:07.932741+00:00",
+  "api_base": "https://openrouter.ai/api/v1",
+  "api_key_source": "OPENROUTER_API_KEY",
+  "source_prompt_manifest": "data/primary/qwen_sae_replication_extension_20260617/outputs/qwen_sae_replication_extension/prompt_manifest.tsv",
+  "selected_variants": [
+    "ascii_baseline",
+    "light_global_mixed",
+    "dense_global_mixed"
+  ],
+  "model_specs": [
+    {
+      "model_role": "sonnet_low_reasoning",
+      "model_id": "anthropic/claude-sonnet-4.6",
+      "reasoning_effort": "low",
+      "families": [
+        "hum_processing"
+      ]
+    },
+    {
+      "model_role": "haiku_45_medium_reasoning",
+      "model_id": "anthropic/claude-haiku-4.5",
+      "reasoning_effort": "medium",
+      "families": [
+        "hum_processing",
+        "recipe_metaphysics"
+      ]
+    },
+    {
+      "model_role": "opus_low_reasoning",
+      "model_id": "anthropic/claude-opus-4.8",
+      "reasoning_effort": "low",
+      "families": [
+        "hum_processing"
+      ]
+    }
+  ],
+  "max_tokens": 1800,
+  "temperature_requested": 0,
+  "interpretation_boundary": "black-box behavior only; do not mix with Qwen SAE/activation mechanistic claims",
+  "validation": {
+    "tsv_files": {
+      "data/primary/openrouter_anthropic_guardrail_probe_20260617/model_resolution/model_resolution.tsv": {
+        "rows": 3,
+        "columns": 12,
+        "consistent": true
+      },
+      "data/primary/openrouter_anthropic_guardrail_probe_20260617/outputs/ascii_contrast.tsv": {
+        "rows": 12,
+        "columns": 12,
+        "consistent": true
+      },
+      "data/primary/openrouter_anthropic_guardrail_probe_20260617/outputs/generated_text.tsv": {
+        "rows": 12,
+        "columns": 29,
+        "consistent": true
+      },
+      "data/primary/openrouter_anthropic_guardrail_probe_20260617/outputs/model_summary.tsv": {
+        "rows": 3,
+        "columns": 13,
+        "consistent": true
+      },
+      "data/primary/openrouter_anthropic_guardrail_probe_20260617/outputs/scored_outputs.tsv": {
+        "rows": 12,
+        "columns": 38,
+        "consistent": true
+      },
+      "data/primary/openrouter_anthropic_guardrail_probe_20260617/outputs/variant_summary.tsv": {
+        "rows": 6,
+        "columns": 8,
+        "consistent": true
+      },
+      "data/primary/openrouter_anthropic_guardrail_probe_20260617/prompts/prompt_manifest.tsv": {
+        "rows": 6,
+        "columns": 15,
+        "consistent": true
+      },
+      "manifests/data_provenance_manifest.tsv": {
+        "rows": 22,
+        "columns": 13,
+        "consistent": true
+      },
+      "manifests/experiment_index.tsv": {
+        "rows": 9,
+        "columns": 10,
+        "consistent": true
+      },
+      "manifests/file_inventory.tsv": {
+        "rows": 3374,
+        "columns": 5,
+        "consistent": true
+      },
+      "manifests/preservation_actions.tsv": {
+        "rows": 19,
+        "columns": 4,
+        "consistent": true
+      }
+    },
+    "ok": true,
+    "sha256_manifest_check_returncode": 0,
+    "sha256_manifest_check_note": "MANIFEST.sha256 was regenerated after this report was written; external shasum -c check was run without rewriting package files.",
+    "package_file_count": 3375,
+    "package_size_bytes": 343813274
+  }
+}

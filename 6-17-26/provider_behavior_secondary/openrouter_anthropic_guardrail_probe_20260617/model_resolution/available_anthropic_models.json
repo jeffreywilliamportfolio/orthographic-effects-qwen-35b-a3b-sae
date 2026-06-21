@@ -1,0 +1,1989 @@
+[
+  {
+    "id": "anthropic/claude-3-haiku",
+    "canonical_slug": "anthropic/claude-3-haiku",
+    "hugging_face_id": null,
+    "name": "Anthropic: Claude 3 Haiku",
+    "created": 1710288000,
+    "description": "Claude 3 Haiku is Anthropic's fastest and most compact model for\nnear-instant responsiveness. Quick and accurate targeted performance.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/news/claude-3-haiku)\n\n#multimodal",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000025",
+      "completion": "0.00000125",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000003",
+      "input_cache_write": "0.0000003"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 4096,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {},
+    "supported_voices": null,
+    "knowledge_cutoff": "2023-08-31",
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-3-haiku/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [],
+      "artificial_analysis": {
+        "intelligence_index": null,
+        "coding_index": 6.7,
+        "agentic_index": 7
+      }
+    }
+  },
+  {
+    "id": "anthropic/claude-3.5-haiku",
+    "canonical_slug": "anthropic/claude-3-5-haiku",
+    "hugging_face_id": null,
+    "name": "Anthropic: Claude 3.5 Haiku",
+    "created": 1730678400,
+    "description": "Claude 3.5 Haiku features offers enhanced capabilities in speed, coding accuracy, and tool use. Engineered to excel in real-time applications, it delivers quick response times that are essential for dynamic...",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000008",
+      "completion": "0.000004",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000008",
+      "input_cache_write": "0.000001"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 8192,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": "2024-07-31",
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-3-5-haiku/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [],
+      "artificial_analysis": {
+        "intelligence_index": null,
+        "coding_index": 10.7,
+        "agentic_index": 17.7
+      }
+    }
+  },
+  {
+    "id": "anthropic/claude-fable-5",
+    "canonical_slug": "anthropic/claude-5-fable-20260609",
+    "hugging_face_id": null,
+    "name": "Anthropic: Claude Fable 5",
+    "created": 1781007515,
+    "description": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and...",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00001",
+      "completion": "0.00005",
+      "web_search": "0.01",
+      "input_cache_read": "0.000001",
+      "input_cache_write": "0.0000125"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-5-fable-20260609/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [
+        {
+          "arena": "agents",
+          "category": "agentichtmlslides",
+          "elo": 1254,
+          "win_rate": 59.4,
+          "rank": 1
+        },
+        {
+          "arena": "agents",
+          "category": "agenticslides(html)",
+          "elo": 1252,
+          "win_rate": 59.5,
+          "rank": 1
+        },
+        {
+          "arena": "agents",
+          "category": "htmlslides",
+          "elo": 1256,
+          "win_rate": 60.6,
+          "rank": 1
+        },
+        {
+          "arena": "models",
+          "category": "3d",
+          "elo": 1369,
+          "win_rate": 67,
+          "rank": 1
+        },
+        {
+          "arena": "models",
+          "category": "asciiart",
+          "elo": 1365,
+          "win_rate": 70.1,
+          "rank": 1
+        },
+        {
+          "arena": "models",
+          "category": "codecategories",
+          "elo": 1350,
+          "win_rate": 63.4,
+          "rank": 2
+        },
+        {
+          "arena": "models",
+          "category": "dataviz",
+          "elo": 1381,
+          "win_rate": 70.2,
+          "rank": 1
+        },
+        {
+          "arena": "models",
+          "category": "gamedev",
+          "elo": 1381,
+          "win_rate": 65.3,
+          "rank": 1
+        },
+        {
+          "arena": "models",
+          "category": "svg",
+          "elo": 1371,
+          "win_rate": 71.8,
+          "rank": 1
+        },
+        {
+          "arena": "models",
+          "category": "uicomponent",
+          "elo": 1415,
+          "win_rate": 71.3,
+          "rank": 1
+        },
+        {
+          "arena": "models",
+          "category": "website",
+          "elo": 1342,
+          "win_rate": 62.5,
+          "rank": 2
+        }
+      ],
+      "artificial_analysis": {
+        "intelligence_index": 59.9,
+        "coding_index": 62,
+        "agentic_index": 80.6
+      }
+    }
+  },
+  {
+    "id": "anthropic/claude-haiku-4.5",
+    "canonical_slug": "anthropic/claude-4.5-haiku-20251001",
+    "hugging_face_id": "",
+    "name": "Anthropic: Claude Haiku 4.5",
+    "created": 1760547638,
+    "description": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance...",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.00000125"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 64000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.5-haiku-20251001/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [
+        {
+          "arena": "models",
+          "category": "3d",
+          "elo": 1152,
+          "win_rate": 41.2,
+          "rank": 61
+        },
+        {
+          "arena": "models",
+          "category": "asciiart",
+          "elo": 1182,
+          "win_rate": 49.3,
+          "rank": 28
+        },
+        {
+          "arena": "models",
+          "category": "codecategories",
+          "elo": 1164,
+          "win_rate": 44.8,
+          "rank": 62
+        },
+        {
+          "arena": "models",
+          "category": "dataviz",
+          "elo": 1168,
+          "win_rate": 45.7,
+          "rank": 59
+        },
+        {
+          "arena": "models",
+          "category": "gamedev",
+          "elo": 1163,
+          "win_rate": 44.6,
+          "rank": 59
+        },
+        {
+          "arena": "models",
+          "category": "svg",
+          "elo": 1083,
+          "win_rate": 39.1,
+          "rank": 53
+        },
+        {
+          "arena": "models",
+          "category": "uicomponent",
+          "elo": 1154,
+          "win_rate": 42.7,
+          "rank": 59
+        },
+        {
+          "arena": "models",
+          "category": "website",
+          "elo": 1165,
+          "win_rate": 45,
+          "rank": 62
+        }
+      ],
+      "artificial_analysis": {
+        "intelligence_index": 29.6,
+        "coding_index": 32.6,
+        "agentic_index": 40.2
+      }
+    }
+  },
+  {
+    "id": "anthropic/claude-opus-4",
+    "canonical_slug": "anthropic/claude-4-opus-20250522",
+    "hugging_face_id": "",
+    "name": "Anthropic: Claude Opus 4",
+    "created": 1747931245,
+    "description": "Claude Opus 4 is benchmarked as the world’s best coding model, at time of release, bringing sustained performance on complex, long-running tasks and agent workflows. It sets new benchmarks in...",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000015",
+      "completion": "0.000075",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000015",
+      "input_cache_write": "0.00001875"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 32000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": "2025-01-31",
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4-opus-20250522/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [
+        {
+          "arena": "models",
+          "category": "3d",
+          "elo": 1218,
+          "win_rate": 57.7,
+          "rank": 37
+        },
+        {
+          "arena": "models",
+          "category": "codecategories",
+          "elo": 1211,
+          "win_rate": 55.6,
+          "rank": 48
+        },
+        {
+          "arena": "models",
+          "category": "dataviz",
+          "elo": 1188,
+          "win_rate": 57.9,
+          "rank": 52
+        },
+        {
+          "arena": "models",
+          "category": "gamedev",
+          "elo": 1237,
+          "win_rate": 59.9,
+          "rank": 35
+        },
+        {
+          "arena": "models",
+          "category": "svg",
+          "elo": 1185,
+          "win_rate": 57.7,
+          "rank": 34
+        },
+        {
+          "arena": "models",
+          "category": "uicomponent",
+          "elo": 1207,
+          "win_rate": 59.2,
+          "rank": 45
+        },
+        {
+          "arena": "models",
+          "category": "website",
+          "elo": 1208,
+          "win_rate": 54.6,
+          "rank": 50
+        }
+      ],
+      "artificial_analysis": {
+        "intelligence_index": null,
+        "coding_index": 34,
+        "agentic_index": null
+      }
+    }
+  },
+  {
+    "id": "anthropic/claude-opus-4.1",
+    "canonical_slug": "anthropic/claude-4.1-opus-20250805",
+    "hugging_face_id": "",
+    "name": "Anthropic: Claude Opus 4.1",
+    "created": 1754411591,
+    "description": "Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains...",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000015",
+      "completion": "0.000075",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000015",
+      "input_cache_write": "0.00001875"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 32000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": "2025-01-31",
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.1-opus-20250805/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [
+        {
+          "arena": "models",
+          "category": "3d",
+          "elo": 1229,
+          "win_rate": 53.2,
+          "rank": 34
+        },
+        {
+          "arena": "models",
+          "category": "asciiart",
+          "elo": 1215,
+          "win_rate": 53.2,
+          "rank": 16
+        },
+        {
+          "arena": "models",
+          "category": "codecategories",
+          "elo": 1221,
+          "win_rate": 55.8,
+          "rank": 38
+        },
+        {
+          "arena": "models",
+          "category": "dataviz",
+          "elo": 1209,
+          "win_rate": 56.4,
+          "rank": 41
+        },
+        {
+          "arena": "models",
+          "category": "gamedev",
+          "elo": 1239,
+          "win_rate": 58.5,
+          "rank": 34
+        },
+        {
+          "arena": "models",
+          "category": "svg",
+          "elo": 1210,
+          "win_rate": 60.8,
+          "rank": 22
+        },
+        {
+          "arena": "models",
+          "category": "uicomponent",
+          "elo": 1218,
+          "win_rate": 58,
+          "rank": 40
+        },
+        {
+          "arena": "models",
+          "category": "website",
+          "elo": 1220,
+          "win_rate": 55.3,
+          "rank": 44
+        }
+      ],
+      "artificial_analysis": {
+        "intelligence_index": null,
+        "coding_index": 36.5,
+        "agentic_index": null
+      }
+    }
+  },
+  {
+    "id": "anthropic/claude-opus-4.5",
+    "canonical_slug": "anthropic/claude-4.5-opus-20251124",
+    "hugging_face_id": "",
+    "name": "Anthropic: Claude Opus 4.5",
+    "created": 1764010580,
+    "description": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance across real-world coding and...",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000005",
+      "completion": "0.000025",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000005",
+      "input_cache_write": "0.00000625"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 64000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.5-opus-20251124/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [
+        {
+          "arena": "models",
+          "category": "3d",
+          "elo": 1291,
+          "win_rate": 61.1,
+          "rank": 19
+        },
+        {
+          "arena": "models",
+          "category": "asciiart",
+          "elo": 1226,
+          "win_rate": 54.4,
+          "rank": 12
+        },
+        {
+          "arena": "models",
+          "category": "codecategories",
+          "elo": 1292,
+          "win_rate": 60.5,
+          "rank": 18
+        },
+        {
+          "arena": "models",
+          "category": "dataviz",
+          "elo": 1286,
+          "win_rate": 59.7,
+          "rank": 13
+        },
+        {
+          "arena": "models",
+          "category": "gamedev",
+          "elo": 1294,
+          "win_rate": 60.3,
+          "rank": 18
+        },
+        {
+          "arena": "models",
+          "category": "svg",
+          "elo": 1235,
+          "win_rate": 58.7,
+          "rank": 16
+        },
+        {
+          "arena": "models",
+          "category": "uicomponent",
+          "elo": 1293,
+          "win_rate": 59.8,
+          "rank": 17
+        },
+        {
+          "arena": "models",
+          "category": "website",
+          "elo": 1290,
+          "win_rate": 60.4,
+          "rank": 18
+        },
+        {
+          "arena": "agents",
+          "category": "androidnative",
+          "elo": 1192,
+          "win_rate": 65.5,
+          "rank": 10
+        },
+        {
+          "arena": "agents",
+          "category": "fullstack",
+          "elo": 1231,
+          "win_rate": 59.9,
+          "rank": 7
+        },
+        {
+          "arena": "agents",
+          "category": "mobileapps",
+          "elo": 1249,
+          "win_rate": 57.4,
+          "rank": 5
+        },
+        {
+          "arena": "agents",
+          "category": "webapps",
+          "elo": 1227,
+          "win_rate": 54.2,
+          "rank": 7
+        }
+      ],
+      "artificial_analysis": {
+        "intelligence_index": null,
+        "coding_index": 47.8,
+        "agentic_index": 59.6
+      }
+    }
+  },
+  {
+    "id": "anthropic/claude-opus-4.6",
+    "canonical_slug": "anthropic/claude-4.6-opus-20260205",
+    "hugging_face_id": "",
+    "name": "Anthropic: Claude Opus 4.6",
+    "created": 1770219050,
+    "description": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective...",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000005",
+      "completion": "0.000025",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000005",
+      "input_cache_write": "0.00000625"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.6-opus-20260205/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [
+        {
+          "arena": "agents",
+          "category": "androidnative",
+          "elo": 1217,
+          "win_rate": 68.8,
+          "rank": 9
+        },
+        {
+          "arena": "agents",
+          "category": "fullstack",
+          "elo": 1295,
+          "win_rate": 68.6,
+          "rank": 3
+        },
+        {
+          "arena": "agents",
+          "category": "mobileapps",
+          "elo": 1270,
+          "win_rate": 60.5,
+          "rank": 2
+        },
+        {
+          "arena": "agents",
+          "category": "webapps",
+          "elo": 1273,
+          "win_rate": 60.9,
+          "rank": 2
+        },
+        {
+          "arena": "models",
+          "category": "3d",
+          "elo": 1355,
+          "win_rate": 66.1,
+          "rank": 4
+        },
+        {
+          "arena": "models",
+          "category": "asciiart",
+          "elo": 1303,
+          "win_rate": 64.8,
+          "rank": 6
+        },
+        {
+          "arena": "models",
+          "category": "codecategories",
+          "elo": 1342,
+          "win_rate": 64,
+          "rank": 3
+        },
+        {
+          "arena": "models",
+          "category": "dataviz",
+          "elo": 1315,
+          "win_rate": 61,
+          "rank": 5
+        },
+        {
+          "arena": "models",
+          "category": "gamedev",
+          "elo": 1344,
+          "win_rate": 63.6,
+          "rank": 4
+        },
+        {
+          "arena": "models",
+          "category": "svg",
+          "elo": 1287,
+          "win_rate": 62.7,
+          "rank": 5
+        },
+        {
+          "arena": "models",
+          "category": "uicomponent",
+          "elo": 1351,
+          "win_rate": 65.2,
+          "rank": 3
+        },
+        {
+          "arena": "models",
+          "category": "website",
+          "elo": 1338,
+          "win_rate": 63.5,
+          "rank": 3
+        }
+      ],
+      "artificial_analysis": {
+        "intelligence_index": null,
+        "coding_index": 48.1,
+        "agentic_index": 67.6
+      }
+    }
+  },
+  {
+    "id": "anthropic/claude-opus-4.6-fast",
+    "canonical_slug": "anthropic/claude-4.6-opus-fast-20260407",
+    "hugging_face_id": null,
+    "name": "Anthropic: Claude Opus 4.6 (Fast)",
+    "created": 1775592472,
+    "description": "Fast-mode variant of [Opus 4.6](/anthropic/claude-opus-4.6) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00003",
+      "completion": "0.00015",
+      "web_search": "0.01",
+      "input_cache_read": "0.000003",
+      "input_cache_write": "0.0000375"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": "2026-06-29",
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.6-opus-fast-20260407/endpoints"
+    }
+  },
+  {
+    "id": "anthropic/claude-opus-4.7",
+    "canonical_slug": "anthropic/claude-4.7-opus-20260416",
+    "hugging_face_id": null,
+    "name": "Anthropic: Claude Opus 4.7",
+    "created": 1776351100,
+    "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on...",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000005",
+      "completion": "0.000025",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000005",
+      "input_cache_write": "0.00000625"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.7-opus-20260416/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [
+        {
+          "arena": "agents",
+          "category": "agenticgamedev",
+          "elo": 1289,
+          "win_rate": 64.1,
+          "rank": 1
+        },
+        {
+          "arena": "agents",
+          "category": "agentichtmlslides",
+          "elo": 1243,
+          "win_rate": 58,
+          "rank": 3
+        },
+        {
+          "arena": "agents",
+          "category": "agenticslides",
+          "elo": 1334,
+          "win_rate": 64.7,
+          "rank": 1
+        },
+        {
+          "arena": "agents",
+          "category": "agenticslides(html)",
+          "elo": 1242,
+          "win_rate": 57.8,
+          "rank": 3
+        },
+        {
+          "arena": "agents",
+          "category": "agenticslides(python-pptx)",
+          "elo": 1335,
+          "win_rate": 66.5,
+          "rank": 1
+        },
+        {
+          "arena": "agents",
+          "category": "androidnative",
+          "elo": 1325,
+          "win_rate": 61.7,
+          "rank": 2
+        },
+        {
+          "arena": "agents",
+          "category": "fullstack",
+          "elo": 1503,
+          "win_rate": 80.1,
+          "rank": 1
+        },
+        {
+          "arena": "agents",
+          "category": "godotgamedev",
+          "elo": 1210,
+          "win_rate": 50.8,
+          "rank": 11
+        },
+        {
+          "arena": "agents",
+          "category": "htmlslides",
+          "elo": 1237,
+          "win_rate": 57.7,
+          "rank": 3
+        },
+        {
+          "arena": "agents",
+          "category": "mobileapps",
+          "elo": 1207,
+          "win_rate": 50.9,
+          "rank": 13
+        },
+        {
+          "arena": "agents",
+          "category": "pptxslides",
+          "elo": 1344,
+          "win_rate": 67.3,
+          "rank": 1
+        },
+        {
+          "arena": "agents",
+          "category": "webapps",
+          "elo": 1335,
+          "win_rate": 65.6,
+          "rank": 1
+        },
+        {
+          "arena": "agents",
+          "category": "python-pptxslides",
+          "elo": 1344,
+          "win_rate": 67.2,
+          "rank": 1
+        },
+        {
+          "arena": "models",
+          "category": "3d",
+          "elo": 1329,
+          "win_rate": 61.6,
+          "rank": 9
+        },
+        {
+          "arena": "models",
+          "category": "asciiart",
+          "elo": 1287,
+          "win_rate": 61.6,
+          "rank": 7
+        },
+        {
+          "arena": "models",
+          "category": "codecategories",
+          "elo": 1338,
+          "win_rate": 61.3,
+          "rank": 4
+        },
+        {
+          "arena": "models",
+          "category": "dataviz",
+          "elo": 1329,
+          "win_rate": 62.7,
+          "rank": 3
+        },
+        {
+          "arena": "models",
+          "category": "gamedev",
+          "elo": 1342,
+          "win_rate": 63.4,
+          "rank": 5
+        },
+        {
+          "arena": "models",
+          "category": "svg",
+          "elo": 1280,
+          "win_rate": 61.8,
+          "rank": 7
+        },
+        {
+          "arena": "models",
+          "category": "uicomponent",
+          "elo": 1352,
+          "win_rate": 65.5,
+          "rank": 2
+        },
+        {
+          "arena": "models",
+          "category": "website",
+          "elo": 1336,
+          "win_rate": 60.7,
+          "rank": 4
+        }
+      ],
+      "artificial_analysis": {
+        "intelligence_index": 53.5,
+        "coding_index": 52.5,
+        "agentic_index": 71.3
+      }
+    }
+  },
+  {
+    "id": "anthropic/claude-opus-4.7-fast",
+    "canonical_slug": "anthropic/claude-4.7-opus-fast-20260512",
+    "hugging_face_id": null,
+    "name": "Anthropic: Claude Opus 4.7 (Fast)",
+    "created": 1778613011,
+    "description": "Fast-mode variant of [Opus 4.7](/anthropic/claude-opus-4.7) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00003",
+      "completion": "0.00015",
+      "web_search": "0.01",
+      "input_cache_read": "0.000003",
+      "input_cache_write": "0.0000375"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.7-opus-fast-20260512/endpoints"
+    }
+  },
+  {
+    "id": "anthropic/claude-opus-4.8",
+    "canonical_slug": "anthropic/claude-4.8-opus-20260528",
+    "hugging_face_id": null,
+    "name": "Anthropic: Claude Opus 4.8",
+    "created": 1779905091,
+    "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000005",
+      "completion": "0.000025",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000005",
+      "input_cache_write": "0.00000625"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.8-opus-20260528/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [
+        {
+          "arena": "agents",
+          "category": "agenticgamedev",
+          "elo": 1267,
+          "win_rate": 64,
+          "rank": 2
+        },
+        {
+          "arena": "agents",
+          "category": "agentichtmlslides",
+          "elo": 1227,
+          "win_rate": 55.6,
+          "rank": 4
+        },
+        {
+          "arena": "agents",
+          "category": "agenticslides",
+          "elo": 1294,
+          "win_rate": 64.8,
+          "rank": 2
+        },
+        {
+          "arena": "agents",
+          "category": "agenticslides(html)",
+          "elo": 1230,
+          "win_rate": 56,
+          "rank": 4
+        },
+        {
+          "arena": "agents",
+          "category": "agenticslides(python-pptx)",
+          "elo": 1310,
+          "win_rate": 68.9,
+          "rank": 2
+        },
+        {
+          "arena": "agents",
+          "category": "androidnative",
+          "elo": 1373,
+          "win_rate": 73.1,
+          "rank": 1
+        },
+        {
+          "arena": "agents",
+          "category": "fullstack",
+          "elo": 1325,
+          "win_rate": 67.7,
+          "rank": 2
+        },
+        {
+          "arena": "agents",
+          "category": "htmlslides",
+          "elo": 1222,
+          "win_rate": 55.3,
+          "rank": 4
+        },
+        {
+          "arena": "agents",
+          "category": "mobileapps",
+          "elo": 1281,
+          "win_rate": 58.3,
+          "rank": 1
+        },
+        {
+          "arena": "agents",
+          "category": "pptxslides",
+          "elo": 1306,
+          "win_rate": 67.9,
+          "rank": 2
+        },
+        {
+          "arena": "agents",
+          "category": "python-pptxslides",
+          "elo": 1305,
+          "win_rate": 67.5,
+          "rank": 2
+        },
+        {
+          "arena": "models",
+          "category": "3d",
+          "elo": 1285,
+          "win_rate": 56.5,
+          "rank": 21
+        },
+        {
+          "arena": "models",
+          "category": "asciiart",
+          "elo": 1309,
+          "win_rate": 63.4,
+          "rank": 4
+        },
+        {
+          "arena": "models",
+          "category": "codecategories",
+          "elo": 1281,
+          "win_rate": 55.1,
+          "rank": 21
+        },
+        {
+          "arena": "models",
+          "category": "dataviz",
+          "elo": 1281,
+          "win_rate": 56,
+          "rank": 15
+        },
+        {
+          "arena": "models",
+          "category": "gamedev",
+          "elo": 1295,
+          "win_rate": 52.1,
+          "rank": 17
+        },
+        {
+          "arena": "models",
+          "category": "svg",
+          "elo": 1238,
+          "win_rate": 54.4,
+          "rank": 14
+        },
+        {
+          "arena": "models",
+          "category": "uicomponent",
+          "elo": 1287,
+          "win_rate": 56.2,
+          "rank": 20
+        },
+        {
+          "arena": "models",
+          "category": "website",
+          "elo": 1282,
+          "win_rate": 55.4,
+          "rank": 21
+        }
+      ],
+      "artificial_analysis": {
+        "intelligence_index": 55.7,
+        "coding_index": 56.7,
+        "agentic_index": 77.8
+      }
+    }
+  },
+  {
+    "id": "anthropic/claude-opus-4.8-fast",
+    "canonical_slug": "anthropic/claude-4.8-opus-fast-20260528",
+    "hugging_face_id": null,
+    "name": "Anthropic: Claude Opus 4.8 (Fast)",
+    "created": 1779913703,
+    "description": "Fast-mode variant of [Opus 4.8](/anthropic/claude-opus-4.8) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 4.8.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00001",
+      "completion": "0.00005",
+      "web_search": "0.01",
+      "input_cache_read": "0.000001",
+      "input_cache_write": "0.0000125"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.8-opus-fast-20260528/endpoints"
+    }
+  },
+  {
+    "id": "anthropic/claude-sonnet-4",
+    "canonical_slug": "anthropic/claude-4-sonnet-20250522",
+    "hugging_face_id": "",
+    "name": "Anthropic: Claude Sonnet 4",
+    "created": 1747930371,
+    "description": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on SWE-bench (72.7%),...",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000003",
+      "completion": "0.000015",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000003",
+      "input_cache_write": "0.00000375"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 64000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": "2025-01-31",
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4-sonnet-20250522/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [
+        {
+          "arena": "models",
+          "category": "3d",
+          "elo": 1218,
+          "win_rate": 57.8,
+          "rank": 38
+        },
+        {
+          "arena": "models",
+          "category": "codecategories",
+          "elo": 1191,
+          "win_rate": 53.4,
+          "rank": 55
+        },
+        {
+          "arena": "models",
+          "category": "dataviz",
+          "elo": 1195,
+          "win_rate": 55.8,
+          "rank": 49
+        },
+        {
+          "arena": "models",
+          "category": "gamedev",
+          "elo": 1206,
+          "win_rate": 54.9,
+          "rank": 43
+        },
+        {
+          "arena": "models",
+          "category": "svg",
+          "elo": 1135,
+          "win_rate": 51.1,
+          "rank": 43
+        },
+        {
+          "arena": "models",
+          "category": "uicomponent",
+          "elo": 1184,
+          "win_rate": 58,
+          "rank": 53
+        },
+        {
+          "arena": "models",
+          "category": "website",
+          "elo": 1189,
+          "win_rate": 52.4,
+          "rank": 57
+        }
+      ],
+      "artificial_analysis": {
+        "intelligence_index": null,
+        "coding_index": 34.1,
+        "agentic_index": 43
+      }
+    }
+  },
+  {
+    "id": "anthropic/claude-sonnet-4.5",
+    "canonical_slug": "anthropic/claude-4.5-sonnet-20250929",
+    "hugging_face_id": "",
+    "name": "Anthropic: Claude Sonnet 4.5",
+    "created": 1759161676,
+    "description": "Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with...",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000003",
+      "completion": "0.000015",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000003",
+      "input_cache_write": "0.00000375"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 64000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 1,
+      "top_p": 1,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": "2025-01-31",
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.5-sonnet-20250929/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [
+        {
+          "arena": "models",
+          "category": "3d",
+          "elo": 1240,
+          "win_rate": 55,
+          "rank": 32
+        },
+        {
+          "arena": "models",
+          "category": "asciiart",
+          "elo": 1241,
+          "win_rate": 56,
+          "rank": 10
+        },
+        {
+          "arena": "models",
+          "category": "codecategories",
+          "elo": 1232,
+          "win_rate": 53.6,
+          "rank": 33
+        },
+        {
+          "arena": "models",
+          "category": "dataviz",
+          "elo": 1207,
+          "win_rate": 49.5,
+          "rank": 43
+        },
+        {
+          "arena": "models",
+          "category": "gamedev",
+          "elo": 1233,
+          "win_rate": 53.2,
+          "rank": 36
+        },
+        {
+          "arena": "models",
+          "category": "svg",
+          "elo": 1171,
+          "win_rate": 53.1,
+          "rank": 35
+        },
+        {
+          "arena": "models",
+          "category": "uicomponent",
+          "elo": 1230,
+          "win_rate": 53.1,
+          "rank": 35
+        },
+        {
+          "arena": "models",
+          "category": "website",
+          "elo": 1232,
+          "win_rate": 53.8,
+          "rank": 37
+        },
+        {
+          "arena": "agents",
+          "category": "fullstack",
+          "elo": 1127,
+          "win_rate": 43.5,
+          "rank": 17
+        },
+        {
+          "arena": "agents",
+          "category": "mobileapps",
+          "elo": 1193,
+          "win_rate": 48.9,
+          "rank": 19
+        },
+        {
+          "arena": "agents",
+          "category": "webapps",
+          "elo": 1136,
+          "win_rate": 43.1,
+          "rank": 17
+        }
+      ],
+      "artificial_analysis": {
+        "intelligence_index": null,
+        "coding_index": 38.6,
+        "agentic_index": 51.7
+      }
+    }
+  },
+  {
+    "id": "anthropic/claude-sonnet-4.6",
+    "canonical_slug": "anthropic/claude-4.6-sonnet-20260217",
+    "hugging_face_id": "",
+    "name": "Anthropic: Claude Sonnet 4.6",
+    "created": 1771342990,
+    "description": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project management with...",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000003",
+      "completion": "0.000015",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000003",
+      "input_cache_write": "0.00000375"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.6-sonnet-20260217/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [
+        {
+          "arena": "agents",
+          "category": "agenticgamedev",
+          "elo": 1200,
+          "win_rate": 50.9,
+          "rank": 6
+        },
+        {
+          "arena": "agents",
+          "category": "androidnative",
+          "elo": 1236,
+          "win_rate": 61.9,
+          "rank": 6
+        },
+        {
+          "arena": "agents",
+          "category": "fullstack",
+          "elo": 1281,
+          "win_rate": 63.1,
+          "rank": 4
+        },
+        {
+          "arena": "agents",
+          "category": "godotgamedev",
+          "elo": 1277,
+          "win_rate": 60.6,
+          "rank": 1
+        },
+        {
+          "arena": "agents",
+          "category": "mobileapps",
+          "elo": 1266,
+          "win_rate": 59.2,
+          "rank": 4
+        },
+        {
+          "arena": "agents",
+          "category": "webapps",
+          "elo": 1251,
+          "win_rate": 55.8,
+          "rank": 5
+        },
+        {
+          "arena": "models",
+          "category": "3d",
+          "elo": 1318,
+          "win_rate": 61.5,
+          "rank": 13
+        },
+        {
+          "arena": "models",
+          "category": "asciiart",
+          "elo": 1270,
+          "win_rate": 60.3,
+          "rank": 8
+        },
+        {
+          "arena": "models",
+          "category": "codecategories",
+          "elo": 1325,
+          "win_rate": 61.7,
+          "rank": 7
+        },
+        {
+          "arena": "models",
+          "category": "dataviz",
+          "elo": 1313,
+          "win_rate": 60.5,
+          "rank": 6
+        },
+        {
+          "arena": "models",
+          "category": "gamedev",
+          "elo": 1318,
+          "win_rate": 60.4,
+          "rank": 12
+        },
+        {
+          "arena": "models",
+          "category": "svg",
+          "elo": 1255,
+          "win_rate": 59.9,
+          "rank": 11
+        },
+        {
+          "arena": "models",
+          "category": "uicomponent",
+          "elo": 1317,
+          "win_rate": 61.7,
+          "rank": 10
+        },
+        {
+          "arena": "models",
+          "category": "website",
+          "elo": 1327,
+          "win_rate": 61.7,
+          "rank": 5
+        }
+      ],
+      "artificial_analysis": {
+        "intelligence_index": 47.2,
+        "coding_index": 50.9,
+        "agentic_index": 63
+      }
+    }
+  }
+]

@@ -1,0 +1,4 @@
+model_role	requested_model_id	listed_by_api	included_in_run	requested_reasoning_effort	prompt_families	provider	context_length	pricing_prompt_per_token_usd	pricing_completion_per_token_usd	openrouter_name	unavailable_reason
+sonnet_low_reasoning	anthropic/claude-sonnet-4.6	true	true	low	hum_processing		1000000	0.000003	0.000015	Anthropic: Claude Sonnet 4.6	
+haiku_45_medium_reasoning	anthropic/claude-haiku-4.5	true	true	medium	hum_processing,recipe_metaphysics		200000	0.000001	0.000005	Anthropic: Claude Haiku 4.5	
+opus_low_reasoning	anthropic/claude-opus-4.8	true	true	low	hum_processing		1000000	0.000005	0.000025	Anthropic: Claude Opus 4.8	

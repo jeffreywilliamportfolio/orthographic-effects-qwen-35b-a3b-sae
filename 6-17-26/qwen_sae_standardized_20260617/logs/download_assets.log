@@ -1,0 +1,27 @@
+/venv/main/lib/python3.12/site-packages/huggingface_hub/constants.py:294: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.
+  warnings.warn(
+/venv/main/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py:189: UserWarning: The `resume_download` argument is deprecated and ignored in `snapshot_download`. Downloads always resume whenever possible.
+  warnings.warn(
+/venv/main/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py:205: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `snapshot_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+Fetching 25 files:   0%|          | 0/25 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 25 files:   4%|▍         | 1/25 [00:00<00:11,  2.06it/s]Fetching 25 files:  20%|██        | 5/25 [00:00<00:01, 10.08it/s]Fetching 25 files:  20%|██        | 5/25 [00:19<00:01, 10.08it/s]Fetching 25 files:  24%|██▍       | 6/25 [00:47<03:29, 11.05s/it]Fetching 25 files:  28%|██▊       | 7/25 [01:02<03:37, 12.07s/it]Fetching 25 files:  56%|█████▌    | 14/25 [01:29<01:07,  6.15s/it]Fetching 25 files:  64%|██████▍   | 16/25 [01:32<00:45,  5.10s/it]Fetching 25 files:  72%|███████▏  | 18/25 [01:34<00:29,  4.18s/it]Fetching 25 files:  76%|███████▌  | 19/25 [01:36<00:23,  3.85s/it]Fetching 25 files: 100%|██████████| 25/25 [01:36<00:00,  3.87s/it]
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  12%|█▎        | 1/8 [00:00<00:03,  2.18it/s]Fetching 8 files:  38%|███▊      | 3/8 [00:08<00:14,  2.93s/it]Fetching 8 files:  62%|██████▎   | 5/8 [00:08<00:04,  1.46s/it]Fetching 8 files: 100%|██████████| 8/8 [00:08<00:00,  1.02s/it]
+{
+  "started_at_utc": "2026-06-17T02:04:50.669036+00:00",
+  "completed_at_utc": "2026-06-17T02:06:36.125809+00:00",
+  "root": "/workspace/qwen35b_sae_rerun",
+  "model_repo": "Qwen/Qwen3.5-35B-A3B-Base",
+  "model_path": "/workspace/qwen35b_sae_rerun/models/Qwen3.5-35B-A3B-Base",
+  "sae_repo": "Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+  "sae_path": "/workspace/qwen35b_sae_rerun/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+  "sae_layers": [
+    14,
+    15,
+    16,
+    24,
+    25,
+    26
+  ],
+  "hf_hub_enable_hf_transfer": "1"
+}

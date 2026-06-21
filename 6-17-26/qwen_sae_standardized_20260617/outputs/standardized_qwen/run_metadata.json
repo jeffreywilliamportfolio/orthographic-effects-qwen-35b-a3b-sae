@@ -1,0 +1,41 @@
+{
+  "started_at_utc": "2026-06-17T02:09:03.013564+00:00",
+  "completed_at_utc": "2026-06-17T02:19:47.690433+00:00",
+  "run_root": "/workspace/qwen35b_sae_rerun",
+  "out_dir": "/workspace/qwen35b_sae_rerun/outputs/standardized_qwen",
+  "model_path": "/workspace/qwen35b_sae_rerun/models/Qwen3.5-35B-A3B-Base",
+  "sae_dir": "/workspace/qwen35b_sae_rerun/saes/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+  "layers": [
+    14,
+    15,
+    16,
+    24,
+    25,
+    26
+  ],
+  "positions": [
+    "final_prompt_token",
+    "generated_token_1",
+    "generated_token_8",
+    "generated_token_16",
+    "generated_token_32",
+    "generated_token_64"
+  ],
+  "max_new_tokens": 160,
+  "prompt_count": 48,
+  "generation_rows": 48,
+  "topk_rows": 86400,
+  "metric_rows": 1584,
+  "skipped_positions": 0,
+  "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:50:00) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-49-generic-x86_64-with-glibc2.39",
+  "torch": "2.12.0+cu130",
+  "torch_cuda": "13.0",
+  "cuda_available": true,
+  "cuda_device_count": 1,
+  "cuda_devices": [
+    "NVIDIA RTX PRO 6000 Blackwell Workstation Edition"
+  ],
+  "git_commit": "",
+  "git_dirty": false
+}

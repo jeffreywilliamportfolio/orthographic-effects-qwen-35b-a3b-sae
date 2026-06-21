@@ -1,0 +1,35 @@
+WARNING: Ignoring invalid distribution -vidia-cudnn-cu12 (/venv/main/lib/python3.10/site-packages)
+WARNING: Ignoring invalid distribution -vidia-cudnn-cu12 (/venv/main/lib/python3.10/site-packages)
+Requirement already satisfied: pip in /venv/main/lib/python3.10/site-packages (22.0.2)
+Collecting pip
+  Downloading pip-26.1.2-py3-none-any.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 19.5 MB/s eta 0:00:00
+Requirement already satisfied: setuptools in /venv/main/lib/python3.10/site-packages (59.6.0)
+Collecting setuptools
+  Downloading setuptools-82.0.1-py3-none-any.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 43.0 MB/s eta 0:00:00
+Requirement already satisfied: wheel in /venv/main/lib/python3.10/site-packages (0.45.1)
+Collecting wheel
+  Downloading wheel-0.47.0-py3-none-any.whl (32 kB)
+Requirement already satisfied: packaging>=24.0 in /venv/main/lib/python3.10/site-packages (from wheel) (25.0)
+WARNING: Ignoring invalid distribution -vidia-cudnn-cu12 (/venv/main/lib/python3.10/site-packages)
+Installing collected packages: wheel, setuptools, pip
+  Attempting uninstall: wheel
+    WARNING: Ignoring invalid distribution -vidia-cudnn-cu12 (/venv/main/lib/python3.10/site-packages)
+    Found existing installation: wheel 0.45.1
+    Uninstalling wheel-0.45.1:
+      Successfully uninstalled wheel-0.45.1
+  Attempting uninstall: setuptools
+    WARNING: Ignoring invalid distribution -vidia-cudnn-cu12 (/venv/main/lib/python3.10/site-packages)
+    Found existing installation: setuptools 59.6.0
+    Uninstalling setuptools-59.6.0:
+      Successfully uninstalled setuptools-59.6.0
+  Attempting uninstall: pip
+    WARNING: Ignoring invalid distribution -vidia-cudnn-cu12 (/venv/main/lib/python3.10/site-packages)
+    Found existing installation: pip 22.0.2
+    Uninstalling pip-22.0.2:
+      Successfully uninstalled pip-22.0.2
+WARNING: Ignoring invalid distribution -vidia-cusolver-cu12 (/venv/main/lib/python3.10/site-packages)
+WARNING: Ignoring invalid distribution -vidia-cusolver-cu12 (/venv/main/lib/python3.10/site-packages)
+WARNING: Ignoring invalid distribution -vidia-cusolver-cu12 (/venv/main/lib/python3.10/site-packages)
+Successfully installed pip-26.1.2 setuptools-82.0.1 wheel-0.47.0
